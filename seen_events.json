@@ -1,1 +1,152 @@
-{}
+{
+  "921fee2b39c1215c097d5553921f8e94104f2c5287299589b2d48f7de13f7d40": {
+    "title": "Build with Gemini XPRIZE",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-12T19:50:31.705768+00:00"
+  },
+  "762084325d4fc5c2db44a14d832e2c75fa738842e73e19a17a735fad8ce8f7d2": {
+    "title": "H0: Hack the Zero Stack with Vercel v0 and AWS Databases",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-12T19:50:31.705806+00:00"
+  },
+  "0727a5f748a8a98c868436be76edc32246aab8639b14ee4fb2f01c18e28cbaf1": {
+    "title": "FIND EVIL!",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-12T19:50:31.705814+00:00"
+  },
+  "8019a1f66c6bc8652fc1d598d24f1f7246abc3f58d9886fbd805469e94ddfa61": {
+    "title": "UiPath AgentHack",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-12T19:50:31.705820+00:00"
+  },
+  "ede5b4145da0b76dd9006bef03985cebcb5f7aab0577143a53873feb407f2d3e": {
+    "title": "Global AI Hackathon Series with Qwen Cloud",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-12T19:50:31.705826+00:00"
+  },
+  "5b5805ec2f23b9c840e908bbf8890f9f6020f9838f25ee5508ccc358cf5bb60e": {
+    "title": "Splunk Agentic Ops Hackathon",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-12T19:50:31.705831+00:00"
+  },
+  "379209f2c8055597f6be5f808fcfe1915282210d3a7496b9ecc2e0fb3cc9036f": {
+    "title": "Slack Agent Builder Challenge",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-12T19:50:31.705837+00:00"
+  },
+  "bdeecb9bee15fbfe0ea897abec2a2478bcddfe8b530ca7d89724bef53a05e329": {
+    "title": "Mind the Product presents World Product Day: Everyone Ships Now",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-12T19:50:31.705844+00:00"
+  },
+  "245c4e7bcc3d6f23bf116fd9520c498b22d9da33f1c8774375a874ad008e55e9": {
+    "title": "DSH Hacks V1",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-12T19:50:31.705849+00:00"
+  },
+  "eda49dce057915aa82a4b9fea8e32e0957745f6182d5f225a1868c1ca1a22afa": {
+    "title": "Architecture of MAANG OTT Apps Netflix and YouTube",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705856+00:00"
+  },
+  "6732fc873112b3d950cb4f9103fb062f56bb93b3359cb600e7c2469cd223bc9a": {
+    "title": "A Workshop on Apache Spark",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705861+00:00"
+  },
+  "59196c38d2aeded3ed1b06c4f2d2c1540f3e3285878fc90cdb6db7adc5e75b64": {
+    "title": "CODELYMPICS TIER 1",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705866+00:00"
+  },
+  "5fac5baf1546c27959b2e3f2597b557f1fd8154ba0513d8d3b35dd6a84535ef8": {
+    "title": "CODELYMPICS TIER 2",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705872+00:00"
+  },
+  "205683f9f1e93b8da03ec33078b2ee42be04db9eb360c5eca0d2d0354fff679a": {
+    "title": "CODELYMPICS TIER 3",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705878+00:00"
+  },
+  "51166bff7c0e2e7337ffae160a0ba1677f710c1e9c08b91a25d0cb92d87dc198": {
+    "title": "Cyber Threat Intelligence and Threat Hunting",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705884+00:00"
+  },
+  "b15cd7edae37edc1c4ca700c7a2ec9355c7f369e664acc983853f590771edbf9": {
+    "title": "Data Treasure Hunt",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705889+00:00"
+  },
+  "2543fe20948d15f3920e78ad9c7a99d5efb5007dfc763110c7b04890ae6c88f0": {
+    "title": "Deep Learning Architectures",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705894+00:00"
+  },
+  "5893548d513d5bf7262cbc51e8ff79fecb90c7f6c420e391aca42b4044b22d83": {
+    "title": "Query of Death Debugging a Murder",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705899+00:00"
+  },
+  "ceddbae23947aebf90cd862692670e817a9873246947bcc371d5c80cc33eed17": {
+    "title": "Recent Trends in ML and Graph Embedding",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705905+00:00"
+  },
+  "d826d7df5112534b1a403f483c3ebd5cc69c0015647ecc73456d7fe8e16c6c1c": {
+    "title": "Scientific Computing using SageMath",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705910+00:00"
+  },
+  "c8789d74ee726cc98e7a75c40921ce68bd3eb2e47606f0051143afb61c957e49": {
+    "title": "Smart Imaging Technologies in Healthcare",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705916+00:00"
+  },
+  "bbc085d22875e942b26fcfd0b89717ed9ad61d7983e9fda66187c61f6660c2a5": {
+    "title": "THE ULTIMATE QUEST",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705921+00:00"
+  },
+  "55b7c730fe614b601ab3ebc1ad6f978be6154b93df367bd5e6743fc636fda30b": {
+    "title": "VAC2402 ML THROUGH PYTHON",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705926+00:00"
+  },
+  "43e959c1b98f795167587a6d68e5136eaa4cf8edead69c1b323148580b7f2fa8": {
+    "title": "VAC on MATLAB and R for Researchers VAC1989",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705932+00:00"
+  },
+  "8c7db14953b349f763605e62d13f7903bf1245b6f3ea2d3cf98df8abf0199be0": {
+    "title": "Workshop on MATLAB tools for Signals and Comm Engg",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-12T19:50:31.705938+00:00"
+  }
+}
