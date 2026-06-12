@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+seen_events.json.tmp

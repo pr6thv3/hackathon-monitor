@@ -1,0 +1,53 @@
+name: Hackathon & Workshop Monitor
+
+on:
+  schedule:
+    - cron: '30 3 * * *'   # 3:30 UTC = 9:00 AM IST
+    - cron: '30 12 * * *'  # 12:30 UTC = 6:00 PM IST
+  workflow_dispatch: {}     # Manual trigger button in GitHub Actions UI
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write    # Needed for auto-commit of seen_events.json
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Cache Playwright browser binaries (~200MB) to speed up subsequent runs
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright Chromium
+        run: playwright install chromium --with-deps
+
+      - name: Run hackathon monitor
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          VIT_USERNAME: ${{ secrets.VIT_USERNAME }}
+          VIT_PASSWORD: ${{ secrets.VIT_PASSWORD }}
+        run: python main.py
+
+      - name: Commit memory updates
+        run: |
+          git config user.name "hackathon-bot"
+          git config user.email "bot@hackathon-monitor"
+          git add seen_events.json
+          git diff --cached --quiet || git commit -m "🤖 Update seen_events.json [skip ci]"
+          git push
