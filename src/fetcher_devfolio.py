@@ -58,6 +58,9 @@ def _fetch_via_api() -> str | None:
 
         # Extract hackathon list from response
         hackathons = data.get("hits", data.get("results", []))
+        if isinstance(hackathons, dict) and "hits" in hackathons:
+            hackathons = hackathons["hits"]
+
         if not hackathons:
             # Try alternate response structure
             if isinstance(data, list):
@@ -73,6 +76,8 @@ def _fetch_via_api() -> str | None:
         for h in hackathons:
             # Handle different possible response structures
             if isinstance(h, dict):
+                if "_source" in h:
+                    h = h["_source"]
                 name = h.get("name", h.get("title", "Unknown"))
                 slug = h.get("slug", "")
                 starts = h.get("starts_at", h.get("start_date", ""))
