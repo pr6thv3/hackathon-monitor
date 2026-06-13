@@ -49,6 +49,7 @@ jobs:
         run: |
           git config user.name "hackathon-bot"
           git config user.email "bot@hackathon-monitor"
+          git pull --rebase origin main
           git add seen_events.json
           git diff --cached --quiet || git commit -m "🤖 Update seen_events.json [skip ci]"
           git push
