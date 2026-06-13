@@ -148,5 +148,17 @@
     "link": null,
     "source": "vit_eventhub",
     "date_first_seen": "2026-06-12T19:50:31.705938+00:00"
+  },
+  "1ec6a7e009392585ea9a81da26079780c4723e033ab086f1d822674110b1ff94": {
+    "title": "Conflict free coloring",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-13T14:36:29.874032+00:00"
+  },
+  "f1fd024b8cdf9b09ade0e349d427ce9bb1275f3ab1215515893d95185f20427b": {
+    "title": "Mathematics for Machine Learning and AI",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-13T14:36:29.874066+00:00"
   }
 }
