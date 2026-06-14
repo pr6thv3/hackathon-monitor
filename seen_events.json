@@ -736,5 +736,17 @@
     "link": null,
     "source": "mlh",
     "date_first_seen": "2026-06-13T19:11:57.958757+00:00"
+  },
+  "e265731214c402820057107cef17184c2cedaf89de037d4b992adaf9ee718714": {
+    "title": "Hack on vibe",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-06-14T03:53:28.441207+00:00"
+  },
+  "db5dac3604db4778b19aadd20c16431e3ba542c92c43d9aec4883d37ad681ff1": {
+    "title": "Grand Prix Zero Gravity",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-14T03:53:28.441238+00:00"
   }
 }
