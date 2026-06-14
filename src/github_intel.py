@@ -94,8 +94,8 @@ def get_github_intel(hackathon_name: str, sponsors: list[str] = None) -> dict:
                 "name": item.get("full_name"),
                 "url": item.get("html_url"),
                 "stars": item.get("stargazers_count", 0),
-                "description": item.get("description", ""),
-                "language": item.get("language", "")
+                "description": item.get("description") or "",
+                "language": item.get("language") or ""
             }
             intel["repos"].append(repo_info)
             intel["total_stars"] += item.get("stargazers_count", 0)

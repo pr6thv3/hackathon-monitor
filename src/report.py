@@ -115,7 +115,8 @@ def generate_report(scored_events: list[dict], github_intel: dict) -> str:
             if repos:
                 lines.append("- **Relevant Codebases**:")
                 for r in repos[:3]:
-                    lines.append(f"  - [{r['name']}]({r['url']}) (⭐ {r['stars']}) - {r['description'][:150]}")
+                    desc = r.get('description') or ''
+                    lines.append(f"  - [{r['name']}]({r['url']}) (⭐ {r['stars']}) - {desc[:150]}")
             else:
                 lines.append("- No immediate related repositories found on GitHub.")
                 
