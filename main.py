@@ -7,11 +7,12 @@ Wires all modules together into a two-stage AI pipeline:
   3. Deduplicate events against seen_events.json memory
   4. Perform GitHub Intelligence on new events
   5. Stage 2: Score events using Founder Opportunity Score (FOS) & Easy-Win Potential
-  6. Filter by Quality Gate (FOS >= 7.0 OR Easy-Win >= 7.0)
+  6. Filter using LLM recommendation/verdict (FOS >= 5.0 and not SKIP)
   7. Generate detailed Markdown intelligence report
   8. Deliver Telegram HTML summary with inline registration buttons + PDF-style Markdown attachment
 """
 
+import argparse
 import logging
 import sys
 
@@ -50,8 +51,19 @@ def main() -> int:
     Run the full two-stage monitoring and evaluation pipeline.
     Returns 0 on success, 1 on critical failure.
     """
+    # Parse CLI Arguments
+    parser = argparse.ArgumentParser(description="Hackathon Opportunity Monitor")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Ignore seen_events.json and force scoring of all scraped events."
+    )
+    args = parser.parse_args()
+
     log.info("=" * 60)
     log.info("🚀 Hackathon Opportunity Intelligence Agent — Starting Run")
+    if args.force:
+        log.info("⚠️ Force mode enabled: ignoring seen_events.json memory checks.")
     log.info("=" * 60)
 
     # ── Step 1: Fetch from all 7 sources ──
@@ -103,15 +115,39 @@ def main() -> int:
     log.info("── Step 3/7: Deduplicating against memory ──")
     memory = load_memory()
     
-    # Track which events are truly new
-    new_events = [e for e in extracted_events if is_new(memory, e["title"])]
+    # Track which events are truly new (unless force flag is active)
+    if args.force:
+        new_events = extracted_events
+    else:
+        new_events = [e for e in extracted_events if is_new(memory, e["title"])]
+        
     log.info(
-        f"💾 {len(new_events)} new events found "
+        f"💾 {len(new_events)} new events to process "
         f"({len(extracted_events) - len(new_events)} already seen)"
     )
 
     if not new_events:
-        log.info("No new events to evaluate. Pipeline complete.")
+        log.info("No brand-new events found. Recommending top active hackathons currently in memory...")
+        # Compile active events from current scrape that are already scored in memory
+        active_events = []
+        from src.memory import _hash_title
+        for e in extracted_events:
+            title_hash = _hash_title(e["title"])
+            if title_hash in memory:
+                record = memory[title_hash]
+                # Check if it was scored and didn't fail/skip
+                if record.get("fos_score") is not None and record.get("fos_verdict") != "❌":
+                    active_events.append(record)
+        
+        # Sort by FOS, then by Easy-Win
+        active_events.sort(key=lambda e: (e.get("fos_score", 0.0), e.get("easy_winning_potential", 0.0)), reverse=True)
+        top_active = active_events[:5]  # Top 5 active open opportunities
+        
+        if top_active:
+            log.info(f"Recommending {len(top_active)} active hackathons from memory.")
+            send_telegram(top_active, report_path=None, is_digest_of_active=True)
+        else:
+            log.info("No scored active hackathons found in memory to recommend.")
         return 0
 
     # ── Step 4: GitHub Intelligence ──
@@ -130,17 +166,18 @@ def main() -> int:
     # ── Step 6: Quality Gate Filter ──
     log.info("── Step 6/7: Applying Quality Gate Filters ──")
     
-    # Filter: FOS >= 7.0 OR Easy-Win >= 7.0
+    # Filter: Rely on the LLM's recommendation. Keep events that are not explicitly marked as SKIP/❌
+    # and have a baseline FOS score of 5.0+
     top_events = [
         e for e in scored_events 
-        if e.get("fos_score", 0.0) >= 7.0 or e.get("easy_winning_potential", 0.0) >= 7.0
+        if e.get("fos_verdict", "") != "❌" and e.get("recommendation", "") != "SKIP" and e.get("fos_score", 0.0) >= 5.0
     ]
     
     # Sort primarily by FOS score, secondarily by Easy-Win potential
     top_events.sort(key=lambda e: (e.get("fos_score", 0.0), e.get("easy_winning_potential", 0.0)), reverse=True)
     top_events = top_events[:10]  # Cap at top 10
 
-    log.info(f"🏆 {len(top_events)} events passed the Quality Gate (FOS >= 7.0 or Easy-Win >= 7.0)")
+    log.info(f"🏆 {len(top_events)} events passed the Quality Gate (FOS >= 5.0 and not SKIP)")
 
     # ── Step 7: Report Generation and Delivery ──
     log.info("── Step 7/7: Delivering reports and updating memory ──")
@@ -152,9 +189,10 @@ def main() -> int:
         success = send_telegram(top_events, report_path)
         
         if success:
-            # Mark all new events as seen (even those that didn't pass the quality gate, so we don't score them again)
+            # Mark all new events as seen and save their scored details
             for e in new_events:
-                memory = mark_seen(memory, e["title"], e.get("link", ""), e["source"])
+                details = next((se for se in scored_events if se["title"] == e["title"]), None)
+                memory = mark_seen(memory, e["title"], e.get("link", ""), e["source"], details)
             save_memory(memory)
             log.info("✅ Sent Telegram notification and updated seen events memory")
         else:
@@ -163,7 +201,8 @@ def main() -> int:
     else:
         log.info("No high-potential events to notify today. Updating seen events memory for all processed events...")
         for e in new_events:
-            memory = mark_seen(memory, e["title"], e.get("link", ""), e["source"])
+            details = next((se for se in scored_events if se["title"] == e["title"]), None)
+            memory = mark_seen(memory, e["title"], e.get("link", ""), e["source"], details)
         save_memory(memory)
         log.info("💾 Seen events memory updated successfully.")
 

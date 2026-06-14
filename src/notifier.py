@@ -39,22 +39,28 @@ def _escape_html(text: str) -> str:
     return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def _format_html_summary(scored_events: list[dict]) -> tuple[str, dict]:
+def _format_html_summary(scored_events: list[dict], is_digest_of_active: bool = False) -> tuple[str, dict]:
     """
     Format events into a rich HTML message.
     Also returns inline keyboard buttons for event links.
     """
-    lines = [
-        "🤖 <b>Hackathon Opportunity Intelligence Alert!</b>\n",
-        f"Found <b>{len(scored_events)}</b> opportunities passing our quality threshold:\n"
-    ]
+    if is_digest_of_active:
+        lines = [
+            "🤖 <b>Hackathon Monitor Update: No New Events</b>\n",
+            "No brand-new hackathons detected on this run. However, here are the <b>top active hackathons</b> you can currently participate in:\n"
+        ]
+    else:
+        lines = [
+            "🤖 <b>Hackathon Opportunity Intelligence Alert!</b>\n",
+            f"Found <b>{len(scored_events)}</b> opportunities passing our quality threshold:\n"
+        ]
     
     inline_keyboard = []
 
     for i, e in enumerate(scored_events, start=1):
         title = _escape_html(e.get("title", "Unknown"))
-        fos = e.get("fos_score", 0.0)
-        easy_win = e.get("easy_winning_potential", 0.0)
+        fos = e.get("fos_score") or 0.0
+        easy_win = e.get("easy_winning_potential") or 0.0
         verdict = e.get("fos_verdict", "⚠️")
         mode = _escape_html(e.get("mode", "online"))
         source = _escape_html(e.get("source", "unknown").upper())
@@ -78,13 +84,14 @@ def _format_html_summary(scored_events: list[dict]) -> tuple[str, dict]:
     return "\n".join(lines).strip(), reply_markup
 
 
-def send_telegram(scored_events: list[dict], report_path: str) -> bool:
+def send_telegram(scored_events: list[dict], report_path: str = None, is_digest_of_active: bool = False) -> bool:
     """
-    Send HTML summary message with registration links, then send the full report file.
+    Send HTML summary message with registration links, then send the full report file if available.
 
     Args:
         scored_events: Scored events to summarize.
         report_path: Path to the generated Markdown report.
+        is_digest_of_active: Set to True if this is a digest of active events when no new events are found.
 
     Returns:
         True if successful, False otherwise.
@@ -100,7 +107,7 @@ def send_telegram(scored_events: list[dict], report_path: str) -> bool:
     token, chat_id = credentials
     
     # 1. Format and send the summary message
-    summary_text, reply_markup = _format_html_summary(scored_events)
+    summary_text, reply_markup = _format_html_summary(scored_events, is_digest_of_active=is_digest_of_active)
     
     # Check 4096 character limit
     if len(summary_text) > 4000:

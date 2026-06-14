@@ -113,27 +113,27 @@ Your goal is to evaluate, score, and analyze the list of extracted events using 
 For each event, compute two key scores on a 1.0 to 10.0 scale:
 
 1. Founder Opportunity Score (FOS) - Weighted average:
-   - Sponsor Quality (30% weight): Reputable tech firms (AWS, OpenAI, Solana, Vercel) = 9-10; mid-tier = 7-8; local/unknown = 1-5.
-   - Hiring Potential (25% weight): Job boards, recruiting booths, resume reviews, fast-track interview loops = 8-10.
-   - Startup Potential (20% weight): VC judges, accelerator passes, pilot programs, equity-free grants = 8-10.
-   - Prize Score (15% weight): High cash prize pools or solid dev bounties = 8-10.
-   - Networking Potential (10% weight): Profile of mentors, judges, high-profile offline venues = 8-10.
+   - Sponsor Quality (30% weight): Prestige of host/sponsors (e.g., OpenAI, AWS, Google, Vercel, YC, Sequoia) = 9-10; mid-tier = 7-8; local/unknown = 1-5.
+   - Hiring Potential (25% weight): Jobs, recruiting booths, direct interviews, talent pools = 8-10.
+   - Startup Potential (20% weight): VC judges, accelerators (like YC pass), pilot programs, equity-free grants = 8-10.
+   - Prize Score (15% weight): Prize pool value, cash prizes, or dev credits/bounties = 8-10.
+   - Networking & Exposure Potential (10% weight): Quality of international builder community, high-profile mentors/judges, exposure to recruiters/founders = 8-10.
+   *CRITICAL: Do NOT penalize global hackathons for having a large participant count (10,000+). If the event is run by a major tech company or reputable startup and offers high exposure/networking, it must receive a high FOS score.*
 
 2. Easy-Win Potential (Win Probability):
-   - Evaluate how likely a team is to win a prize.
-   - Give HIGHER scores (8.0 - 10.0) if the event is:
-     - Niche/Local/College: College hackathons or local offline hackathons have significantly less competition than global online hackathons.
-     - Multi-prize: High number of prize tracks, sponsor API bounties, or runner-up awards.
-     - Emerging Platforms/Communities: Smaller or less crowded platforms.
-     - Beginner-friendly: Low complexity barrier.
-   - Give LOWER scores (1.0 - 5.0) if the event is a massive, highly competitive global virtual hackathon (e.g. 5,000+ developers, only 3 top prizes).
-   - Write a detailed 'easy_winning_analysis' explaining why it's easy or hard to place (e.g., 'With 15 sponsor tracks and only 200 expected participants, this offline college event has a massive win probability').
+   - Evaluate the actual competition levels by looking at the friction funnel and quality gates (NOT raw registration counts):
+     - Quality Gates: Are there selection rounds, application vetting, proposal screens, or intermediate checks that eliminate low-effort entries before final judging? If yes, score HIGHER (8.0-10.0) because final competition is reduced.
+     - Submission Friction: Are there high-friction requirements like mandatory video demos, production deployments, or detailed write-ups? These weed out the bottom 80% of spam registrants, so score HIGHER (8.0-10.0).
+     - Technical Barriers: Niche tech stacks, complex architectures (e.g. advanced agentic integrations, fine-tuning) act as a natural filter, making it easier for dedicated builders to stand out. Score HIGHER (8.0-10.0).
+     - Niche Sponsor API Tracks: Multiple sponsor tracks where strong integration of a specific tool (e.g., custom database or vector index) gives you a high chance of winning that specific category. Score HIGHER (8.0-10.0).
+     - Zero Friction (Spammy): If the event has no video demo, no code verification, and a very low barrier to entry, it will be flooded with low-quality projects, reducing your chance of standing out. Score LOWER (1.0-5.0).
+   - Write a detailed 'easy_winning_analysis' highlighting these quality gates, submission friction, and technical barriers.
 
 Combine the scores to determine the final FOS score and emoji verdict:
-- FOS >= 8.5: 🔥
-- FOS >= 7.0: ✅
-- FOS >= 5.0: ⚠️
-- FOS < 5.0: ❌
+- FOS >= 8.5: 🔥 (Elite, must-apply event)
+- FOS >= 7.0: ✅ (Strong opportunity)
+- FOS >= 5.0: ⚠️ (Average/decent event)
+- FOS < 5.0: ❌ (Skip/low-quality/non-tech event)
 
 Inject details from the GitHub Intelligence data (repos, open issues, bounties, stars) into your evaluations and written analyses. Include actionable 'best_categories' for builders.
 Return the structured scoring results."""

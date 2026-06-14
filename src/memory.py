@@ -73,17 +73,29 @@ def is_new(memory: dict, title: str) -> bool:
     return title_hash not in memory
 
 
-def mark_seen(memory: dict, title: str, link: str, source: str) -> dict:
+def mark_seen(memory: dict, title: str, link: str, source: str, details: dict = None) -> dict:
     """
-    Mark an event as seen by adding it to memory.
+    Mark an event as seen by adding it to memory with optional scored details.
     Returns the updated memory dict.
     """
     title_hash = _hash_title(title)
-    memory[title_hash] = {
+    entry = {
         "title": title,
         "link": link,
         "source": source,
         "date_first_seen": datetime.now(timezone.utc).isoformat(),
     }
+    if details:
+        entry.update({
+            "fos_score": details.get("fos_score"),
+            "easy_winning_potential": details.get("easy_winning_potential"),
+            "fos_verdict": details.get("fos_verdict"),
+            "mode": details.get("mode"),
+            "registration_deadline": details.get("registration_deadline"),
+            "dates": details.get("dates"),
+            "team_size": details.get("team_size"),
+            "why_relevant": details.get("why_relevant"),
+        })
+    memory[title_hash] = entry
     log.debug(f"Marked as seen: '{title}' from {source}")
     return memory
