@@ -2308,5 +2308,19 @@
     "dates": "2026-06-24",
     "team_size": "1",
     "why_relevant": "This workshop is relevant for professionals or students interested in the intersection of AI and semiconductor design/manufacturing, seeking to deepen their knowledge. It is not a hackathon or a competitive event for builders."
+  },
+  "5058ce6212cd5db33d53f9f0c975a42e6beb84a2d4c1a031e04fd01a2709be73": {
+    "title": "Mathematics In Multimedia",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-20T07:14:59.423558+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 1.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "2026-06-27",
+    "team_size": "1",
+    "why_relevant": "This event is a workshop focused on 'Mathematics In Multimedia' and is not a hackathon or a competitive building event. It offers no prizes, no sponsor engagement, no hiring potential, and no startup opportunities. For a builder looking for hackathon opportunities, career advancement, or funding, this event is entirely irrelevant and should be skipped."
   }
 }
