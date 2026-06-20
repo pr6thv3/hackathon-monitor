@@ -2322,5 +2322,19 @@
     "dates": "2026-06-27",
     "team_size": "1",
     "why_relevant": "This event is a workshop focused on 'Mathematics In Multimedia' and is not a hackathon or a competitive building event. It offers no prizes, no sponsor engagement, no hiring potential, and no startup opportunities. For a builder looking for hackathon opportunities, career advancement, or funding, this event is entirely irrelevant and should be skipped."
+  },
+  "18657f04774621d48544c2190d560a43dbb31c4960b9f82748896c681bb45a78": {
+    "title": "HackUPC",
+    "link": null,
+    "source": "mlh",
+    "date_first_seen": "2026-06-20T14:43:42.749446+00:00",
+    "fos_score": 2.6,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": "APR 24 - 26",
+    "team_size": null,
+    "why_relevant": "This event is primarily relevant for local students or individuals looking to build their portfolio and network within the regional tech community. The specific challenges (e.g., Mecalux, Skyscanner) could offer a focused problem to solve, but the overall lack of explicit prizes, high-tier sponsors, or direct career/startup opportunities makes it a low-priority event for broader career or founder goals."
   }
 }
