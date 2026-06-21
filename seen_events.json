@@ -2364,5 +2364,61 @@
     "dates": null,
     "team_size": "2 - 4 Members",
     "why_relevant": "This event is primarily for local students seeking a basic introduction to hackathons or a low-stakes environment to practice coding. It offers minimal external career or startup opportunities and lacks the prestige or resources to be a high-impact event for serious builders."
+  },
+  "ca6f435d18931a2a5a91a3f709490d0e300e63f5a5e67094a7455b3fac0f263d": {
+    "title": "Open Source Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-21T14:42:31.618988+00:00",
+    "fos_score": 4.9,
+    "easy_winning_potential": 5.5,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "13 days left from Jun 21, 2026",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is relevant if you are looking to build a strong open-source project for your portfolio under the reputable banner of IIT Bombay. It offers a good opportunity for skill development and academic networking, especially if direct monetary prizes are not your primary motivation."
+  },
+  "10dbb97dc3769207b536b11fefa934f25475752dd4ef8962743748a5a1e0b143": {
+    "title": "Hacknite: 12 Hour Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-21T14:42:31.619032+00:00",
+    "fos_score": 1.5,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "1 month left from Jun 21, 2026",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event is only relevant if you are a beginner looking for a very low-stakes, local event to practice rapid prototyping with a team. For any significant career or startup upside, it is not recommended."
+  },
+  "85ddcee063795d464515df09e059364b6962508c3d35e5d31cb39d7992879d3c": {
+    "title": "AI Product Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-21T14:42:31.619056+00:00",
+    "fos_score": 1.25,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "20 days left from Jun 21, 2026",
+    "dates": null,
+    "team_size": "1 - 2 Members",
+    "why_relevant": "This event is only relevant if you are specifically looking to build an AI product for your portfolio and want a low-stakes environment to practice. The lack of significant upside in terms of prizes, networking, or career opportunities makes it a low-priority event."
+  },
+  "c51dbb9bbe89b4ce8baa712057d5ce830022ec8dadeefb0415c334405ff32cc0": {
+    "title": "Build The Next Big UI",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-21T14:42:31.619073+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "13 days left from Jun 21, 2026",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is only relevant if you are passionate about prompt engineering and want to showcase your skills in a niche area. It could be a good opportunity to build a unique portfolio project with potentially less competition, but the overall upside is minimal."
   }
 }
