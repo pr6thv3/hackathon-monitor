@@ -2336,5 +2336,33 @@
     "dates": "APR 24 - 26",
     "team_size": null,
     "why_relevant": "This event is primarily relevant for local students or individuals looking to build their portfolio and network within the regional tech community. The specific challenges (e.g., Mecalux, Skyscanner) could offer a focused problem to solve, but the overall lack of explicit prizes, high-tier sponsors, or direct career/startup opportunities makes it a low-priority event for broader career or founder goals."
+  },
+  "903366f901ea2159140a8d41adae9913fc27ffff0fac1447a04b068c2c161052": {
+    "title": "Arm Create: AI Optimization Challenge",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-21T08:17:45.538986+00:00",
+    "fos_score": 8.5,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "🔥",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "Jun 04 - Aug 14, 2026",
+    "team_size": null,
+    "why_relevant": "This challenge offers a unique opportunity to showcase deep technical skills in AI optimization on Arm platforms, a critical and growing area for future computing. It provides direct exposure to a leading tech company, potential hiring opportunities, and valuable networking within a highly specialized and impactful field."
+  },
+  "c280d4dcc487f9a5e57f127206540855ac323d9eb9f9aca52346b24502781390": {
+    "title": "DropHack",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-21T08:17:45.539031+00:00",
+    "fos_score": 2.05,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "1 month left from Jun 21, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is primarily for local students seeking a basic introduction to hackathons or a low-stakes environment to practice coding. It offers minimal external career or startup opportunities and lacks the prestige or resources to be a high-impact event for serious builders."
   }
 }
