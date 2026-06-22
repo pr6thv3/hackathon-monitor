@@ -2420,5 +2420,47 @@
     "dates": null,
     "team_size": "Individual Participation",
     "why_relevant": "This event is only relevant if you are passionate about prompt engineering and want to showcase your skills in a niche area. It could be a good opportunity to build a unique portfolio project with potentially less competition, but the overall upside is minimal."
+  },
+  "96ba8ae7ac0354e926f938c840ae10ad30a54df52b662adbbdb9f0829a1bd5c0": {
+    "title": "Agentic AI Build Week 2026",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-06-22T09:30:48.973738+00:00",
+    "fos_score": 9.15,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "🔥",
+    "mode": "offline",
+    "registration_deadline": "20 days left",
+    "dates": "Jun 09 - Jul 11, 2026",
+    "team_size": "Not specified",
+    "why_relevant": "This is a premier event for builders focused on cutting-edge Agentic AI. With a $1M prize pool and direct involvement from GenAI Fund, it offers unparalleled opportunities for funding, career advancement, and networking with top-tier VCs and AI experts. The 'Retail track' identified in GitHub intelligence suggests specific, high-impact problem areas for focused development."
+  },
+  "9aeba7c463cd9d393d6a914d9ef4d2bbd11e1bce3b595c80e91716a370df5bef": {
+    "title": "X-Play Aaruush '26",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-22T09:30:48.973779+00:00",
+    "fos_score": 2.8,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "8 days left",
+    "dates": "Not specified",
+    "team_size": "1 - 3 Members",
+    "why_relevant": "This is a university-level hackathon with no specified prize pool and limited external industry involvement. The focus is broad ('Software Development, Games & Sports'), and the online mode with a university sponsor suggests low networking and career upside. Not a high-value opportunity for serious builders."
+  },
+  "02878b7cff48a43fa12207b81580149de7a8b7f0efedb4b7b27930f333de0242": {
+    "title": "Unlock'D",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-22T09:30:48.973792+00:00",
+    "fos_score": 2.8,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "10 days left",
+    "dates": "Not specified",
+    "team_size": "1 - 3 Members",
+    "why_relevant": "Similar to X-Play Aaruush '26, this is a university-sponsored online hackathon with no specified prize pool. The 'Software Development, Full Stack Development' theme is generic, and the GitHub intelligence shows no relevant projects, indicating a lack of specific technical focus or industry engagement. Low upside for career or startup potential."
   }
 }
