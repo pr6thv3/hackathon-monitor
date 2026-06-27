@@ -3036,5 +3036,67 @@
     "dates": "Upcoming",
     "team_size": null,
     "why_relevant": "If you have expertise in Web3, decentralized technologies, privacy, or on-device AI, this is a strong opportunity to showcase your skills and potentially win a significant cash prize. The niche focus means your specialized knowledge can give you a competitive edge within the Tether ecosystem."
+  },
+  "9712999cc5a919b3a32f5fb467a5e90d020e7302c4c677fb93f726a348f59d6d": {
+    "title": "Ai Filmmaking Hackathon - Bangalore Edition",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-27T14:15:10.388008+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "10 days left",
+    "dates": null,
+    "team_size": "1 - 3 Members",
+    "why_relevant": "This event is only relevant for local participants in Bangalore looking for a casual AI project experience, without expectations of significant prizes, career opportunities, or high-level networking. It serves primarily as a local skill-building exercise."
+  },
+  "d25fd44d2d023c70e6a3d19402f97b66373c689cec86bef6397400d2f8368997": {
+    "title": "AlgoQuest 2026 – National Level Coding Competition",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-27T14:15:10.388053+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "13 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is only relevant for individuals passionate about competitive programming and algorithmic challenges, seeking to benchmark their skills against a national peer group. It offers no significant founder, hiring, or prize opportunities for general builders."
+  },
+  "74b4c2260cd68e66116b9628953ff81c1b9fda292b8e06eb26f0c134084f2d53": {
+    "title": "Grand Hack IPEC",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-27T14:15:10.388068+00:00",
+    "fos_score": 1.7,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "2 months left",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is only relevant for local participants seeking a basic hackathon experience for skill practice or team building, without expectations of significant prizes, career advancement, or high-level networking."
+  },
+  "982fbe57d2dc532af19e949bc218daffd77d8987b0c103c7320c896ed13932ff": {
+    "title": "The Talent Hack",
+    "link": "https://www.hackerearth.com/challenges/hackathon/the-talent-hack-build-compete-get-hired/",
+    "source": "hackerearth",
+    "date_first_seen": "2026-06-27T14:15:10.388102+00:00",
+    "fos_score": 5.1,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "⚠️",
+    "mode": "online",
+    "registration_deadline": "11:59 PM IST (Asia/Kolkata)",
+    "dates": null,
+    "team_size": null,
+    "why_relevant": "This event is highly relevant for builders actively seeking employment. It provides a direct pipeline to potential employers through project-based evaluation, offering a unique opportunity to showcase skills and secure job interviews. It's a practical way to turn hackathon projects into career opportunities."
+  },
+  "0d1eeaf2c5e7c05a5706b38a92071cd808bcd0731d0406fa36d757d9213c5c23": {
+    "title": "Tether Developers Cup 🏆",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-06-27T14:15:10.388115+00:00"
   }
 }
