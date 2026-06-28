@@ -3098,5 +3098,19 @@
     "link": null,
     "source": "dorahacks",
     "date_first_seen": "2026-06-27T14:15:10.388115+00:00"
+  },
+  "6f55d6e06201f59627f876ffeb87d62aaf12017add6daff48e93d6beb6631e0d": {
+    "title": "Hack to Survive",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-28T07:16:53.056309+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "Jul 27, 2026",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event offers no clear benefits for a serious builder. The complete lack of prizes, reputable sponsors, and meaningful networking opportunities makes it a poor investment of time and effort. Focus on opportunities with higher FOS and clearer pathways to impact."
   }
 }
