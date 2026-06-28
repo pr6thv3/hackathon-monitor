@@ -3112,5 +3112,61 @@
     "dates": null,
     "team_size": "1 - 4 Members",
     "why_relevant": "This event offers no clear benefits for a serious builder. The complete lack of prizes, reputable sponsors, and meaningful networking opportunities makes it a poor investment of time and effort. Focus on opportunities with higher FOS and clearer pathways to impact."
+  },
+  "5838711cb9cbf4cacdfac0b7be740ef34f9b330878496da85b39c965a4926a2f": {
+    "title": "Bizzathon-Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-28T14:24:19.293747+00:00",
+    "fos_score": 4.05,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Jul 23, 2026",
+    "dates": null,
+    "team_size": "1 - 3 Members",
+    "why_relevant": "This event is a local academic hackathon with no specified prize pool or major industry sponsors. While it could offer local networking and project experience, it lacks significant founder opportunity, hiring potential, or startup upside. It's not a high-value opportunity for a builder seeking substantial career or startup acceleration."
+  },
+  "bf361e55f1135761f62529d304a634ad30fa865bc1e58f72f2c4b52608fe3cbd": {
+    "title": "Break The Chain",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-28T14:24:19.293790+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "2026-06-29",
+    "team_size": "1",
+    "why_relevant": "This event offers no discernible value for a builder. With no sponsors, prize pool, or networking opportunities, and a high likelihood of low-quality competition, it's a waste of time and effort."
+  },
+  "893efde8ab25b061b894e9b6a4f30171c3cecaaaeb5a17c01f85da85c99116e3": {
+    "title": "Escape from Rlyeh",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-28T14:24:19.293807+00:00",
+    "fos_score": 1.1,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": "2025-04-12",
+    "team_size": "1-3",
+    "why_relevant": "This event is an informal, themed hackathon with no sponsors, prize pool, or significant networking opportunities. While the offline mode and niche theme might appeal to some, it offers no substantial founder opportunity or career upside."
+  },
+  "995b4b84fbadac00a58dd676e6c7d0860147c5897f3be984b7bc89c2616a9b09": {
+    "title": "Patch The Void",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-06-28T14:24:19.293819+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "2026-06-28",
+    "team_size": "1",
+    "why_relevant": "This event offers no discernible value for a builder. With no sponsors, prize pool, or networking opportunities, and a high likelihood of low-quality competition, it's a waste of time and effort."
   }
 }
