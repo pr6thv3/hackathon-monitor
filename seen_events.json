@@ -3168,5 +3168,33 @@
     "dates": "2026-06-28",
     "team_size": "1",
     "why_relevant": "This event offers no discernible value for a builder. With no sponsors, prize pool, or networking opportunities, and a high likelihood of low-quality competition, it's a waste of time and effort."
+  },
+  "94966cea7eca31dd5f51f0ed7d055e9e7578dcda0ec0d8da5bf3cb6da41518d7": {
+    "title": "WEEX AI Wars II: AI trading hackathon-Testing",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-06-29T16:25:31.107651+00:00",
+    "fos_score": 6.68,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "⚠️",
+    "mode": "online",
+    "registration_deadline": "7 hours left",
+    "dates": null,
+    "team_size": null,
+    "why_relevant": "For a builder with a strong background in AI, machine learning, and quantitative finance or crypto trading, this hackathon presents an exceptional opportunity to apply advanced skills to a real-world, high-value problem. The substantial prize pool and direct engagement with a crypto exchange like WEEX offer significant financial reward and industry recognition."
+  },
+  "5d88275c959fa35661823a9669d89bb86519fcfe2b4cb6c96768145e16f0715c": {
+    "title": "Flare Summer Signal",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-06-29T16:25:31.107692+00:00",
+    "fos_score": 6.83,
+    "easy_winning_potential": 8.0,
+    "fos_verdict": "⚠️",
+    "mode": "online",
+    "registration_deadline": "46 days left",
+    "dates": null,
+    "team_size": null,
+    "why_relevant": "For a builder keen on exploring the cutting-edge intersection of AI and blockchain, especially with a focus on decentralized data and interoperability, this hackathon offers a direct pathway to build on the Flare network. It provides an excellent opportunity to gain recognition, contribute to a growing ecosystem, and potentially launch a project with direct platform support."
   }
 }
