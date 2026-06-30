@@ -3266,5 +3266,47 @@
     "dates": null,
     "team_size": null,
     "why_relevant": "This is an exceptional opportunity for students and aspiring founders to gain direct exposure to and mentorship from elite tech companies like OpenAI, Google, GitHub, and Hugging Face. While the prize pool is small and it's beginner-friendly, the networking and career upside are immense. A well-executed project leveraging their technologies could open doors to internships, jobs, or even direct support from these industry giants, making it a must-attend for career acceleration."
+  },
+  "38830c3972f9a87483cf2ecf96090ea3ebf95b136a09762059eb06e3033309a0": {
+    "title": "COSC Hackweek",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-06-30T15:11:13.703586+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "4 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is only relevant for students looking to gain initial hackathon experience or add a basic project to their portfolio, especially if they are affiliated with CBIT. The individual format allows for focused personal development."
+  },
+  "468a38c35fc8870e0004369d1b9c33a46634e6eb0bbb88ae72d847890869276f": {
+    "title": "WEEX AI Wars II: Rise of Intelligence",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-06-30T15:11:13.703627+00:00",
+    "fos_score": 8.675,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "🔥",
+    "mode": "Virtual",
+    "registration_deadline": "31 days left",
+    "dates": "Pre-registration",
+    "team_size": null,
+    "why_relevant": "This is an elite opportunity for builders passionate about the intersection of AI, Web3, and quantitative trading. The massive prize pool, reputable sponsors like WEEX, and the specialized technical challenges offer unparalleled chances for significant financial reward, career advancement, and potential startup funding. Your expertise in complex systems will be highly valued here."
+  },
+  "88dcc3f7d2bbea7c1a0723d7677c1cd5376ffed768418cecc90c02fdea69f1d0": {
+    "title": "NMIT Hacks MAY",
+    "link": null,
+    "source": "mlh",
+    "date_first_seen": "2026-06-30T15:11:13.703641+00:00",
+    "fos_score": 2.15,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "❌",
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "dates": "MAY 08 - 10",
+    "team_size": null,
+    "why_relevant": "This event is suitable for local students looking to gain initial hackathon experience, build a basic project for their portfolio, and network with peers in an in-person setting. The 'DIVERSITY' theme offers a chance to build impactful projects."
   }
 }
