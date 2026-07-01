@@ -3308,5 +3308,67 @@
     "dates": "MAY 08 - 10",
     "team_size": null,
     "why_relevant": "This event is suitable for local students looking to gain initial hackathon experience, build a basic project for their portfolio, and network with peers in an in-person setting. The 'DIVERSITY' theme offers a chance to build impactful projects."
+  },
+  "f1eaeec0a0042094d4a9619ca9bd3771796ebe7c2bdbb1e44ca5ddb84b5ced22": {
+    "title": "MSOC 2026 — MSTC Summer of Code Data Science",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-01T07:59:07.131193+00:00"
+  },
+  "421e13500ea3344aef42735b7c62f6adf0770b53a237864e9a3df68c8e5459bb": {
+    "title": "Roboauto-2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-01T07:59:07.131233+00:00",
+    "fos_score": 2.45,
+    "easy_winning_potential": 8.0,
+    "fos_verdict": "\n",
+    "mode": "offline",
+    "registration_deadline": "4 days left from Jul 1, 2026",
+    "dates": null,
+    "team_size": "2 - 5 Members",
+    "why_relevant": "If you are a specialist in robotics or embedded systems, this offline hackathon offers a unique opportunity to apply your niche skills and build a complex project with potentially less competition due to the high technical barrier. It's a great way to validate your expertise, even if the direct prizes are not substantial."
+  },
+  "119101c5da30e954f3a07cacc260cf2191541b6f47b793a50f1ece69a2b6ac4a": {
+    "title": "AI for Social Good: Hack with MLH & DigitalOcean",
+    "link": null,
+    "source": "mlh",
+    "date_first_seen": "2026-07-01T07:59:07.131250+00:00",
+    "fos_score": 8.1,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "\n",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": "JUL 10 - 11",
+    "team_size": null,
+    "why_relevant": "This is a prime opportunity for builders interested in AI and social impact. With MLH and DigitalOcean as sponsors, you'll gain invaluable networking, build a portfolio-worthy project, and potentially access hiring pipelines or startup resources. The offline format ensures a focused and engaging experience."
+  },
+  "8c6f1daa747dda6f12ca255c25bafd56866c4c173d4047f3bf9edb0923d2a7be": {
+    "title": "FPHMidnight Virtual Hackathon",
+    "link": null,
+    "source": "mlh",
+    "date_first_seen": "2026-07-01T07:59:07.131262+00:00",
+    "fos_score": 4.75,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "\n",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "JUL 17 - 19",
+    "team_size": null,
+    "why_relevant": "If you're looking for a standard MLH hackathon experience to practice your skills and build a quick project, this virtual event is a decent option. However, don't expect high-tier prizes, direct hiring opportunities, or exposure to major industry players due to the unknown primary sponsor."
+  },
+  "0ae9063d7db124d5c4ef4dac6852439cf28d22d6999c97cf8c80cc7dd821170a": {
+    "title": "SpartaHack 12",
+    "link": null,
+    "source": "mlh",
+    "date_first_seen": "2026-07-01T07:59:07.131272+00:00",
+    "fos_score": 2.25,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "\n",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "JAN 31 - FEB 01",
+    "team_size": null,
+    "why_relevant": "This event offers a basic MLH hackathon experience but lacks any specific sponsors, prizes, or themes that would make it a high-value opportunity. It's best to skip this one in favor of events with clearer benefits for your career or startup goals."
   }
 }
