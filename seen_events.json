@@ -3454,5 +3454,47 @@
     "dates": null,
     "team_size": "2 - 3 Members",
     "why_relevant": "This event is only relevant if you are a student of Inderprastha Engineering College with a strong interest in robotics and hardware, looking for an internal competition to apply your skills. For any other builder, it offers no significant opportunity."
+  },
+  "ca48a29bc42bd6efce2ab49a259b68bbd303d2a0252596c2d8c793816646508c": {
+    "title": "Frontend Wars 2026: Build the Future",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-02T14:39:39.455541+00:00",
+    "fos_score": 2.8,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "21 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "Only relevant for a beginner looking for a basic portfolio project with no expectation of prizes or significant exposure. Not recommended for experienced builders seeking high-impact opportunities."
+  },
+  "68ea2ddb375b034625480a52fb02701c3e737b2fbde6b2826b75baeb09e83b7d": {
+    "title": "cuHacking",
+    "link": null,
+    "source": "mlh",
+    "date_first_seen": "2026-07-02T14:39:39.455588+00:00",
+    "fos_score": 7.2,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "✅",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": "JUL 10 - 12",
+    "team_size": null,
+    "why_relevant": "Excellent opportunity for hands-on experience, networking with local tech talent and recruiters, and building a portfolio project within a supportive MLH community. The multiple prize tracks offer good chances to win specific challenges."
+  },
+  "d0f5e0de26821d7b5bb98d95eb443746021fb9c02595cd727c1c825f9f038c16": {
+    "title": "FPH, FPHMidnight Virtual Hackathon",
+    "link": null,
+    "source": "mlh",
+    "date_first_seen": "2026-07-02T14:39:39.455603+00:00",
+    "fos_score": 5.0,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "⚠️",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "JUL 17 - 19",
+    "team_size": null,
+    "why_relevant": "A decent opportunity to build a project and engage with the MLH community virtually. If you're looking for a low-commitment way to practice your skills and potentially win some swag, it's a reasonable choice, especially if the 'Midnight' theme aligns with your interests."
   }
 }
