@@ -3566,5 +3566,33 @@
     "dates": null,
     "team_size": null,
     "why_relevant": "This event is highly relevant for builders seeking direct career opportunities. Its focus on 'Hiring Radar' means your project could directly showcase skills relevant to potential employers, especially in AI, data science, and web development. The HackerEarth platform ensures a professional evaluation process and exposure to a wide range of recruiters, making it a valuable investment of your time."
+  },
+  "69f0e0d8d200e6258545633d5bf96d04a5575f16b05aa21eba056217e6f89de9": {
+    "title": "Devengers Promptwars 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-03T14:41:37.184178+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "3 days left",
+    "dates": "Posted Jul 3, 2026",
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is not relevant for serious builders or founders seeking significant opportunities. It lacks the essential elements of a high-value hackathon, such as reputable sponsors, substantial prizes, or clear career/startup pathways."
+  },
+  "07c8a4e5ad0343a7bb3c5ed1c355e8497aa39b784f58871cb1539e6f0d75c8b7": {
+    "title": "Vibeathon 6.0 (Vibecoding Hackathon)",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-03T14:41:37.184215+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "20 days left",
+    "dates": "Posted Jul 3, 2026",
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event is not relevant for ambitious builders or founders. It lacks the critical components of a high-impact hackathon, such as strong sponsors, valuable prizes, or clear pathways for career and startup acceleration."
   }
 }
