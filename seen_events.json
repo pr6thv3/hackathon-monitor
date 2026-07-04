@@ -3664,5 +3664,53 @@
     "dates": null,
     "team_size": "1 - 4 Members",
     "why_relevant": "This is an online frontend hackathon. While it's a good opportunity to practice frontend skills, the lack of significant sponsors, prizes, or networking opportunities means it offers very little in terms of career or startup upside. Only consider if you are a student looking for basic project experience."
+  },
+  "ae6c12ba6c04a4a66b2d38bd33e1f14fcd3104204f7820c8e503ab9ac03bd030": {
+    "title": "CockroachDB × AWS Hackathon - Build with Agentic Memory",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-07-04T14:10:06.557741+00:00"
+  },
+  "7de41d035489beeb396a9dbf0a32b5c5260d11f1006b7484e3ac5f393b309b81": {
+    "title": "HI Labs AI & Tech Hackathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-04T14:10:06.557781+00:00",
+    "fos_score": 1.8,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "\n",
+    "mode": "offline",
+    "registration_deadline": "6 days left",
+    "dates": "Posted Jul 4, 2026",
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is likely a local, low-stakes hackathon with minimal prize money and an unknown sponsor. It offers very limited career or startup opportunities and is not recommended for serious builders seeking significant ROI."
+  },
+  "9110d8c5554d9eb913168dfb45b119253eb084b77d7d79b1763ed56b8f1cec82": {
+    "title": "Safe Click Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-04T14:10:06.557797+00:00",
+    "fos_score": 1.1,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "\n",
+    "mode": "offline",
+    "registration_deadline": "2 days left",
+    "dates": "Posted Jul 4, 2026",
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This hackathon, hosted by a university with no prize pool and no clear industry sponsors, offers negligible value for serious builders. It's best to skip this event and focus on opportunities with tangible rewards and career benefits."
+  },
+  "2d434365fbde025ed2183429281f4a6ff25adafb7d6bb384329d9a218c617b81": {
+    "title": "Tech-A-Thon 5.0 - By ECE Society",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-04T14:10:06.557808+00:00",
+    "fos_score": 1.2,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "\n",
+    "mode": "online",
+    "registration_deadline": "15 days left",
+    "dates": "Posted Jul 3, 2026",
+    "team_size": "1 - 3 Members",
+    "why_relevant": "This university-hosted, student-society-run hackathon offers no prize pool and minimal industry exposure. It's not a valuable opportunity for builders seeking career advancement, startup funding, or significant rewards."
   }
 }
