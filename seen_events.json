@@ -3712,5 +3712,33 @@
     "dates": "Posted Jul 3, 2026",
     "team_size": "1 - 3 Members",
     "why_relevant": "This university-hosted, student-society-run hackathon offers no prize pool and minimal industry exposure. It's not a valuable opportunity for builders seeking career advancement, startup funding, or significant rewards."
+  },
+  "1db507a0bd7796de7ca105429a34e318796f4b10aca7a14cb100cb2d087c5677": {
+    "title": "ThunderCipher Case Files #001: The Crypto Heist",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-05T06:58:03.342822+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "Jul 16, 2026",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is a quiz and treasure hunt, not a traditional hackathon. With no prize pool, unknown sponsors, and no clear career or startup upside, it offers minimal value for a builder looking to create projects or network."
+  },
+  "f7b079dbeeaeda2efae3ef6a73c37a76c0aa3c0c801f635e743bff9b329e80cc": {
+    "title": "Make-A-Thon",
+    "link": null,
+    "source": "vit_eventhub",
+    "date_first_seen": "2026-07-05T06:58:03.342863+00:00",
+    "fos_score": 1.5,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": null,
+    "registration_deadline": null,
+    "dates": null,
+    "team_size": null,
+    "why_relevant": "This is likely a local university hackathon, offering a good opportunity to practice skills and potentially win against a less experienced pool of participants. However, with no external sponsors, prize pool, or significant career upside, its value is primarily for learning and local networking rather than high-impact career advancement."
   }
 }
