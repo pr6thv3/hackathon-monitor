@@ -3740,5 +3740,33 @@
     "dates": null,
     "team_size": null,
     "why_relevant": "This is likely a local university hackathon, offering a good opportunity to practice skills and potentially win against a less experienced pool of participants. However, with no external sponsors, prize pool, or significant career upside, its value is primarily for learning and local networking rather than high-impact career advancement."
+  },
+  "ec3e766e1133ec9f52c806b8c2a7c92cdb459e49d1bd866b20e08290b85d8d08": {
+    "title": "Varithon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-06T08:04:43.262089+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Jul 17, 2026",
+    "dates": null,
+    "team_size": "2 - 5 Members",
+    "why_relevant": "This event is not relevant for builders seeking high-impact opportunities, significant prizes, career advancement, or exposure to leading tech ecosystems. Its local, college-centric nature offers very limited upside."
+  },
+  "ade12f12a0c70d6491c3ec517c0b73b4179b3c4281c0f0c7e87cb6096985d165": {
+    "title": "HashKey Chain Horizon Hackathon",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-07-06T08:04:43.262133+00:00",
+    "fos_score": 7.825,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "✅",
+    "mode": "offline",
+    "registration_deadline": "Jul 11, 2026",
+    "dates": null,
+    "team_size": null,
+    "why_relevant": "This is a prime opportunity for builders interested in Web3, DeFi, and AI, especially those looking to build on a specific blockchain ecosystem like HashKey Chain. The technical challenge acts as a filter, making it easier for skilled participants to stand out and gain significant exposure, potential funding, and career opportunities within a rapidly evolving industry."
   }
 }
