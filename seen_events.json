@@ -4132,5 +4132,61 @@
     "dates": null,
     "team_size": null,
     "why_relevant": "For builders with expertise in AI, quantitative finance, and Web3, this is an unparalleled opportunity to develop cutting-edge AI trading solutions, compete for a massive prize pool, gain exposure to leading VCs and crypto firms, and potentially launch a high-impact startup in a rapidly evolving domain. The high technical barrier ensures that skilled participants have a strong chance to stand out."
+  },
+  "9c2aace686363db5aea1a4bc55e4cdde47518910003a45001499831652920666": {
+    "title": "United Hacks V7",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-07-11T06:00:25.830274+00:00",
+    "fos_score": 1.7,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "Jul 12, 2026",
+    "dates": "Jul 10 - 12, 2026",
+    "team_size": null,
+    "why_relevant": "This event is relevant if you are a beginner looking to gain your first hackathon experience in a low-pressure environment. It's an opportunity to practice basic development skills and complete a project, but don't expect significant career or financial returns."
+  },
+  "e87ea7da37f1de5f78cfcc9df13759f97e41cc4999770e13a2a53bf8b3a3c850": {
+    "title": "Code Build 1.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-11T06:00:25.830309+00:00",
+    "fos_score": 1.8,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Aug 10, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is only relevant if you are a student at the sponsoring university looking for local experience and peer networking. For external participants, the lack of prizes and broader opportunities makes it a low-value proposition."
+  },
+  "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08": {
+    "title": "test",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-11T06:00:25.830320+00:00",
+    "fos_score": 2.95,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Aug 9, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is relevant if you are passionate about Applied AI, Data Science, or Data Analysis and wish to build a project within a strong academic environment like an IIT. It's an opportunity to collaborate with talented peers and faculty, even without significant prizes."
+  },
+  "7f4f589d4497fc3ab4457f743959a4b3f79402b6ee135ce7f09094d820f8b66b": {
+    "title": "System Siege",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-11T06:00:25.830329+00:00",
+    "fos_score": 1.95,
+    "easy_winning_potential": 8.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Jul 11, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is only relevant if you are a student at Amrita Vishwa Vidyapeetham looking for a very low-stakes opportunity to build a project and network with peers locally. For external participants, it offers little value."
   }
 }
