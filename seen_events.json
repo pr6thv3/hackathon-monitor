@@ -4258,5 +4258,47 @@
     "dates": "2026-07-27",
     "team_size": "1",
     "why_relevant": "This workshop is relevant for builders interested in deepening their understanding and practical skills in Trustworthy AI, a critical and emerging field. It's a learning opportunity, not a competitive one, offering direct hands-on experience."
+  },
+  "5551168dd790764f4ab9f0b953c627959a530ef86da9b62953b513ac5b19356c": {
+    "title": "Global AI Hackathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-12T14:06:11.379426+00:00",
+    "fos_score": 8.6,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "🔥",
+    "mode": "online",
+    "registration_deadline": "Jul 17, 2026",
+    "dates": "Jul 12, 2026 - Jul 17, 2026",
+    "team_size": "1 player",
+    "why_relevant": "This is an elite opportunity for AI/ML engineers to build cutting-edge solutions with direct access to Qwen Cloud's LLM platform and mentorship from USAII. The specific tracks and high technical bar mean your expertise will be valued, offering unparalleled career and startup growth potential."
+  },
+  "d79aeded037608ecc6f083347e2aba53582bfbf9064fc535f4b3172205a21b67": {
+    "title": "FutureTech HackFest 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-12T14:06:11.379466+00:00",
+    "fos_score": 2.15,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "Aug 4, 2026",
+    "dates": "Jul 12, 2026 - Aug 4, 2026",
+    "team_size": "1 player",
+    "why_relevant": "This event lacks clear value proposition, reputable sponsors, or significant prizes. The generic nature suggests a high-friction, low-reward environment, making it an inefficient use of a builder's time."
+  },
+  "3445e22fb97d74c22f44d7916a1d3e42dc8293af779135925f072d6e9ca68dbb": {
+    "title": "Asian Paints Alchemy 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-12T14:06:11.379480+00:00",
+    "fos_score": 5.48,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "⚠️",
+    "mode": "online",
+    "registration_deadline": "Sep 2, 2026",
+    "dates": "Jul 2, 2026 - Sep 2, 2026",
+    "team_size": "1 - 2 Members",
+    "why_relevant": "If you have a strong interest in materials science, sustainability, or business strategy within the manufacturing sector, this hackathon offers a unique opportunity to apply your skills to real-world challenges at a major company like Asian Paints. It's less about coding and more about strategic innovation."
   }
 }
