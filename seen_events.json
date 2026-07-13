@@ -4300,5 +4300,47 @@
     "dates": "Jul 2, 2026 - Sep 2, 2026",
     "team_size": "1 - 2 Members",
     "why_relevant": "If you have a strong interest in materials science, sustainability, or business strategy within the manufacturing sector, this hackathon offers a unique opportunity to apply your skills to real-world challenges at a major company like Asian Paints. It's less about coding and more about strategic innovation."
+  },
+  "2b2dbfff1679393567a762922f21bde789aa5d78e11b9dc5d2bc40e375caa8e5": {
+    "title": "ByteBattle Hackathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-13T06:40:34.176294+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": null,
+    "dates": "Posted Jul 12, 2026",
+    "team_size": "Individual Participation",
+    "why_relevant": "This event offers no clear benefits for a builder seeking career advancement, funding, or significant prizes. The lack of information and reputable sponsors makes it a low-value opportunity."
+  },
+  "fd3c6c40097e8180ca15695dfb8c730cb6f3275437c04ca5898b71a54a590103": {
+    "title": "IgniteX HackFest 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-13T06:40:34.176331+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": null,
+    "dates": "Posted Jul 12, 2026",
+    "team_size": "Individual Participation",
+    "why_relevant": "This event appears to be more of a recreational challenge than a hackathon for software builders. It offers no clear path for career growth, funding, or significant prizes."
+  },
+  "d194448cbf0d6f9551a2e8f9308859f9c63fbde738eaebbaa5e7e3de5c39ce25": {
+    "title": "HackMatriX 2026 - 24 Hour National Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-13T06:40:34.176343+00:00",
+    "fos_score": 2.65,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": null,
+    "dates": "Posted Jul 12, 2026",
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event could be relevant for a builder looking to gain experience in a time-constrained environment and add an IEEE-affiliated event to their resume, especially if they are a student. However, it offers minimal tangible rewards or high-level opportunities."
   }
 }
