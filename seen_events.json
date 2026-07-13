@@ -4342,5 +4342,19 @@
     "dates": "Posted Jul 12, 2026",
     "team_size": "1 - 4 Members",
     "why_relevant": "This event could be relevant for a builder looking to gain experience in a time-constrained environment and add an IEEE-affiliated event to their resume, especially if they are a student. However, it offers minimal tangible rewards or high-level opportunities."
+  },
+  "a2e083d81d70402f9e0be46895339511902f48e2b9c9ec0a7a1f5ddecc56175e": {
+    "title": "Build with DataHub: The Agent Hackathon",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-07-13T15:22:28.452294+00:00",
+    "fos_score": 7.05,
+    "easy_winning_potential": 9.0,
+    "fos_verdict": "✅",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "Jul 06 - Aug 10, 2026",
+    "team_size": null,
+    "why_relevant": "This hackathon is a prime opportunity for builders specializing in data infrastructure, MLOps, or AI agents. It offers a chance to leverage your expertise with DataHub, a leading open-source metadata platform, to solve high-value problems in data governance. The significant prize pool, combined with a high easy-win potential due to technical barriers, makes it an efficient way to gain recognition, network with experts, and boost your career in a critical tech domain."
   }
 }
