@@ -4440,5 +4440,33 @@
     "dates": null,
     "team_size": null,
     "why_relevant": "This is an elite opportunity for builders with expertise in blockchain, AI agents, and Web3. The substantial prize pool, combined with the high-quality sponsors and niche technical focus, offers unparalleled potential for career advancement, startup funding, and networking within a cutting-edge ecosystem. The \"Final Round\" status suggests a more focused and potentially less crowded competition among top-tier builders."
+  },
+  "fe90efc9a6c11a57322eae6302f73f4d9b6fe0f3ba541cdbfb870cdeed02012f": {
+    "title": "NERDS 1.0 - India's First AI Hackathon For Schools",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-15T05:54:06.661777+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 8.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "15 days left",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is exclusively for school students and offers no relevant opportunities for professional founders in terms of networking, hiring, startup potential, or significant prizes. It is not a suitable target for a builder seeking career or startup growth."
+  },
+  "4c6f486aebef6d773fafd21848a0d45a79016e84ae9557b3253c514ffa6c6a64": {
+    "title": "Orchestrix: Newgen x AI Club IITM",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-15T05:54:06.661821+00:00",
+    "fos_score": 5.75,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "⚠️",
+    "mode": "online",
+    "registration_deadline": "1 month left",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "While associated with a prestigious institution (IIT Madras) and a corporate sponsor (Newgen), this event primarily targets undergraduate and postgraduate students. For an experienced founder, the direct startup potential and prize pool are unclear, making it a lower ROI unless the goal is specifically talent scouting, engaging with the student community, or exploring specific challenges from Newgen with minimal time investment."
   }
 }
