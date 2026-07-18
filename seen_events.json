@@ -4790,5 +4790,61 @@
     "dates": null,
     "team_size": null,
     "why_relevant": "If you're an AI developer or a full-stack engineer looking to build a cutting-edge AI application using modern tools like Next.js, React, and Supabase, this buildathon is an excellent opportunity. It offers a clear technical challenge, a chance to integrate a specific API, and strong portfolio potential within the AI/SaaS space."
+  },
+  "c329e6bddf8956267474639b24075c0ab8bf6c60a48f2f430b0b86bb1e217410": {
+    "title": "Archestra MCP Apps Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-18T05:45:00.878520+00:00",
+    "fos_score": 4.2,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "12 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "Only relevant if you are specifically interested in building on Archestra.ai's MCP platform and want to gain experience or direct feedback from their team, despite the lack of prizes or broader opportunities."
+  },
+  "87b8509cc8e257e8cfa6eb9b90f647dd2544d587f772fff0418db3fc06119c87": {
+    "title": "IEEE HackSynapse 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-18T05:45:00.878562+00:00",
+    "fos_score": 2.75,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "1 month left",
+    "dates": null,
+    "team_size": "3 - 4 Members",
+    "why_relevant": "Only relevant for students of Madhav Institute of Technology and Science or local participants looking for an in-person academic hackathon experience and local networking, without expectation of significant prizes or career advancement."
+  },
+  "efa9c02fbf013d8dd723fc4b703f4ddfffa505ec35ebc18d8c307b1849cdf8f2": {
+    "title": "MemoryVerse AI '26",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-18T05:45:00.878582+00:00",
+    "fos_score": 2.25,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "12 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "If you are passionate about building AI-powered personal knowledge systems or AI agents and want to add a project to your portfolio, this event offers a themed challenge. The technical nature of past submissions suggests a good environment for skill development, even without prizes."
+  },
+  "8712a2e3081a30ed30ec55851be7b29d15fccdde5b9b31cc3937c7fc70e9e396": {
+    "title": "AUS IV Year Coding Challenge-01",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-18T05:45:00.878598+00:00",
+    "fos_score": 1.7,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "1 day left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "Only relevant for students of Aditya University looking for an internal coding challenge for practice or course credit. No broader career or startup benefits are offered."
   }
 }
