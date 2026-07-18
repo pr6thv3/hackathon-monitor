@@ -4846,5 +4846,33 @@
     "dates": null,
     "team_size": "Individual Participation",
     "why_relevant": "Only relevant for students of Aditya University looking for an internal coding challenge for practice or course credit. No broader career or startup benefits are offered."
+  },
+  "5377afc093f1508e35e9d3a457ecc563b9ed48d97c2ed48133b79e06df39aa6c": {
+    "title": "HackDevengers 1.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-18T13:59:08.099786+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "19 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event lacks clear benefits in terms of prizes, career opportunities, or high-quality networking. It's best to skip and focus on more impactful opportunities."
+  },
+  "29d39f51e32f3f012e581b0e7977475af41a28758fffdf2cf20a2004433df5e2": {
+    "title": "KONE Elevate'26",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-18T13:59:08.099826+00:00",
+    "fos_score": 5.38,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "⚠️",
+    "mode": "offline",
+    "registration_deadline": "21 days left",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "If you are interested in Data Science or Software Development within an industrial context, KONE Elevate'26 offers a valuable opportunity. The offline format allows for direct engagement with a major corporate sponsor, providing strong networking and potential hiring pathways, despite the unknown prize pool."
   }
 }
