@@ -4916,5 +4916,19 @@
     "dates": null,
     "team_size": "2 - 4 Members",
     "why_relevant": "Fallback scored event."
+  },
+  "53c879be40a3b00c8b12449ac806571303a2c5f4139e8ea27be699a5c3af6c49": {
+    "title": "GBT AI Ignite 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-20T14:39:43.811700+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "2026-08-02",
+    "dates": null,
+    "team_size": "1 - 5 Members",
+    "why_relevant": "This event is not relevant for serious builders seeking career advancement, funding, significant prizes, or high-quality networking. The lack of information, reputable sponsors, and clear incentives makes it a low-value opportunity."
   }
 }
