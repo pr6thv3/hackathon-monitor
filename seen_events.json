@@ -4902,5 +4902,19 @@
     "dates": null,
     "team_size": "1 - 2 Members",
     "why_relevant": "This event provides insufficient information regarding sponsors, prizes, and specific objectives. The 'Frontend Arena' theme is too generic, and the lack of any tangible benefits makes it an unappealing opportunity for a serious builder looking for career growth or startup potential."
+  },
+  "6af2280dbdfdfc9284c94743d5cc30cad82a51c31aa83b728e953f391d80d72e": {
+    "title": "InfoBlitz '26 — 24H Intercollege Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-20T06:34:18.789972+00:00",
+    "fos_score": 5.0,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "⚠️",
+    "mode": "offline",
+    "registration_deadline": "25 days left",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "Fallback scored event."
   }
 }
