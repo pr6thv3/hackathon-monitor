@@ -4986,5 +4986,47 @@
     "dates": null,
     "team_size": "3 - 4 Members",
     "why_relevant": "This is a local university-affiliated hackathon with no prize pool and no clear career or startup benefits. The value proposition is extremely low, making it an event to skip unless you are directly affiliated with NSUT and looking for a local project experience."
+  },
+  "05be9aec1e5a41e748c2c5f0d57be18d51431026b8bef95633ebbe2fea64d53b": {
+    "title": "Bidaya - Under The Surface",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-21T14:35:09.473142+00:00",
+    "fos_score": 1.75,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "Jul 27, 2026",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is not relevant for serious builders seeking career growth, funding, high-value prizes, or meaningful networking opportunities. The unknown sponsor and restrictive prize format make it a low-value proposition."
+  },
+  "deb81e68c07e2cfac3f4d0e4b2b6f9b058e13f775740861eb697b31d51ab96c2": {
+    "title": "Ascendant Agents",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-21T14:35:09.473187+00:00",
+    "fos_score": 2.45,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Aug 15, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is primarily relevant for students of NSUT or local universities interested in gaining experience in Applied AI and local networking. It does not offer high-value opportunities for experienced founders or builders seeking significant career or startup acceleration."
+  },
+  "749da11c15bebd3e40194d529e897c236a1aa603cb61468a6e185c497a98570b": {
+    "title": "UX Imperium",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-21T14:35:09.473206+00:00",
+    "fos_score": 1.5,
+    "easy_winning_potential": 1.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Aug 12, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is a workshop focused on UI/UX, not a hackathon. It is only relevant for individuals specifically seeking to learn UI/UX skills in a workshop format, particularly if they are students at NSUT or nearby. It does not offer any hackathon-related opportunities for building, competing, or gaining significant career/startup traction."
   }
 }
