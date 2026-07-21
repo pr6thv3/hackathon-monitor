@@ -4930,5 +4930,61 @@
     "dates": null,
     "team_size": "1 - 5 Members",
     "why_relevant": "This event is not relevant for serious builders seeking career advancement, funding, significant prizes, or high-quality networking. The lack of information, reputable sponsors, and clear incentives makes it a low-value opportunity."
+  },
+  "b1c3990cddab696e58d2331669c401921cbc1400c0f94a75c35450e38c7236d1": {
+    "title": "VoltHacks",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-07-21T06:14:04.546796+00:00",
+    "fos_score": 3.9,
+    "easy_winning_potential": 4.5,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "about 2 months left",
+    "dates": "May 22 - Sep 05, 2026",
+    "team_size": null,
+    "why_relevant": "If you are a beginner looking to gain experience in IoT or ML/AI and build a portfolio project, VoltHacks offers a structured environment with a decent prize pool. However, for experienced builders, the lack of high-tier sponsors, hiring, or startup opportunities makes it a low-ROI event."
+  },
+  "11a32cdc25672851cbb7637083d134ae7d4f19ef94140a9e8c59106822f7abbf": {
+    "title": "Under The Surface Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-21T06:14:04.546860+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "6 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event offers no prize pool, features an unknown sponsor, and has no clear career or startup upside. It's an extremely low-value opportunity, even for beginners, as there's no tangible reward for participation. Skip this event."
+  },
+  "bfd20365c38096cd1699100d9042a0d7e28ea2453a632121b612a178feb1e323": {
+    "title": "Build With Bharat 3.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-21T06:14:04.546882+00:00",
+    "fos_score": 1.8,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "1 month left",
+    "dates": null,
+    "team_size": "2 - 5 Members",
+    "why_relevant": "This is a local university hackathon with no prize pool and no clear career or startup benefits. While offline events can offer good local networking, the overall value proposition is extremely low. Skip this event."
+  },
+  "e0d7d19140b97c3f9d455bbe268eb7d28d05b99348a6c13344877d69a5589bbb": {
+    "title": "Hack-4-Crown",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-21T06:14:04.546894+00:00",
+    "fos_score": 1.8,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "22 days left",
+    "dates": null,
+    "team_size": "3 - 4 Members",
+    "why_relevant": "This is a local university-affiliated hackathon with no prize pool and no clear career or startup benefits. The value proposition is extremely low, making it an event to skip unless you are directly affiliated with NSUT and looking for a local project experience."
   }
 }
