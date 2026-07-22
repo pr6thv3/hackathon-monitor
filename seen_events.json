@@ -5084,5 +5084,33 @@
     "dates": null,
     "team_size": "1 - 4 Members",
     "why_relevant": "This offline 'Applied AI' hackathon, hosted by a college club, offers no prize pool and limited networking opportunities. While the local and technical focus might reduce competition, the lack of significant career or startup upside makes it a low-value opportunity for serious builders."
+  },
+  "15c4fe36a5011341cc943184c4dd704064f8cb56f228f632c52e1a72e22d7af5": {
+    "title": "Hackfinity 3.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-22T14:34:58.123852+00:00",
+    "fos_score": 1.1,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "1 month left",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is not relevant for builders seeking significant career opportunities, startup funding, or substantial prizes. It appears to be a local academic exercise with minimal external value."
+  },
+  "b19dd29453c66dd84647fd762f7d9180a945a2ad7cd1b6f3622d1919af9a4ada": {
+    "title": "CodeYourCult",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-22T14:34:58.123884+00:00",
+    "fos_score": 1.1,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "1 month left",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event is not relevant for builders aiming for career advancement, startup opportunities, or significant prizes. It's best suited for local community engagement or casual participation."
   }
 }
