@@ -5328,5 +5328,19 @@
     "dates": "Posted Jul 23, 2026",
     "team_size": "1 - 4 Members",
     "why_relevant": "This event is not relevant for serious builders due to its generic nature, unknown sponsor, and lack of clear benefits. It offers minimal opportunity for growth or recognition."
+  },
+  "15689120c8068ebf5c1e1cb33ffddbf5f5f44dcfe1fb32091ce64d4dc9b779e0": {
+    "title": "Specathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-26T14:09:33.115450+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "25 days left",
+    "dates": "Posted Jul 26, 2026",
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is only relevant for local college students seeking basic project experience or a local academic competition. For serious builders looking for significant career, startup, or prize opportunities, this event offers negligible value."
   }
 }
