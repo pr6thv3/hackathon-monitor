@@ -5342,5 +5342,47 @@
     "dates": "Posted Jul 26, 2026",
     "team_size": "2 - 4 Members",
     "why_relevant": "This event is only relevant for local college students seeking basic project experience or a local academic competition. For serious builders looking for significant career, startup, or prize opportunities, this event offers negligible value."
+  },
+  "7fa227cd288b951e2144250e30491e9452971216f10f21680127c68260614c5d": {
+    "title": "Catalyst 1.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-27T06:51:32.472744+00:00",
+    "fos_score": 1.65,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "August 7, 2026",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This local university event offers minimal career or startup upside, no prize pool, and limited networking. The focus on quizzes and treasure hunts suggests it's not a serious technical competition for ambitious builders."
+  },
+  "32f8203b45bed9ff45e32687fbc39dceb29ab1569cb0dbbdddb02931a7db4aad": {
+    "title": "STAMPERS National Hackathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-27T06:51:32.472784+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "August 13, 2026",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "With an unknown sponsor, no prize pool, and a vague description, this online hackathon presents no clear value for career advancement, startup opportunities, or significant prizes. It's best to avoid."
+  },
+  "e922148c15eb80ca171319697dde5cb4a36db807aa9fcdf78e353a006914fa3a": {
+    "title": "BUIDL CTC 2026 Fall - BUIDL For The Real World",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-07-27T06:51:32.472799+00:00",
+    "fos_score": 8.6,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "🔥",
+    "mode": "Virtual",
+    "registration_deadline": "16 days left",
+    "dates": "Upcoming",
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This Dorahacks event, backed by Creditcoin and focusing on core Web3 tech like Solidity, EVM, and ASCs, offers immense opportunities for builders in the blockchain space. It's a prime platform for gaining exposure, securing funding, and connecting with leading projects and VCs in DeFi, RWA, and DePIN. The high technical bar ensures quality competition and high-impact projects."
   }
 }
