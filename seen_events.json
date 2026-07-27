@@ -5384,5 +5384,47 @@
     "dates": "Upcoming",
     "team_size": "1 - 4 Members",
     "why_relevant": "This Dorahacks event, backed by Creditcoin and focusing on core Web3 tech like Solidity, EVM, and ASCs, offers immense opportunities for builders in the blockchain space. It's a prime platform for gaining exposure, securing funding, and connecting with leading projects and VCs in DeFi, RWA, and DePIN. The high technical bar ensures quality competition and high-impact projects."
+  },
+  "84d72fde809f09fe4bb4511f067483d3b6a6f953a1448fd70e05a72a2a04b2e3": {
+    "title": "Prometheus July AI Challenge",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-07-27T15:24:12.229766+00:00",
+    "fos_score": 7.6,
+    "easy_winning_potential": 8.0,
+    "fos_verdict": "✅",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "Jul 17 - 30, 2026",
+    "team_size": null,
+    "why_relevant": "This is a prime opportunity to build a high-impact AI project under the banner of Prometheus, a well-regarded open-source entity. The focus on AI/ML allows you to hone specialized skills, and the structured nature of the challenge, combined with the technical barriers, means your dedicated effort will stand out. Winning or even building a strong project here can significantly boost your portfolio and open doors in the AI industry."
+  },
+  "4bb709f7c640419e80731763a2cd3d492d4ae070d3912c6a5f6d9808395fcd56": {
+    "title": "Techfusion Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-27T15:24:12.229812+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": null,
+    "registration_deadline": "August 20, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event offers very limited upside in terms of prizes, career opportunities, or networking. It's likely a local university event with low competition quality but also low overall impact. Unless you are a student at Malla Reddy University looking for internal experience, it's not worth the time."
+  },
+  "0c1110b8af583e547e2281bad525375082642a4eae84e7c7fdda0af4739ebc9f": {
+    "title": "Open Innovation Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-27T15:24:12.229827+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": null,
+    "registration_deadline": "August 20, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event, like the other university-sponsored one, offers very limited upside. The lack of significant prizes, industry sponsors, or networking opportunities makes it a low-value proposition for serious builders. Unless you are a student at Malla Reddy University looking for internal experience, it's not worth the time."
   }
 }
