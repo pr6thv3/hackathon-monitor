@@ -5580,5 +5580,47 @@
     "dates": null,
     "team_size": "2 - 4 Members",
     "why_relevant": "For competitive programmers looking to test their skills, win a modest cash prize, and gain recognition in a specialized domain."
+  },
+  "cdb3142008b992243771a5030ee6221a53962464d469c39410f5cfcde192cfb1": {
+    "title": "Puzzle Masters Hackathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-29T14:41:49.802937+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "16 days left",
+    "dates": null,
+    "team_size": "1 - 5 Members",
+    "why_relevant": "This event is primarily for hobbyists interested in game design or puzzle creation with no significant career or startup aspirations."
+  },
+  "8ee384c70f33fcee191cd89cada0c8e62e72a58ef579e13cab2dac6ec9559b1b": {
+    "title": "Trivium 2.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-29T14:41:49.802978+00:00",
+    "fos_score": 1.3,
+    "easy_winning_potential": 3.5,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "13 days left",
+    "dates": null,
+    "team_size": "1 - 2 Members",
+    "why_relevant": "This event might appeal to individuals looking to practice basic AI application in a gamified context, but it offers little in terms of career advancement or significant recognition."
+  },
+  "66c948009ac4f700015cc8a6ce93e5bf370b18a2831f8c1708364a810b0e6ca9": {
+    "title": "Caspian AI Agent Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-29T14:41:49.802991+00:00",
+    "fos_score": 5.1,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "⚠️",
+    "mode": "online",
+    "registration_deadline": "11 days left",
+    "dates": null,
+    "team_size": "1 - 2 Members",
+    "why_relevant": "If you're passionate about AI agents and want to gain hands-on experience with a specific platform like Caspian, this hackathon offers a focused environment to build a technically challenging project. It's an excellent opportunity to specialize your AI skills and potentially get noticed by a relevant tech company, even without a direct prize pool."
   }
 }
