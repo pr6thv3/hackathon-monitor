@@ -5622,5 +5622,19 @@
     "dates": null,
     "team_size": "1 - 2 Members",
     "why_relevant": "If you're passionate about AI agents and want to gain hands-on experience with a specific platform like Caspian, this hackathon offers a focused environment to build a technically challenging project. It's an excellent opportunity to specialize your AI skills and potentially get noticed by a relevant tech company, even without a direct prize pool."
+  },
+  "aac9e96e8675ab11959ef527d8ddecbb4be788c1f8c654a2ae877ee7095cfc1d": {
+    "title": "QodeX",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-07-30T06:08:37.778748+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "15 days left",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event is not relevant for builders seeking career advancement, startup opportunities, significant prizes, or high-quality networking. It appears to be a local school-level hackathon, offering limited value beyond basic coding practice for students."
   }
 }
