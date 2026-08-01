@@ -5816,5 +5816,33 @@
     "dates": null,
     "team_size": "3 - 4 Members",
     "why_relevant": "This is a local, offline university hackathon. While it involves team-based software development, the lack of significant prizes, industry sponsors, or networking opportunities makes it a low-value proposition for serious builders seeking career or startup growth."
+  },
+  "5766ec014c2f932034a56b4bb9ee57eb3a22308b3bceb8c48498857123e0757d": {
+    "title": "NexBuildOn Hack 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-01T14:07:29.490126+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "August 9, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is not relevant for serious builders. It lacks reputable sponsors, a prize pool, and any clear path to career advancement or significant exposure. The effort-to-reward ratio is extremely unfavorable."
+  },
+  "d4473a3dc20e11ebc5ad5ef585f15650d8734d78b4880a86015c274d6fd4cfcd": {
+    "title": "Research Agents Hack: Build Multi-Agent AI Systems (IIT Madras)",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-08-01T14:07:29.490166+00:00",
+    "fos_score": 6.15,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "⚠️",
+    "mode": "virtual",
+    "registration_deadline": null,
+    "dates": "Ongoing",
+    "team_size": null,
+    "why_relevant": "This event is highly relevant for builders passionate about advanced AI, particularly multi-agent systems and LLMs. It offers a unique opportunity to apply and showcase skills in a niche, high-demand area, connect with leading academic minds at IIT Madras, and potentially explore research or startup ventures, despite the modest prize."
   }
 }
