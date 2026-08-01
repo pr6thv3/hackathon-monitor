@@ -5760,5 +5760,61 @@
     "link": null,
     "source": "dorahacks",
     "date_first_seen": "2026-07-31T14:58:50.402773+00:00"
+  },
+  "d69e128234a71a78ab6c15cc6dbc3e112b1059f7e4f0624f98ae09ced658fd8b": {
+    "title": "RevenueCat Shipaton 2026",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-08-01T06:16:30.824035+00:00",
+    "fos_score": 8.75,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "🔥",
+    "mode": "Online",
+    "registration_deadline": "2 months left",
+    "dates": "Jul 31 - Oct 01, 2026",
+    "team_size": null,
+    "why_relevant": "This is an elite opportunity for mobile developers, especially those interested in app monetization and building sustainable mobile businesses. The massive prize pool and direct engagement with RevenueCat offer unparalleled exposure and potential for funding or career growth."
+  },
+  "b6638317d6a1e9e677d39f12a21c9c4b112a5b4b0c08e4e0e2df3c2c50663804": {
+    "title": "CodeSprint 2.O : One Shot Challenge",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-01T06:16:30.824095+00:00",
+    "fos_score": 1.3,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "26 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is a local college-level quiz/treasure hunt, offering no significant career, startup, or networking opportunities. It's not a hackathon in the traditional sense for builders."
+  },
+  "1007d72777416d5de28c1e5fc4113e6d1a42949ca844a7623043ac562a789254": {
+    "title": "Techno Vbiquity 2.O – Technical Coding Competition",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-01T06:16:30.824117+00:00",
+    "fos_score": 1.3,
+    "easy_winning_potential": 4.5,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "30 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "Another local college event with minimal career or startup upside. The \"Technical Coding Competition\" aspect might offer some practice, but the overall value is too low for a serious builder."
+  },
+  "293a1240ec3953577641d8e415814e468aa6b2fd48a840a4f4a252ffdf516878": {
+    "title": "FusioniX 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-01T06:16:30.824127+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "16 days left",
+    "dates": null,
+    "team_size": "3 - 4 Members",
+    "why_relevant": "This is a local, offline university hackathon. While it involves team-based software development, the lack of significant prizes, industry sponsors, or networking opportunities makes it a low-value proposition for serious builders seeking career or startup growth."
   }
 }
