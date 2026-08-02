@@ -5872,5 +5872,47 @@
     "dates": "To be announced",
     "team_size": "3 - 4 Members",
     "why_relevant": "This is a local, university-hosted hackathon with no listed prize pool or significant sponsors. It offers minimal founder opportunities, industry exposure, or career upside. It is not relevant for builders seeking high-impact opportunities."
+  },
+  "70c2d21894f1a874bf8d0a066618c1d0217a73c23b2cdc4f2beaaba38e7655bb": {
+    "title": "Codessiance 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-02T14:09:09.936694+00:00",
+    "fos_score": 5.0,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "⚠️",
+    "mode": "offline",
+    "registration_deadline": "Aug 14, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "Fallback scored event."
+  },
+  "a9b8d12b95328a89a684a450cc6bcae9793d891facb08b0b320273bc5a8d239a": {
+    "title": "Trivarna CTF — International CTF Championship",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-02T14:09:09.936740+00:00",
+    "fos_score": 5.0,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "⚠️",
+    "mode": "online",
+    "registration_deadline": "Aug 12, 2026",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "Fallback scored event."
+  },
+  "8833e1d86c8d7f7665eb3fdcb869c10619282daf528c5e337a8acb1ca1446778": {
+    "title": "Python Basic Programming Competition",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-02T14:09:09.936755+00:00",
+    "fos_score": 5.0,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "⚠️",
+    "mode": "online",
+    "registration_deadline": "Aug 14, 2026",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "Fallback scored event."
   }
 }
