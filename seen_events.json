@@ -5844,5 +5844,33 @@
     "dates": "Ongoing",
     "team_size": null,
     "why_relevant": "This event is highly relevant for builders passionate about advanced AI, particularly multi-agent systems and LLMs. It offers a unique opportunity to apply and showcase skills in a niche, high-demand area, connect with leading academic minds at IIT Madras, and potentially explore research or startup ventures, despite the modest prize."
+  },
+  "168af9a649b09785b76c847d0b175ff5a928c931ee4e1f90e7dfccf7c62ce952": {
+    "title": "Abhigya",
+    "link": "https://abhigya.devfolio.co",
+    "source": "devfolio",
+    "date_first_seen": "2026-08-02T06:20:46.024946+00:00",
+    "fos_score": 1.2,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "2023-04-11T18:45:00+00:00",
+    "dates": "2023-03-12T18:30:00+00:00 to 2023-04-11T18:45:00+00:00",
+    "team_size": "Individual or Team",
+    "why_relevant": "This event is a research presentation workshop, not a hackathon. It offers no significant founder opportunities, prizes, or industry exposure. It is only relevant if your primary goal is to hone academic research and presentation skills, not for building or career advancement."
+  },
+  "7fdfcf2a508734369e1652307f8ddf255ee100a000d0d2e772edc0ac33be1428": {
+    "title": "FusioniX'26",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-02T06:20:46.024989+00:00",
+    "fos_score": 1.5,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "mode": "Offline",
+    "registration_deadline": "Aug 14, 2026",
+    "dates": "To be announced",
+    "team_size": "3 - 4 Members",
+    "why_relevant": "This is a local, university-hosted hackathon with no listed prize pool or significant sponsors. It offers minimal founder opportunities, industry exposure, or career upside. It is not relevant for builders seeking high-impact opportunities."
   }
 }
