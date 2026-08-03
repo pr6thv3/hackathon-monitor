@@ -5984,5 +5984,47 @@
     "dates": null,
     "team_size": "1 - 3 Members",
     "why_relevant": "If you are passionate about HR tech or talent acquisition, this hackathon offers a focused environment to build relevant projects and network with industry professionals, potentially leading to niche career opportunities. Otherwise, it's not a high-value event."
+  },
+  "109f5ba0bd6a78b90cd3ad3949799f76bcdcb8828dadece0dab06e6f76a79670": {
+    "title": "CodeRed 2026: FIFA World Cup",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-03T15:26:57.805084+00:00",
+    "fos_score": 2.25,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "2026-08-14",
+    "dates": null,
+    "team_size": "1 - 3 Members",
+    "why_relevant": "This event is primarily a quiz and treasure hunt competition hosted by an academic institution. It offers no discernible benefits for software builders, founders, or those seeking career advancement in tech. The lack of a prize pool and technical project requirements makes it irrelevant for your goals."
+  },
+  "54c5bd66ee1583bff2833cabca8a69ec985dc8b46ec83be719db9d7e3921ff4e": {
+    "title": "Simply Updify InnovateX 2.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-03T15:26:57.805134+00:00",
+    "fos_score": 1.9,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "2026-08-15",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This hackathon, sponsored by an unknown entity 'Simply Updify' and lacking any specified prize pool, offers no clear benefits for founders or career growth. The absence of details on technical challenges or networking opportunities makes it a low-value proposition."
+  },
+  "c561e71c94bba1022945bdeb6efe7d85f05533f5a0204ef8d69448415d167378": {
+    "title": "Samarthya 2026 Project Competition",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-03T15:26:57.805159+00:00",
+    "fos_score": 1.95,
+    "easy_winning_potential": 3.5,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This college-hosted 'Project Competition' focuses on program and project management, not deep technical innovation. With no prize pool, limited networking beyond academic circles, and a low-profile GitHub presence, it offers no significant opportunities for founders or those seeking to advance their technical careers."
   }
 }
