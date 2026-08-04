@@ -6124,5 +6124,33 @@
     "dates": null,
     "team_size": "3 - 4 Members",
     "why_relevant": "This is a local college hackathon focused on 'Software Development' and 'AI Engineering' for larger teams. It's suitable for students of LICET or nearby institutions looking to collaborate on a project and build their portfolio, but offers minimal external career or startup opportunities."
+  },
+  "8ae85e79b27f2f20fc92d0093c1c8a5715e74c33ce4e5e04d4e3a41bd21bfcc2": {
+    "title": "Orvix Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-04T15:01:13.150635+00:00",
+    "fos_score": 5.0,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "⚠️",
+    "mode": "online",
+    "registration_deadline": "Sep 4, 2026",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "Fallback scored event."
+  },
+  "4955801947fd155d777fef9d334a0b52f048223e03094103e0931d6abe821b8c": {
+    "title": "The Chandigarh Police Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-04T15:01:13.150676+00:00",
+    "fos_score": 5.0,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "⚠️",
+    "mode": "offline",
+    "registration_deadline": "Aug 19, 2026",
+    "dates": null,
+    "team_size": "4 - 5 Members",
+    "why_relevant": "Fallback scored event."
   }
 }
