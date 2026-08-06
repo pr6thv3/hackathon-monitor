@@ -6334,5 +6334,47 @@
     "dates": null,
     "team_size": "1 - 4 Members",
     "why_relevant": "Suitable for students interested in AI and software development who want to build a project for their portfolio and gain experience in a team setting. Not a priority for experienced builders or founders seeking high-impact opportunities."
+  },
+  "9eec84875322949f2e0ed4b519100ca639b0f746a4515f5e2a8e04802a7137ac": {
+    "title": "OOSC 4.O Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-06T14:46:28.402240+00:00",
+    "fos_score": 2.9,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "August 12, 2026",
+    "dates": null,
+    "team_size": "2 - 3 Members",
+    "why_relevant": "This event is primarily for students looking to gain experience in software development and build their portfolio within an academic setting. It's less suited for founders seeking significant funding, high-tier networking, or direct hiring opportunities."
+  },
+  "949af2b643610629ec656684e823916cfa2c4a4b756c089ace65b4f725b05ded": {
+    "title": "Hackblox AI & Open Source Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-06T14:46:28.402274+00:00",
+    "fos_score": 2.05,
+    "easy_winning_potential": 5.5,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "August 30, 2026",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event is suitable for individuals passionate about AI and open source who want to build projects and connect with a community. It's not recommended for those seeking significant prizes, career advancement, or startup funding."
+  },
+  "0c69a49bf34362c914a84a8cda6d6f3795bbce54c3236424f522266395c63e3f": {
+    "title": "StarForge Hackathon by JSS University",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-06T14:46:28.402287+00:00",
+    "fos_score": 3.55,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "August 08, 2026",
+    "dates": null,
+    "team_size": "3 - 5 Members",
+    "why_relevant": "This hackathon is suitable for individuals interested in applying AI to real-world problems and exploring entrepreneurial ventures within a local academic setting. The offline format allows for direct collaboration and networking with peers and local mentors."
   }
 }
