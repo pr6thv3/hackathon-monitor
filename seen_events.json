@@ -6460,5 +6460,47 @@
     "dates": null,
     "team_size": "2 - 4 Members",
     "why_relevant": "If you are a student interested in applying AI to entrepreneurial ideas and are part of the JSS Noida community, this could be a relevant local event to gain experience."
+  },
+  "569c737a9a56f5fad19c13e3d805f756d9950b90ce7f58b45c7b4905bf81af0a": {
+    "title": "CoArena Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-08T04:37:02.185564+00:00",
+    "fos_score": 1.3,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "2026-08-19",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "Only relevant for someone looking to practice prompt engineering in a structured (but unrewarded) environment, with no external benefits."
+  },
+  "5e097cc511d2dce109ab002d6b87ad466d7eb696f91fb2869c4e4fd9ae60fbcd": {
+    "title": "Evil Corp CTF V2",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-08T04:37:02.185605+00:00",
+    "fos_score": 1.3,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "2026-08-17",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "Only relevant for cybersecurity enthusiasts looking to hone their CTF skills and enjoy a challenge, without expectation of prizes or career benefits."
+  },
+  "f6718a8c0a6e65a7491697f3673088d5bb2e8558ccec5ed39b1b07cd56250a96": {
+    "title": "OOSC 4.0 Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-08T04:37:02.185623+00:00",
+    "fos_score": 3.85,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "2026-08-19",
+    "dates": null,
+    "team_size": "2 - 3 Members",
+    "why_relevant": "A good opportunity for students or regional developers to gain experience, build a portfolio project, and potentially win a modest prize within a relatively contained competitive environment."
   }
 }
