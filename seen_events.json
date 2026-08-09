@@ -6530,5 +6530,61 @@
     "dates": "Pre-registration",
     "team_size": null,
     "why_relevant": "If you have mobile development skills and an interest in Web3/Metaverse, this is a prime opportunity. Building on Decentraland's platform can open doors to grants, ecosystem funding, and direct engagement with a leading project. The technical barriers mean less competition from low-effort entries, increasing your chances of winning a solid prize and gaining significant exposure."
+  },
+  "92285199c9fedae1474674e931f5b5daf8bdbc2807dfd1efd081964db54cbbee": {
+    "title": "Zero Dependency | 72-Hour Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-09T13:31:49.426492+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "2026-08-09 to 2026-08-28",
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event offers no clear benefits in terms of prizes, career advancement, or networking. It's best to allocate your time to more impactful opportunities."
+  },
+  "62712f36ddf0c1f676a22f8e7d5481efd43cf42cc74f1ac37fa49602ff297573": {
+    "title": "Webverse Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-09T13:31:49.426527+00:00",
+    "fos_score": 1.95,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "2026-08-09 to 2026-08-24",
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event is primarily for students of the sponsoring college to gain experience. For external builders seeking career or startup opportunities, it offers minimal value."
+  },
+  "d11e49f9ac52d333aed1be89c5671b889bc264a2b128e321ee6bbba65038ff3f": {
+    "title": "byteBuilt 1.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-09T13:31:49.426539+00:00",
+    "fos_score": 2.05,
+    "easy_winning_potential": 3.5,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": "2026-08-09 to 2026-08-19",
+    "team_size": "3 - 4 Members",
+    "why_relevant": "This event is best suited for students of Chandigarh University looking for project experience. For external participants, the benefits are negligible."
+  },
+  "b1ffe5155fb55b3405f067ead209e8fb40f486b462045639e3bd391106158bc9": {
+    "title": "SN1PHERS 3.0: Capture The Flag(CTF)",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-09T13:31:49.426550+00:00",
+    "fos_score": 2.05,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": "2026-08-09 to 2026-08-19",
+    "team_size": "2 Members",
+    "why_relevant": "If you are a cybersecurity enthusiast looking to sharpen your skills and gain practical experience in a CTF format, this event offers a good technical challenge. However, it provides minimal benefits for career advancement or startup opportunities beyond skill development."
   }
 }
