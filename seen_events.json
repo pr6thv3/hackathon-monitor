@@ -6502,5 +6502,33 @@
     "dates": null,
     "team_size": "2 - 3 Members",
     "why_relevant": "A good opportunity for students or regional developers to gain experience, build a portfolio project, and potentially win a modest prize within a relatively contained competitive environment."
+  },
+  "c96be62ac38f176cfeeccf340ec335a7985d9b9957ddb547faaf6d332a4e4f26": {
+    "title": "Bitmela Launchpad: Ideathon 01",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-09T04:48:11.321417+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "11 days left",
+    "dates": "Posted Aug 6, 2026",
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event offers minimal value for a serious builder. With no prize pool, unknown sponsors, and no clear career or startup upside, your time would be better invested in opportunities with higher potential returns."
+  },
+  "d9d654175dc8a53b8c43410eed0f8a49b6f9ef9ccd550bf46e95103ee2c76150": {
+    "title": "Decentraland Friendzone Mobile Buildathon",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-08-09T04:48:11.321467+00:00",
+    "fos_score": 8.25,
+    "easy_winning_potential": 9.0,
+    "fos_verdict": "✅",
+    "mode": "Virtual",
+    "registration_deadline": "5 days left",
+    "dates": "Pre-registration",
+    "team_size": null,
+    "why_relevant": "If you have mobile development skills and an interest in Web3/Metaverse, this is a prime opportunity. Building on Decentraland's platform can open doors to grants, ecosystem funding, and direct engagement with a leading project. The technical barriers mean less competition from low-effort entries, increasing your chances of winning a solid prize and gaining significant exposure."
   }
 }
