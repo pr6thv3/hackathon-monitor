@@ -6586,5 +6586,19 @@
     "dates": "2026-08-09 to 2026-08-19",
     "team_size": "2 Members",
     "why_relevant": "If you are a cybersecurity enthusiast looking to sharpen your skills and gain practical experience in a CTF format, this event offers a good technical challenge. However, it provides minimal benefits for career advancement or startup opportunities beyond skill development."
+  },
+  "97322fa3cca1f94c543ab39eb5f8cf0c7d8e7e6a8a3c88f327edf01aefd9e6f3": {
+    "title": "StartupX Hackathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-10T05:08:13.647131+00:00",
+    "fos_score": 1.1,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "25 days left",
+    "dates": null,
+    "team_size": "1 - 6 Members",
+    "why_relevant": "This event offers minimal value for a serious builder. The lack of information on prizes, reputable sponsors, and networking opportunities, combined with a broad, potentially non-technical focus, makes it a low-priority opportunity with a very poor Founder Opportunity Score."
   }
 }
