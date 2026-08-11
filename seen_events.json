@@ -6628,5 +6628,25 @@
     "dates": null,
     "team_size": "1 - 3 Members",
     "why_relevant": "This event is primarily for college students seeking local experience and basic project building. It offers minimal career, startup, or financial upside for experienced builders."
+  },
+  "d77697619234b0e1c128765d708e6ebe417d3f64ac7e6c0e1afd8a2aa8c4f96e": {
+    "title": "Washing App Debug Challenge",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-11T04:50:44.383129+00:00",
+    "fos_score": 1.95,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "2026-08-22",
+    "dates": null,
+    "team_size": "1 - 2 Members",
+    "why_relevant": "This event is only relevant for students of NIT Delhi or those seeking a low-stakes academic challenge to practice debugging skills, rather than for founders or builders seeking significant career, startup, or prize opportunities."
+  },
+  "d4b2fccaf06981d59daa05abbf93fc128f402b28761c54a0ee0f123d930ed075": {
+    "title": "HackOnVibe — August 2026",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-08-11T04:50:44.383173+00:00"
   }
 }
