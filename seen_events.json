@@ -6648,5 +6648,33 @@
     "link": null,
     "source": "dorahacks",
     "date_first_seen": "2026-08-11T04:50:44.383173+00:00"
+  },
+  "4a2544845062ecba0d07e35b53017ba5268152a38982350bd51388bbcb46e52f": {
+    "title": "Agents for Humans Hackathon",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-08-12T05:15:51.005094+00:00",
+    "fos_score": 8.9,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "🔥",
+    "mode": "online",
+    "registration_deadline": "2026-09-11",
+    "dates": "2026-08-10 - 2026-09-14",
+    "team_size": null,
+    "why_relevant": "This hackathon offers a rare opportunity to build cutting-edge AI agents with the backing of Amazon, providing significant career advancement, potential startup funding, and a substantial prize pool. It's ideal for builders looking to make a mark in the AI/ML space and gain exposure to a leading tech giant."
+  },
+  "fb786aff99faaf3e0fe9abf67a652ed307170a2d0097ed50bd9ba4855eb549c4": {
+    "title": "DevCrest Buildathon '26",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-12T05:15:51.005138+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 2.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "2026-08-20",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event lacks any significant incentives, reputable sponsors, or clear career/startup upside. The absence of a prize pool and the unknown nature of the organizer make it a low-value opportunity. It's best to skip and focus on opportunities with higher potential."
   }
 }
