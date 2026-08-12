@@ -6676,5 +6676,33 @@
     "dates": null,
     "team_size": "Individual Participation",
     "why_relevant": "This event lacks any significant incentives, reputable sponsors, or clear career/startup upside. The absence of a prize pool and the unknown nature of the organizer make it a low-value opportunity. It's best to skip and focus on opportunities with higher potential."
+  },
+  "e2240d1afe1c0fe47c565c3990242887673f3b0b35c0e05384e3976af3f923b2": {
+    "title": "Hack Forge-Ai Powered Vibe Coding Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-12T13:57:40.575461+00:00",
+    "fos_score": 1.1,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "8 days left",
+    "dates": null,
+    "team_size": "1 - 3 Members",
+    "why_relevant": "This event is primarily relevant for students of C. Abdul Hakeem College of Engineering and Technology looking for a local, low-stakes opportunity to practice AI and coding skills. For builders seeking significant career, startup, or prize opportunities, it offers very little."
+  },
+  "a79180d31e47a5c5771eecc7e3dfbf7b25995555c61a5f007e9b6833c1db1ab6": {
+    "title": "QuantStorm",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-12T13:57:40.575501+00:00",
+    "fos_score": 3.9,
+    "easy_winning_potential": 8.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "4 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "For builders with a strong background in quantitative finance, algorithmic trading, or high-performance computing, QuantStorm offers a unique opportunity to showcase individual expertise at a prestigious institution like IIT Guwahati. The niche technical domain and individual participation format mean that a well-executed project can significantly stand out, providing valuable networking with peers and faculty in a specialized field, and enhancing your profile for fintech or quant roles."
   }
 }
