@@ -6704,5 +6704,47 @@
     "dates": null,
     "team_size": "Individual Participation",
     "why_relevant": "For builders with a strong background in quantitative finance, algorithmic trading, or high-performance computing, QuantStorm offers a unique opportunity to showcase individual expertise at a prestigious institution like IIT Guwahati. The niche technical domain and individual participation format mean that a well-executed project can significantly stand out, providing valuable networking with peers and faculty in a specialized field, and enhancing your profile for fintech or quant roles."
+  },
+  "9dbcc2bcb73f99fd5bdfecc4b781013027d8ce01abb959e5a5dd38ba473612a3": {
+    "title": "Hackers Unity",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-13T05:20:51.167317+00:00",
+    "fos_score": 3.15,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Aug 20, 2026",
+    "dates": "Posted Aug 13, 2026",
+    "team_size": "2 - 4 Members",
+    "why_relevant": "If you are a student at or near Arya College of Engineering & IT, this event offers a direct path to pre-placement interviews, which can be valuable for securing local job opportunities. The competition level is likely manageable, allowing a well-built project to shine and potentially lead to a job."
+  },
+  "a3030543e73b380ed5851cb179763983b88c970e3edd15a44d665eea948ca32d": {
+    "title": "Internal Smart India Hackathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-13T05:20:51.167359+00:00",
+    "fos_score": 1.15,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Aug 16, 2026",
+    "dates": "Posted Aug 12, 2026",
+    "team_size": "6 Members",
+    "why_relevant": "If you are a student at Bharat Ratna baba saheb bhim rao ambedkar rajkiya engineering college pratapgarh and have skills in Business Intelligence, this 'Internal' hackathon offers a very high chance of winning due to limited competition. It's an excellent opportunity for internal recognition and skill application."
+  },
+  "b5e23455f39d123b55efd42b94402ef96b7828abf7c9b663886dc36827541087": {
+    "title": "InfiniX'26 – National Level 32-Hour Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-13T05:20:51.167383+00:00",
+    "fos_score": 1.5,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "Sep 03, 2026",
+    "dates": "Posted Aug 12, 2026",
+    "team_size": "3 - 5 Members",
+    "why_relevant": "This 'National Level' online hackathon, while offering a broad 'Software Development' theme, lacks significant prizes, direct career opportunities, or high-profile networking. The competition is likely to be high due to its national and online nature, making it a low ROI event unless you are specifically looking for a general coding challenge."
   }
 }
