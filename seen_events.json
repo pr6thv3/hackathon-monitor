@@ -6746,5 +6746,61 @@
     "dates": "Posted Aug 12, 2026",
     "team_size": "3 - 5 Members",
     "why_relevant": "This 'National Level' online hackathon, while offering a broad 'Software Development' theme, lacks significant prizes, direct career opportunities, or high-profile networking. The competition is likely to be high due to its national and online nature, making it a low ROI event unless you are specifically looking for a general coding challenge."
+  },
+  "7d29cbf6be3d2a2a769de7afa501bcc5d762d6dbfd67d2e4ed9f5b7d28daa6e5": {
+    "title": "DevJams'26",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-13T13:58:01.718345+00:00",
+    "fos_score": 2.9,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "14 days left",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is primarily relevant for students at VIT Vellore or in the local region looking for an introductory hackathon experience, peer networking, and resume building. The lack of prizes and high-tier sponsors limits its broader appeal for experienced builders seeking significant opportunities."
+  },
+  "84c42401d3a5793975e6be31b64e9776afd55c18bb0bfb85177503b3d1b5951f": {
+    "title": "Breakpoint Hackathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-13T13:58:01.718373+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "10 days left",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event offers virtually no tangible benefits for a builder. The lack of reputable sponsors, prizes, and clear objectives makes it a poor use of time for anyone seeking career advancement, startup opportunities, or significant recognition."
+  },
+  "25995abe30f767d64c1fd164007975c7096b159e14d581d18ed18c92ae3a238c": {
+    "title": "CodeWars",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-13T13:58:01.718383+00:00",
+    "fos_score": 1.5,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "7 days left",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "Only relevant for local students seeking basic hackathon experience and peer interaction. There are no significant external benefits in terms of prizes, career opportunities, or high-level networking."
+  },
+  "9376836b3789a754cdc9d537b516af16850ac0d109a5b47743e5887ee5d724ae": {
+    "title": "Idea Competition 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-13T13:58:01.718390+00:00",
+    "fos_score": 1.7,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "17 days left",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "Only relevant for students at FRCRCE or those specifically looking to practice product management and ideation skills in a low-stakes environment, without expecting significant external rewards or career opportunities."
   }
 }
