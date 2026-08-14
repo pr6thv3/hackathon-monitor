@@ -6822,5 +6822,33 @@
     "dates": null,
     "team_size": "Individual Participation",
     "why_relevant": "This event is only relevant for students of Badruka School of Management or those specifically interested in a 'Quizzes & Treasure Hunt' format related to Agentic AI, likely testing knowledge or specific problem-solving skills rather than full-stack development. It offers no significant founder or career opportunities for external builders."
+  },
+  "1652c642daa4e56b8f1cdf01aa89292db2e1b3558c15637f2d1dcb1830a9890e": {
+    "title": "Hackathon to Solve India's Garbage Problem",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-14T13:53:40.433152+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "Online",
+    "registration_deadline": "1 month left",
+    "dates": "Posted Aug 14, 2026",
+    "team_size": "1 - 2 Members",
+    "why_relevant": "This event is only relevant if you are deeply passionate about applying AI to India's specific garbage problem and are looking for a platform to build a portfolio project without any expectation of prizes, career advancement, or significant networking."
+  },
+  "51d7cead19f3a7692d091d919cee36d3288e8749458bdb718da9d37e87029c6b": {
+    "title": "Code Voyage",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-14T13:53:40.433192+00:00",
+    "fos_score": 2.15,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "1 month left",
+    "dates": "Posted Aug 14, 2026",
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is relevant if you are based in Kolkata, looking to build a portfolio project in software development (potentially with an AI or macOS focus as hinted by related GitHub projects), and want to network within the local academic and student community. It's a good opportunity for hands-on experience in an offline setting."
   }
 }
