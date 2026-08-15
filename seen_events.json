@@ -6850,5 +6850,19 @@
     "dates": "Posted Aug 14, 2026",
     "team_size": "2 - 4 Members",
     "why_relevant": "This event is relevant if you are based in Kolkata, looking to build a portfolio project in software development (potentially with an AI or macOS focus as hinted by related GitHub projects), and want to network within the local academic and student community. It's a good opportunity for hands-on experience in an offline setting."
+  },
+  "9f4407a0d86e729a89b65f18c4c031c023413f58a4e1144225c25a7254a7ed2a": {
+    "title": "Gensyn",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-08-15T04:06:21.070085+00:00",
+    "fos_score": 8.6,
+    "easy_winning_potential": 9.0,
+    "fos_verdict": "🔥",
+    "mode": "virtual",
+    "registration_deadline": "8 days left",
+    "dates": "Ongoing",
+    "team_size": "null",
+    "why_relevant": "This is an elite opportunity for builders passionate about decentralized AI, Web3, and autonomous trading. You'll be building on Gensyn's innovative infrastructure, directly engaging with a top-tier VC like Delphi, and competing in a highly technical 'Agent Arena' that can fast-track your project or career. If you have expertise in AI, blockchain, and trading, this hackathon offers a direct path to significant impact, funding, and networking within a cutting-edge domain."
   }
 }
