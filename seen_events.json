@@ -7024,5 +7024,47 @@
     "dates": null,
     "team_size": "1 - 2 Members",
     "why_relevant": "For students interested in AI Engineering or competitive problem-solving within an academic setting, particularly those from Delhi University."
+  },
+  "b144219ef93578299c4ba05fb1a1fe09cc09e69be06a4ecb27449de1b0aba934": {
+    "title": "Z0d1ak CTF",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-17T04:15:47.886416+00:00",
+    "fos_score": 2.35,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "Aug 21, 2026",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is a niche cybersecurity CTF, ideal for individual builders looking to hone their offensive/defensive security skills. While the FOS is low due to academic sponsorship and no prize pool, the technical challenge can be a valuable learning experience. The low GitHub activity suggests a smaller, more focused competition."
+  },
+  "971ca07c46d92915b35add3813576019268c15c7a400e040a9b7c03b9f020933": {
+    "title": "Gameathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-17T04:15:47.886450+00:00",
+    "fos_score": 2.35,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "Aug 23, 2026",
+    "dates": null,
+    "team_size": "2 Members",
+    "why_relevant": "This event, despite its 'Quizzes & Treasure Hunt' description, appears to be a game development hackathon based on GitHub project evidence. It's an opportunity for builders to practice game development skills and add to their portfolio. However, the academic sponsorship and lack of prize pool or industry connections make the FOS low."
+  },
+  "e65eb354ceda407f6aea8f704393105f3757c091ce3c6523c4f2bf9e986d8411": {
+    "title": "Legend of the Treasure (Takara No Densetsu)",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-17T04:15:47.886463+00:00",
+    "fos_score": 2.4,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Aug 26, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This offline 'Quizzes & Treasure Hunt' event from Amity offers a local, team-based problem-solving experience. While it lacks significant FOS due to academic sponsorship and no prize pool, it could be a fun way to engage with peers. However, for builders seeking career or startup opportunities, it's not a strong fit."
   }
 }
