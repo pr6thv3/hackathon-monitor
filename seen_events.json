@@ -7570,5 +7570,33 @@
     "dates": null,
     "team_size": null,
     "why_relevant": "If you're a developer passionate about open source, tooling, or improving the GitHub ecosystem, this is an unparalleled opportunity to showcase your skills, gain massive exposure, and potentially contribute to the platform itself. The career and networking benefits are immense."
+  },
+  "ac900dd40d1ef04d6c4e541e41acb23541f3f367d27ce339108f1678c68790e0": {
+    "title": "The Frontend Odyssey 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-21T13:27:08.610276+00:00",
+    "fos_score": 1.7,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "Ends in 19 days",
+    "dates": "Starts Aug 21, 2026",
+    "team_size": "Individual Participation",
+    "why_relevant": "This event appears to be a low-value opportunity due to the lack of a prize pool, an unknown sponsor, and the absence of clear career or startup benefits. The effort required would likely not yield a worthwhile return."
+  },
+  "09bd08922e80a62dbdedb1fdbf1b6fc40bacb74961cfc3939129a493cbe2f29e": {
+    "title": "DataForge 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-21T13:27:08.610302+00:00",
+    "fos_score": 7.0,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "✅",
+    "mode": "online",
+    "registration_deadline": "Ends in 7 days",
+    "dates": "Starts Aug 20, 2026",
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This hackathon offers a strong platform to showcase advanced AI/Data Science skills, backed by the prestige of IIT Kharagpur. The technical depth required means serious builders can truly shine, gaining valuable experience, networking with a top academic community, and potentially winning a decent prize."
   }
 }
