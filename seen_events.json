@@ -7780,5 +7780,33 @@
     "dates": "Posted Aug 21, 2026",
     "team_size": "2 - 4 Members",
     "why_relevant": "A regional 'National-Level' hackathon with a 24-hour format, offering a chance for rapid prototyping in AI, but lacking significant founder opportunities or high-tier networking. Not recommended for serious builders."
+  },
+  "5ac0638b6faa46583451e967324cccfdc1111367b50e78930add498f1efc1a76": {
+    "title": "INIT'26 - Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-23T13:11:37.253342+00:00",
+    "fos_score": 1.6,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event is primarily for students seeking basic hackathon experience within an academic setting. It offers minimal external career or startup opportunities and no significant prize incentives. Not recommended for experienced builders or those seeking high-impact outcomes."
+  },
+  "01b1a782edfeddf266aa1572d4f93e4d46abafd2bbe8c26fb568b1ac262ff28c": {
+    "title": "Code2Create 7.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-23T13:11:37.253379+00:00",
+    "fos_score": 1.6,
+    "easy_winning_potential": 3.5,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": null,
+    "team_size": "2 - 5 Members",
+    "why_relevant": "This offline hackathon at VIT Vellore is primarily for local students to gain basic hackathon experience. It offers negligible external career or startup opportunities and no significant prize incentives. Not recommended for experienced builders or those seeking high-impact outcomes."
   }
 }
