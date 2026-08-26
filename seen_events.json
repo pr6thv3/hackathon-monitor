@@ -8074,5 +8074,61 @@
     "dates": "Upcoming",
     "team_size": null,
     "why_relevant": "This is a strong opportunity for builders passionate about the intersection of AI agents and web3/DeFi. The significant prize, reputable platform, and niche technical focus offer high chances for winning and substantial career/startup upside."
+  },
+  "072babc2cc4a708e73123594e35d085afe80daedd83cf2ded4423c7b22b63631": {
+    "title": "The WebMCP Challenge",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-08-26T13:35:15.930803+00:00",
+    "fos_score": 9.35,
+    "easy_winning_potential": 8.5,
+    "fos_verdict": "🔥",
+    "mode": "online",
+    "registration_deadline": null,
+    "dates": "Aug 25 - Sep 03, 2026",
+    "team_size": null,
+    "why_relevant": "This is a premier AI hackathon sponsored by OpenAI, offering a substantial prize pool and direct exposure to cutting-edge agentic AI development. The 'WebMCP Challenge' theme is highly relevant for builders interested in the future of web interaction and AI agents. Winning or even building a strong project here would be a significant career booster, offering unparalleled networking, hiring, and startup opportunities with one of the world's leading AI companies. The technical challenge, while high, also means less 'spam' competition, increasing your chances of standing out."
+  },
+  "11e2f2e549a8942b4a2cce0bfaa565a950efa4cae89d7468708a19f79bd85c6d": {
+    "title": "PROMPTOTHON 2026: AI Edition | 24-Hour Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-26T13:35:15.930850+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": "Posted Aug 26, 2026",
+    "team_size": "4 Members",
+    "why_relevant": "This event is primarily for local students of AVN IET looking for an introductory hackathon experience. For experienced builders seeking career advancement, funding, or significant prizes, this event offers very little value."
+  },
+  "bbffd5e245e6b448909a07b6977836747ec1e42b737b0b9b7376f70f2bdff0fe": {
+    "title": "Bit N Build - Around the World 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-26T13:35:15.930865+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": "Posted Aug 25, 2026",
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is suitable for local college students seeking an introductory hackathon experience. For experienced builders focused on career growth, funding, or significant prizes, this event offers negligible value."
+  },
+  "61f7034109f2d06da94d4b82b613d59ab12c41a44d91b6be2bbe8f9a9a68909c": {
+    "title": "Hack the Hardware India 2.0 (HTH India 2.0) — Build. Innovate. Win.",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-26T13:35:15.930885+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": "Posted Aug 25, 2026",
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is for local college students with a specific interest in hardware, robotics, and embedded systems, seeking hands-on experience. For experienced builders looking for significant career opportunities, funding, or prizes, this event is not recommended."
   }
 }
