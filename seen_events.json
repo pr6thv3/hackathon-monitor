@@ -8276,5 +8276,33 @@
     "dates": null,
     "team_size": "4 Members",
     "why_relevant": "Only relevant for students of Shri Vaishnav Vidyapeeth Vishwavidyalaya or local participants specifically interested in cybersecurity challenges and gaining experience in a team setting. Not suitable for founders or experienced builders seeking significant opportunities."
+  },
+  "32e7b10665fcf7c4006f73ffbaf5c376050487ecabe206652442cb82b1aed989": {
+    "title": "ForgeX AI 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-28T15:36:24.692597+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Sep 19, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is not relevant for builders seeking high-impact opportunities, significant prizes, career advancement, or exposure to top-tier industry professionals. It is a local academic event with minimal external value."
+  },
+  "ae412f6b8f1bc4a88ac27273dd4936e200928787cca0ab883f6b6816d9a40e99": {
+    "title": "Lun4R CTF 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-28T15:36:24.692633+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 8.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "Sep 19, 2026",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event is only relevant for individuals looking to practice and hone their cybersecurity skills in a low-stakes environment. It does not offer significant career opportunities, high-value prizes, or exposure to a broader professional network."
   }
 }
