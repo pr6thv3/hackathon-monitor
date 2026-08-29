@@ -8346,5 +8346,47 @@
     "dates": null,
     "team_size": null,
     "why_relevant": "This event lacks significant sponsors, prizes, or clear career/startup opportunities. The low barrier to entry on Hackerearth means high competition from low-effort projects, making it a poor investment of your time and skills with little to no tangible return."
+  },
+  "c9eec94b9e44e13cef10915ab75567cadf6ebccd55c97a095de814b670656b7c": {
+    "title": "Powernext-AI",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-29T16:53:17.029902+00:00",
+    "fos_score": 2.05,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Sep 10, 2026",
+    "dates": "Aug 29 - Sep 10, 2026",
+    "team_size": "3 - 5 Members",
+    "why_relevant": "This hackathon is relevant for builders looking to gain hands-on experience in Artificial Intelligence and build a portfolio project in an academic environment. It's a good opportunity for skill development and peer networking, especially if you are a student at or near the host institution."
+  },
+  "2a2a275fc8189cace23a94b71299276297fbcc00f70c43fadb3a345609f957be": {
+    "title": "HackQuest: Code for Communities 2.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-29T16:53:17.029942+00:00",
+    "fos_score": 2.05,
+    "easy_winning_potential": 4.5,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Aug 31, 2026",
+    "dates": "Aug 29 - Aug 31, 2026",
+    "team_size": "2 - 3 Members",
+    "why_relevant": "This hackathon is relevant for builders passionate about applying AI and AI Engineering to solve real-world community problems. It's an excellent opportunity to develop a project with social impact, enhance your technical skills, and build a meaningful portfolio piece."
+  },
+  "607a97638ae66f492c12d7de513b97934ac6a90e73a0d7237315f554d5e2d310": {
+    "title": "Multipli Hackathon – Build. Innovate. Compete.",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-29T16:53:17.029978+00:00",
+    "fos_score": 2.05,
+    "easy_winning_potential": 3.5,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "Sep 17, 2026",
+    "dates": "Aug 29 - Sep 17, 2026",
+    "team_size": "3 - 4 Members",
+    "why_relevant": "This hackathon is relevant for builders looking to practice their general development skills, innovate on a project, and gain experience in a competitive setting. It's a good opportunity to build a portfolio piece and collaborate with peers, especially if you are a student at or near VIT."
   }
 }
