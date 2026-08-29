@@ -8304,5 +8304,47 @@
     "dates": null,
     "team_size": "1 - 4 Members",
     "why_relevant": "This event is only relevant for individuals looking to practice and hone their cybersecurity skills in a low-stakes environment. It does not offer significant career opportunities, high-value prizes, or exposure to a broader professional network."
+  },
+  "04dd751538ac5645826eec5c1aa741bd9d110cf15b2adda9f725f31f252084c0": {
+    "title": "TikTok TechJam 2026",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-08-29T10:22:10.008523+00:00",
+    "fos_score": 8.8,
+    "easy_winning_potential": 8.0,
+    "fos_verdict": "🔥",
+    "mode": "Online",
+    "registration_deadline": "Sep 01, 2026",
+    "dates": "Aug 29 - Sep 01, 2026",
+    "team_size": null,
+    "why_relevant": "This is a premier hackathon by a global tech leader, TikTok, offering substantial prizes and unparalleled career and networking opportunities in cutting-edge AI, ML, and Cybersecurity. The technical depth required means your advanced skills will be highly valued and visible, providing a significant boost to your profile."
+  },
+  "b51e8dc4dbce3eb3994ab48aaad41c3d5f3ca64b82775ce5ec10983f31f21a11": {
+    "title": "ET AI Hackathon: Agentic Edition | Presented by Accenture",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-29T10:22:10.008562+00:00",
+    "fos_score": 7.025,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "✅",
+    "mode": "online",
+    "registration_deadline": "Sep 20, 2026",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This hackathon is a direct pathway to a career in cutting-edge Agentic AI Engineering with Accenture, a global tech leader. While prizes aren't specified, the unparalleled hiring and networking opportunities make it a high-value event for your professional growth in AI, especially if you're passionate about agentic systems."
+  },
+  "8940c022ec0b9459f435195bbd9643543f75c28cdff8614237c4fcbf16d034ef": {
+    "title": "Code Kitchen",
+    "link": "https://www.hackerearth.com/challenges/hackathon/code-kitchen/",
+    "source": "hackerearth",
+    "date_first_seen": "2026-08-29T10:22:10.008574+00:00",
+    "fos_score": 1.1,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": null,
+    "registration_deadline": "2026-11-59 PM IST (Asia/Kolkata)",
+    "dates": null,
+    "team_size": null,
+    "why_relevant": "This event lacks significant sponsors, prizes, or clear career/startup opportunities. The low barrier to entry on Hackerearth means high competition from low-effort projects, making it a poor investment of your time and skills with little to no tangible return."
   }
 }
