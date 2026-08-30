@@ -8388,5 +8388,61 @@
     "dates": "Aug 29 - Sep 17, 2026",
     "team_size": "3 - 4 Members",
     "why_relevant": "This hackathon is relevant for builders looking to practice their general development skills, innovate on a project, and gain experience in a competitive setting. It's a good opportunity to build a portfolio piece and collaborate with peers, especially if you are a student at or near VIT."
+  },
+  "c21252349e46c58bc3b4b1711f17195dd8cb8771097f7dd99013483966cbb9d9": {
+    "title": "NASA Space Apps Challenge 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-30T09:26:27.768785+00:00",
+    "fos_score": 3.5,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "2 months left",
+    "dates": null,
+    "team_size": "1 - 6 Members",
+    "why_relevant": "If you are passionate about space, Earth science, and applied AI/data science, this event offers a structured environment to build a technically challenging project and enhance your portfolio, even if the direct career/startup upside is limited to local connections."
+  },
+  "db2dd9e689c004513d0aa6dabf459eaec907c7898aa93644a3d1e4d73011572d": {
+    "title": "Forged In Fire 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-30T09:26:27.768832+00:00",
+    "fos_score": 2.35,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "12 days left",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "Only if you are a student at BPIT or a nearby institution looking for a local, low-stakes opportunity to practice your software development or AI engineering skills."
+  },
+  "56227d9e419fd23f7fb462aa3c40f13f219cae09a6ce0d2c4be693978fffc4eb": {
+    "title": "AI Quest: Beyond the Wrapper",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-30T09:26:27.768856+00:00",
+    "fos_score": 1.7,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "10 days left",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "If you are an experienced individual AI engineer specifically looking to build and showcase a project in Agentic AI, this could be a focused challenge to test your skills, despite the lack of external career or startup benefits."
+  },
+  "c3d2fc7362f6456c658adecf2d0d4ecdb0a4364c0d4c523464f06427e1ccfdb8": {
+    "title": "Quantexa",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-30T09:26:27.768867+00:00",
+    "fos_score": 2.075,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "17 days left",
+    "dates": null,
+    "team_size": "1 - 4 Members",
+    "why_relevant": "If you have strong data science, AI, or financial technology skills, this hackathon offers a unique opportunity to tackle complex, real-world data challenges, building a highly relevant portfolio project in a niche domain."
   }
 }
