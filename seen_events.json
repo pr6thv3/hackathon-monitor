@@ -8444,5 +8444,33 @@
     "dates": null,
     "team_size": "1 - 4 Members",
     "why_relevant": "If you have strong data science, AI, or financial technology skills, this hackathon offers a unique opportunity to tackle complex, real-world data challenges, building a highly relevant portfolio project in a niche domain."
+  },
+  "6444e1543209de36f17bd41c13eec5d8a5312d4f3953b16d9cff0c1c086383bd": {
+    "title": "Cognix Hackathon 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-30T16:55:36.770114+00:00",
+    "fos_score": 1.5,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "17 days left",
+    "dates": "Posted Aug 30, 2026",
+    "team_size": "1 - 5 Members",
+    "why_relevant": "This event is only relevant for students of Sathyabama Institute of Science and Technology or individuals specifically looking to gain basic robotics project experience in a local, academic setting, without expectations of significant prizes, career advancement, or startup opportunities."
+  },
+  "59656330903f6e93edfa383f810e808552c1eced7f3b7f03f10146c4245bab15": {
+    "title": "SU HACKS 2026",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-08-30T16:55:36.770148+00:00",
+    "fos_score": 1.4,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "mode": "online",
+    "registration_deadline": "3 days left",
+    "dates": "Posted Aug 30, 2026",
+    "team_size": "1 - 4 Members",
+    "why_relevant": "This event is only relevant for absolute beginners in software development who are looking for a very low-stakes, online environment to build their first hackathon project, without any expectations of significant prizes, career opportunities, or high-level networking."
   }
 }
