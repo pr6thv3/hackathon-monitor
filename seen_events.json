@@ -8920,5 +8920,19 @@
     "dates": "Pre-registration",
     "team_size": null,
     "why_relevant": "If you are a developer interested in cryptocurrency, this is a prime opportunity to build a valuable project using the widely recognized CoinMarketCap API. The Pro-API grant is a significant enabler for future development, and the exposure within the crypto community is excellent for career and startup growth."
+  },
+  "f25cb30982ac38f3a82450108ccd50a9c7db5ca8fdcd0767b89f95ca9faac19c": {
+    "title": "Build, Ship, Shape: Amazon Developer Hackathon",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-09-03T08:16:53.336424+00:00",
+    "fos_score": 8.8,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "🔥",
+    "mode": "Online",
+    "registration_deadline": null,
+    "dates": "Aug 31 - Oct 23, 2026",
+    "team_size": null,
+    "why_relevant": "This is a premier hackathon hosted by Amazon, offering a massive prize pool, unparalleled networking with Amazon experts, and direct pathways to recruitment or startup validation within the Amazon ecosystem. The technical challenge, while high, ensures that quality projects stand out, making it a high-leverage opportunity for serious builders looking to make a significant impact and gain top-tier industry exposure."
   }
 }
