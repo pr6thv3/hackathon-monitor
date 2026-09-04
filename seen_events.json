@@ -9074,5 +9074,47 @@
     "dates": null,
     "team_size": "2 - 4 Members",
     "why_relevant": "This online hackathon offers a small prize pool for general software development. It's suitable for builders looking for a basic competitive experience, but the low FOS and high competition for a modest prize suggest better opportunities exist."
+  },
+  "def7b5a5a6ff028f57c2235b00892cd6e1693611e6e61739474c6f19ad8468d3": {
+    "title": "SIT Flagship Hackathon 2026 | 8-Hour AI Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-09-04T08:12:29.336282+00:00",
+    "fos_score": 1.625,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "September 13, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is only relevant for students of Symbiosis Institute of Technology (SIT) Pune who are looking for a quick, local coding experience to practice basic AI/ML skills, without expectations of significant prizes, career opportunities, or high-level networking."
+  },
+  "15ba31f16b459ef302184bb24da393d6b44bbbae83e30049ec08df0bd4209fae": {
+    "title": "StatNova – Minecraft AI Vibe Coding Challenge!",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-09-04T08:12:29.336327+00:00",
+    "fos_score": 1.625,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "September 09, 2026",
+    "dates": null,
+    "team_size": "Individual Participation",
+    "why_relevant": "This event is only relevant for students of VIT Bhopal with a specific interest in Minecraft modding, game development, or applying basic AI concepts within a gaming context, primarily for personal skill development and academic portfolio building."
+  },
+  "877ab7fe2c911451c813499f280ac0a0d99074f251382f5436c3ac8c4be862a2": {
+    "title": "Kernel Prime'26 - 24 Hour Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-09-04T08:12:29.336346+00:00",
+    "fos_score": 1.2,
+    "easy_winning_potential": 2.5,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "September 27, 2026",
+    "dates": null,
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is only relevant for students of SA Engineering College who are looking for a basic, local hackathon experience to practice general software development skills, without expectations of significant prizes, career opportunities, or high-level networking."
   }
 }
