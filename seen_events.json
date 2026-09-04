@@ -9116,5 +9116,39 @@
     "dates": null,
     "team_size": "2 - 4 Members",
     "why_relevant": "This event is only relevant for students of SA Engineering College who are looking for a basic, local hackathon experience to practice general software development skills, without expectations of significant prizes, career opportunities, or high-level networking."
+  },
+  "ea23788a5a1f343d8146c9079f2c47da41481b9383ccb08b6e16d71357620efb": {
+    "title": "Constructathon — Online Robotics Build Challenge",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-09-04T16:34:13.130634+00:00"
+  },
+  "661f54a52b99312bc2d1b9e5dcd4b849511f232592bd928c07396ab6c3e9dda0": {
+    "title": "Hackcache'26",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-09-04T16:34:13.130667+00:00",
+    "fos_score": 1.15,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "\n",
+    "mode": "online",
+    "registration_deadline": "1 month left from Sep 4, 2026",
+    "dates": null,
+    "team_size": "1 - 3 Members",
+    "why_relevant": "This event is primarily relevant for students of the sponsoring institution or individuals seeking a basic hackathon experience for learning purposes, with no significant external career or startup benefits."
+  },
+  "9c4e05257b5624783c046efb7ffb14d83cc7010c09cac87b80dcf3cb3b1ec168": {
+    "title": "Seize da Flaq",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-09-04T16:34:13.130682+00:00",
+    "fos_score": 1.0,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "\n",
+    "mode": "offline",
+    "registration_deadline": "1 month left from Sep 3, 2026",
+    "dates": null,
+    "team_size": "1 - 3 Members",
+    "why_relevant": "This event is only relevant for individuals within the sponsoring institution's community who are keen on competitive cybersecurity challenges and wish to practice their skills in a local, club-organized setting."
   }
 }
