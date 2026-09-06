@@ -9318,5 +9318,61 @@
     "dates": null,
     "team_size": "1 - 4 Members",
     "why_relevant": "This is an elite, must-apply event for any builder interested in AI and Google's ecosystem. Sponsored by Google and focused on Gemini, it offers unparalleled Founder Opportunity Score through top-tier sponsors, high hiring/startup potential, and excellent networking. The specific technical focus on Gemini also provides a clear path to stand out for dedicated builders."
+  },
+  "723d22a14d3750edc434d647fa2e3d4d8dbaa6945f729a4d3db0ea8d498db299": {
+    "title": "Data Quest 3.0 Prelims",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-09-06T15:38:32.306725+00:00",
+    "fos_score": 1.7,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "13 days left",
+    "dates": "Upcoming",
+    "team_size": "3 - 5 Members",
+    "why_relevant": "This event is primarily for students at VIT Chennai looking for a local hackathon experience. For a builder seeking significant career, startup, or prize opportunities, this event offers very little."
+  },
+  "9e0332acf378cc627558bac18ccc7991b282e9c90a60508be02b6b37704ddf5f": {
+    "title": "Secura",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-09-06T15:38:32.306760+00:00",
+    "fos_score": 1.7,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "17 days left",
+    "dates": "Upcoming",
+    "team_size": "Individual Participation",
+    "why_relevant": "If you are a student with strong cybersecurity or privacy tech skills and want to showcase them in an individual setting, this event offers a focused platform. However, don't expect significant prizes or industry connections."
+  },
+  "554efc075496f9475c43a25869c78255249e984bba6f41a9c33548852ca98993": {
+    "title": "Singularity Hackathon",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-09-06T15:38:32.306772+00:00",
+    "fos_score": 1.3,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "23 days left",
+    "dates": "Upcoming",
+    "team_size": "2 - 4 Members",
+    "why_relevant": "This event is suitable only for students at AJIET or nearby institutions looking for a basic hackathon experience. It offers no significant opportunities for career advancement, startup funding, or substantial prizes for external builders."
+  },
+  "60252ac003816f996eabec916f7d24b832be7e2e8fa4538c5c81dc96206c7c05": {
+    "title": "Build with bharat 4.0",
+    "link": null,
+    "source": "unstop",
+    "date_first_seen": "2026-09-06T15:38:32.306781+00:00",
+    "fos_score": 1.3,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "mode": "offline",
+    "registration_deadline": "25 days left",
+    "dates": "Upcoming",
+    "team_size": "2 - 5 Members",
+    "why_relevant": "This event is for individuals interested in local community building or specific Indian-centric problem-solving through Codeverse. For builders seeking significant career, startup, or prize opportunities, this event offers very little."
   }
 }
