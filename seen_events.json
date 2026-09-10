@@ -9654,5 +9654,47 @@
     "dates": null,
     "team_size": "Individual or Small Teams",
     "why_relevant": "This is an elite opportunity! Directly sponsored by Snapdragon (Qualcomm) AI Lab, this challenge offers incredible exposure, networking with industry leaders, and potential career pathways within a top-tier tech company. The technical focus on Snapdragon AI creates a niche where your specialized skills can truly shine, making it a must-apply event for anyone serious about AI and hardware integration."
+  },
+  "b36fdcefee147e81cc1caa0b6241943cb9103a6f92d7fcb85ddcbc6b043aa554": {
+    "title": "GatewayHacks 2026 | Software & AI",
+    "link": null,
+    "source": "devpost",
+    "date_first_seen": "2026-09-10T08:25:49.505713+00:00",
+    "fos_score": 5.0,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "⚠️",
+    "mode": "Online",
+    "registration_deadline": null,
+    "dates": "Sep 01 - Oct 02, 2026",
+    "team_size": null,
+    "why_relevant": "Fallback scored event."
+  },
+  "0c87ea6dca9a9f33e5b8b6a9e4aa461666f6973b0c2730d0e4ae275410f31624": {
+    "title": "From Vision to Impact: Building Web3 for Social Good — Collaborate. Innovate. Build for Good 2026",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-09-10T08:25:49.505759+00:00",
+    "fos_score": 5.0,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "⚠️",
+    "mode": "offline",
+    "registration_deadline": null,
+    "dates": null,
+    "team_size": null,
+    "why_relevant": "Fallback scored event."
+  },
+  "71725dc98b0c711e2aa8d3bfe30e4f9cb2f267c9fc45cf234eab8d84bb29572e": {
+    "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
+    "link": null,
+    "source": "dorahacks",
+    "date_first_seen": "2026-09-10T08:25:49.505771+00:00",
+    "fos_score": 5.0,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "⚠️",
+    "mode": "Virtual",
+    "registration_deadline": null,
+    "dates": null,
+    "team_size": null,
+    "why_relevant": "Fallback scored event."
   }
 }
