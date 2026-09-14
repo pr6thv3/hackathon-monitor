@@ -1,17 +1,19 @@
-name: Hackathon & Workshop Monitor
+name: Scheduled Hackathon & Opportunity Intelligence Agent
 
 on:
   schedule:
-    - cron: '30 3 * * *'   # 3:30 UTC = 9:00 AM IST
-    - cron: '30 12 * * *'  # 12:30 UTC = 6:00 PM IST
-  workflow_dispatch: {}     # Manual trigger button in GitHub Actions UI
+    # Configurable cron schedule (Default: Daily at 8:00 AM UTC / 1:30 PM IST)
+    # Easily change the cron expression below to adjust the schedule
+    - cron: '0 8 * * *'
+  workflow_dispatch: {}     # Enables manual on-demand execution from GitHub UI
 
 jobs:
-  monitor:
+  monitor_and_notify:
+    name: Run Intelligence Pipeline & Dispatch Progress Notifications
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
-      contents: write    # Needed for auto-commit of seen_events.json
+      contents: write    # Required for auto-committing seen_events.json deduplication memory
 
     steps:
       - name: Checkout repository
@@ -22,34 +24,51 @@ jobs:
         with:
           python-version: '3.12'
 
-      # Cache Playwright browser binaries (~200MB) to speed up subsequent runs
-      - name: Cache Playwright browsers
+      - name: Cache Playwright browser binaries
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
           key: playwright-chromium-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
 
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Install Playwright Chromium
         run: playwright install chromium --with-deps
 
-      - name: Run hackathon monitor
+      - name: Execute Opportunity Intelligence Pipeline & Dispatch Alerts
         env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           VIT_USERNAME: ${{ secrets.VIT_USERNAME }}
           VIT_PASSWORD: ${{ secrets.VIT_PASSWORD }}
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}  # Optional but recommended for API rate limits
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: python main.py
 
-      - name: Commit memory updates
+      - name: Generate GitHub Actions Step Summary & Progress Digest
+        if: always()
+        run: |
+          echo "# 🎯 Hackathon Monitor v4 — Workflow Execution Digest" >> $GITHUB_STEP_SUMMARY
+          echo "**Execution Time**: $(date -u) (UTC)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 System Metrics" >> $GITHUB_STEP_SUMMARY
+          python main.py --stats >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📋 Top Active Opportunities & Deadlines" >> $GITHUB_STEP_SUMMARY
+          echo '```text' >> $GITHUB_STEP_SUMMARY
+          python main.py --list-events >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit & Push Deduplication Memory Updates
+        if: success()
         run: |
           git config user.name "hackathon-bot"
           git config user.email "bot@hackathon-monitor"
           git add seen_events.json
-          git diff --cached --quiet || git commit -m "🤖 Update seen_events.json [skip ci]"
+          git diff --cached --quiet || git commit -m "🤖 Update seen_events.json deduplication memory [skip ci]"
           git pull --rebase origin main
           git push
