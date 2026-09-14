@@ -1,11 +1,13 @@
 """
 Telegram Notifier Module (v4).
 
-Delivers psychologically optimized, high-signal alerts designed for mobile:
+Delivers authentic, human-written, high-signal project and opportunity check-ins:
+- Natural personal tone (no corporate/robotic AI jargon or percentage spam)
+- Project repository & branch status check-in
 - Urgency tiers (⚡ ≤7d, 🔥 ≤30d, 📌 >30d)
-- Direct value pitch & personalized relevance match explanation
+- Concise explanation of why each opportunity is worth attention
 - Maximum 3 items per notification to eliminate fatigue
-- Clear search warnings if links are unavailable
+- Clear search warnings if direct URLs are unavailable
 - Clean HTML formatting with inline application buttons
 """
 
@@ -80,9 +82,10 @@ def format_notification(
     events: list[dict[str, Any]],
     is_digest: bool = False,
     user_name: str = "Builder",
+    project_status: str | None = None,
 ) -> tuple[str, dict]:
     """
-    Format top-ranked events into a concise, high-signal Telegram message.
+    Format top-ranked events into an authentic, human-style Telegram message.
     Returns: (html_text, reply_markup_dict)
     """
     if not events:
@@ -91,32 +94,46 @@ def format_notification(
     events_to_show = events[:MAX_ITEMS_PER_MESSAGE]
     lines = []
 
+    # Authentic, human header
     if is_digest:
-        lines.append(f"📬 <b>Opportunity Brief for {user_name}</b>\n")
+        lines.append(f"👋 <b>Hey {user_name}</b> — periodic check-in on project status & upcoming deadlines:\n")
     else:
-        lines.append(f"🎯 <b>New Opportunities Matched for {user_name}</b>\n")
+        lines.append(f"👋 <b>Hey {user_name}</b> — new opportunities matched for your stack:\n")
+
+    # Optional Project Status integration
+    if project_status:
+        lines.append(f"📦 <b>Project Status:</b> {project_status}\n")
+    else:
+        try:
+            from src.git_status import get_project_status_summary
+            p_status = get_project_status_summary()
+            if p_status:
+                lines.append(f"📦 <b>Project Status:</b> {p_status}\n")
+        except Exception:
+            pass
+
+    lines.append("🎯 <b>Opportunities worth your time:</b>\n")
 
     inline_keyboard = []
 
     for i, e in enumerate(events_to_show, start=1):
         title = _escape_html(e.get("title", "Unknown"))
-        etype = _escape_html(e.get("event_type", "hackathon").replace("_", " ").upper())
-        source = _escape_html(e.get("source", "web").upper())
+        etype = _escape_html(e.get("event_type", "hackathon").replace("_", " ").title())
+        source = _escape_html(e.get("source", "web").title())
         mode = _escape_html(e.get("mode", "Online").title())
         team = _escape_html(e.get("team_size", "Solo / Team"))
         link = e.get("link")
         prize = _escape_html(e.get("prize_pool", ""))
         why_relevant = _escape_html(e.get("why_relevant", ""))
         rel_explanation = _escape_html(e.get("relevance_explanation", ""))
-        rel_score = e.get("relevance_score", 7.0)
 
         # Urgency
         deadline = e.get("registration_deadline") or e.get("dates")
         days_left = _parse_days_left(deadline)
         emoji, urgency_label = _get_urgency_tier(days_left)
 
-        # Header line
-        lines.append(f"{emoji} <b>{title}</b> ({etype} · {source})")
+        # Header line (e.g. ⚡ Global Autonomous Agent Challenge (Devpost))
+        lines.append(f"{emoji} <b>{title}</b> ({source})")
 
         # Key facts line
         facts = [f"⏰ <b>{urgency_label}</b>", f"📍 {mode}"]
@@ -128,13 +145,11 @@ def format_notification(
         if prize and prize.lower() not in ("n/a", "none", ""):
             lines.append(f"💰 <b>Prize:</b> {prize}")
 
-        # Relevance match line
-        match_pct = int(min(100, max(10, rel_score * 10)))
-        pitch = rel_explanation or why_relevant or "High-potential technical opportunity."
-        # Truncate pitch for mobile preview
+        # Authentic, human pitch
+        pitch = rel_explanation or why_relevant or "Strong alignment with your builder profile and interests."
         if len(pitch) > 180:
             pitch = pitch[:177] + "..."
-        lines.append(f"🎯 <b>{match_pct}% Match:</b> <i>{pitch}</i>")
+        lines.append(f"💡 <i>{pitch}</i>")
 
         # Link status
         if link:
@@ -143,6 +158,8 @@ def format_notification(
             lines.append(f"⚠️ <i>Direct URL unavailable — search '{title}' on {source}</i>")
 
         lines.append("")
+
+    lines.append("<i>(Staying quiet until next scheduled check-in unless an urgent deadline pops up.)</i>")
 
     reply_markup = {"inline_keyboard": inline_keyboard} if inline_keyboard else {}
     return "\n".join(lines).strip(), reply_markup
@@ -153,13 +170,14 @@ def send_telegram(
     report_path: str = None,
     is_digest_of_active: bool = False,
     user_name: str = "Builder",
+    project_status: str | None = None,
 ) -> bool:
     """
     Deliver high-signal Telegram alert.
     Capped at top 3 items to avoid fatigue.
     """
     if not scored_events:
-        log.info("No events to send — staying silent.")
+        log.info("No high-value events to notify — staying silent to prevent spam.")
         return True
 
     credentials = _get_credentials()
@@ -171,6 +189,7 @@ def send_telegram(
         scored_events,
         is_digest=is_digest_of_active,
         user_name=user_name,
+        project_status=project_status,
     )
 
     if not text:

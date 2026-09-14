@@ -2,9 +2,16 @@ name: Scheduled Hackathon & Opportunity Intelligence Agent
 
 on:
   schedule:
-    # Configurable cron schedule (Default: Daily at 8:00 AM UTC / 1:30 PM IST)
-    # Easily change the cron expression below to adjust the schedule
-    - cron: '0 8 * * *'
+    # Practical periodic schedule: Twice weekly on Monday & Thursday at 8:00 AM UTC (1:30 PM IST)
+    # - Monday: New weekly openings, launches, and priority planning
+    # - Thursday: Weekend hackathon deadlines, registration cutoffs, and final calls
+    #
+    # Easy schedule modifications (just edit the cron expression below):
+    #   - '0 8 * * 1'      -> Weekly on Mondays
+    #   - '0 8 * * 1,4'    -> Twice weekly (Monday & Thursday) [Recommended]
+    #   - '0 8 */3 * *'    -> Every 3 days
+    #   - '0 8 */5 * *'    -> Every 5 days
+    - cron: '0 8 * * 1,4'
   workflow_dispatch: {}     # Enables manual on-demand execution from GitHub UI
 
 jobs:
@@ -54,6 +61,9 @@ jobs:
         run: |
           echo "# 🎯 Hackathon Monitor v4 — Workflow Execution Digest" >> $GITHUB_STEP_SUMMARY
           echo "**Execution Time**: $(date -u) (UTC)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📦 Project Status & Git Health" >> $GITHUB_STEP_SUMMARY
+          python -c "from src.git_status import get_project_status_summary; print(get_project_status_summary())" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 📊 System Metrics" >> $GITHUB_STEP_SUMMARY
           python main.py --stats >> $GITHUB_STEP_SUMMARY

@@ -43,21 +43,34 @@ To enable live AI scoring and Telegram notification delivery in GitHub Actions:
 | `VIT_PASSWORD` | VIT Portal Password | Optional (Campus events) |
 | `GH_PAT` | Personal Access Token with repo scope | Optional (Raises API limits) |
 
-### 2. How to Customize the Scheduled Cron Timing
+### 2. Practical Periodic Schedule (No Daily Spam)
 
-The schedule is defined in [`.github/workflows/schedule.yml`](file:///.github/workflows/schedule.yml). To change when it runs:
+The workflow runs on a **twice-weekly cadence: Mondays and Thursdays at 8:00 AM UTC (1:30 PM IST)** (`0 8 * * 1,4`), defined in [`.github/workflows/schedule.yml`](file:///.github/workflows/schedule.yml).
 
-```yaml
-on:
-  schedule:
-    # Change the cron string below (UTC time)
-    # Example: '0 8 * * *' = Daily at 8:00 AM UTC (1:30 PM IST)
-    # Example: '0 0 * * 1' = Every Monday at Midnight UTC
-    - cron: '0 8 * * *'
-  workflow_dispatch: {}     # Manual trigger button in GitHub Actions UI
-```
+#### Why this interval?
+- **Monday (Planning & Launches)**: Catches new hackathons and competitions announced over the weekend, opening registration windows early in the week.
+- **Thursday (Deadlines & Final Calls)**: Alerts you to impending weekend registration cutoffs, demo video deadlines, and upcoming weekend hackathons.
+- **Anti-Spam Intelligence**: If no new high-value opportunities have been posted and no deadlines are imminent (≤7 days), **the agent stays completely silent**. You only receive a Telegram message when there is something genuinely actionable.
 
-### 3. Manual On-Demand Execution
+#### Easy Schedule Customization:
+To change the interval, edit line 13 in [`.github/workflows/schedule.yml`](file:///.github/workflows/schedule.yml):
+
+| Desired Interval | Cron Expression | Notes |
+|---|---|---|
+| **Twice Weekly (Default)** | `'0 8 * * 1,4'` | Monday & Thursday at 8:00 AM UTC (1:30 PM IST) — **Recommended** |
+| **Weekly** | `'0 8 * * 1'` | Every Monday morning |
+| **Every 3 Days** | `'0 8 */3 * *'` | Every 72 hours |
+| **Every 5 Days** | `'0 8 */5 * *'` | Useful for low-frequency monitoring |
+| **Weekend Check-in** | `'0 8 * * 5'` | Every Friday ahead of the weekend |
+
+### 3. Authentic, Human-Written Check-Ins
+Notifications sound like a real pair-programming teammate or developer peer checking in:
+- **Repository Status**: Displays branch, commit hash, and total tracked events.
+- **High-Signal Highlights**: Explains *why* an event is worth your time based on your configured tech stack.
+- **Urgency Tags**: Clear deadline countdowns (⚡ ≤7d, 🔥 ≤30d, 📌 >30d).
+- **Direct Action**: One-tap inline buttons to apply or view challenge details.
+
+### 4. Manual On-Demand Execution
 
 You can run the pipeline on demand anytime:
 1. Go to **Actions** tab in GitHub.

@@ -245,7 +245,8 @@ def main() -> int:
     log.info(f"💾 {len(new_events)} new event(s) to evaluate ({len(extracted_events) - len(new_events)} already seen)")
 
     if not new_events:
-        log.info("No new events. Checking for active opportunities in memory for digest...")
+        log.info("No new events found. Checking for urgent upcoming deadlines in tracked memory...")
+        from src.notifier import _parse_days_left, format_notification
         active_candidates = []
         for e in extracted_events:
             from src.memory import _hash_title
@@ -253,18 +254,26 @@ def main() -> int:
             if h in memory:
                 rec = memory[h]
                 if rec.get("fos_verdict") != "❌" and (rec.get("fos_score", 0) >= 5.0 or rec.get("sos_score", 0) >= 4.0):
-                    active_candidates.append(rec)
+                    d_left = _parse_days_left(rec.get("registration_deadline") or rec.get("dates"))
+                    if d_left is not None and 0 <= d_left <= 7:
+                        rec["days_left"] = d_left
+                        active_candidates.append(rec)
 
-        active_candidates.sort(
-            key=lambda x: (x.get("relevance_score", 0), x.get("fos_score", 0) or x.get("sos_score", 0)),
-            reverse=True
-        )
-        top_active = active_candidates[:app_config.notifications.max_per_run]
+        if active_candidates:
+            active_candidates.sort(key=lambda x: (x.get("days_left", 999), -x.get("relevance_score", 0)))
+            top_active = active_candidates[:app_config.notifications.max_per_run]
+            log.info(f"⏰ Found {len(top_active)} urgent opportunity deadline(s) closing within 7 days.")
 
-        if top_active and not args.dry_run:
-            log.info(f"Sending active opportunity digest ({len(top_active)} events)...")
-            send_telegram(top_active, is_digest_of_active=True, user_name=app_config.user_name)
-            metrics.notifications_sent = len(top_active)
+            if not args.dry_run:
+                send_telegram(top_active, is_digest_of_active=True, user_name=app_config.user_name)
+                metrics.notifications_sent = len(top_active)
+            else:
+                preview, _ = format_notification(top_active, is_digest=True, user_name=app_config.user_name)
+                print("\n--- [PREVIEW OF TELEGRAM NOTIFICATION] ---")
+                print(preview)
+                print("------------------------------------------\n")
+        else:
+            log.info("✨ No new opportunities and no urgent deadlines (≤7 days). Staying silent to prevent notification spam.")
 
         metrics.finish()
         return 0
@@ -328,17 +337,50 @@ def main() -> int:
         report_path = generate_report(passing_events, github_intel)
 
     delivered = False
-    if top_candidates and not args.dry_run:
-        delivered = send_telegram(
-            top_candidates,
-            report_path=report_path,
-            user_name=app_config.user_name,
-        )
-        if delivered:
-            metrics.notifications_sent = len(top_candidates)
-    elif args.dry_run:
-        log.info("🧪 Dry-run: skipped sending Telegram alert")
-        delivered = True
+    if top_candidates:
+        if not args.dry_run:
+            delivered = send_telegram(
+                top_candidates,
+                report_path=report_path,
+                user_name=app_config.user_name,
+            )
+            if delivered:
+                metrics.notifications_sent = len(top_candidates)
+        else:
+            from src.notifier import format_notification
+            preview, _ = format_notification(top_candidates, is_digest=False, user_name=app_config.user_name)
+            print("\n--- [PREVIEW OF TELEGRAM NOTIFICATION] ---")
+            print(preview)
+            print("------------------------------------------\n")
+            log.info("🧪 Dry-run: previewed Telegram alert without dispatching")
+            delivered = True
+    else:
+        log.info("No new events passed quality gates. Checking for urgent existing deadlines...")
+        from src.notifier import _parse_days_left, format_notification
+        urgent_tracked = []
+        for e in extracted_events:
+            from src.memory import _hash_title
+            h = _hash_title(e["title"])
+            if h in memory:
+                rec = memory[h]
+                if rec.get("fos_verdict") != "❌" and (rec.get("fos_score", 0) >= 5.0 or rec.get("sos_score", 0) >= 4.0):
+                    d_left = _parse_days_left(rec.get("registration_deadline") or rec.get("dates"))
+                    if d_left is not None and 0 <= d_left <= 7:
+                        rec["days_left"] = d_left
+                        urgent_tracked.append(rec)
+        if urgent_tracked:
+            urgent_tracked.sort(key=lambda x: (x.get("days_left", 999), -x.get("relevance_score", 0)))
+            top_urgent = urgent_tracked[:app_config.notifications.max_per_run]
+            if not args.dry_run:
+                send_telegram(top_urgent, is_digest_of_active=True, user_name=app_config.user_name)
+                metrics.notifications_sent = len(top_urgent)
+            else:
+                preview, _ = format_notification(top_urgent, is_digest=True, user_name=app_config.user_name)
+                print("\n--- [PREVIEW OF TELEGRAM NOTIFICATION] ---")
+                print(preview)
+                print("------------------------------------------\n")
+        else:
+            log.info("✨ No qualifying new events and no urgent deadlines (≤7 days). Staying silent to prevent notification spam.")
 
     # Persist all successfully evaluated new events to SQLite & memory
     for ev in scored_events:
