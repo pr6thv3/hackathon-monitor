@@ -1,0 +1,31 @@
+# Hackathon Opportunity Agent — Configuration (v4)
+
+user:
+  name: Preethve
+
+portals:
+  - id: vit_eventhub
+    name: VIT Chennai EventHub
+    url: https://eventhubcc.vit.ac.in/EventHub/mainDashboard
+    adapter: vit_eventhub
+    auth:
+      type: form_login
+      username_env: VIT_USERNAME
+      password_env: VIT_PASSWORD
+
+preferences: |
+  I am an engineering student at VIT interested in AI/ML, autonomous agents,
+  robotics, systems programming, and competitive hackathons.
+  I prioritize hands-on building, practical coding competitions, and hackathons
+  offering prize pools, mentorship, or career upside.
+  Exclude purely non-technical seminars, faculty development programs (FDP),
+  or passive lecture-only sessions.
+
+notifications:
+  channel: telegram
+  max_per_run: 3
+  digest_mode: true
+  urgency_tiers:
+    immediate_days: 7      # ⚡ Closes within 7 days
+    daily_digest_days: 30  # 🔥 Closes within 30 days
+    weekly_digest_days: 90 # 📌 Future opportunities

@@ -1,5 +1,16 @@
 .env
+.venv/
 __pycache__/
 *.pyc
 .pytest_cache/
 seen_events.json.tmp
+*.db
+*.db-journal
+*.db-wal
+auth_state*.json
+preference_cache.json
+reports/*.md
+
+data/
+!reports/.gitkeep
+

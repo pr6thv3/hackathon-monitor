@@ -45,8 +45,18 @@ def _fetch_via_api() -> str | None:
             DORAHACKS_API_URL,
             json=payload,
             headers=headers,
-            timeout=30,
+            timeout=15,
         )
+
+        if response.status_code != 200:
+            log.warning(f"DoraHacks API returned HTTP {response.status_code}, trying secondary endpoint...")
+            secondary_url = "https://backend.dorahacks.io/api/hackathon/list"
+            response = http_requests.post(
+                secondary_url,
+                json=payload,
+                headers=headers,
+                timeout=15,
+            )
 
         if response.status_code != 200:
             log.warning(f"DoraHacks API returned HTTP {response.status_code}")

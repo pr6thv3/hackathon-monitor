@@ -1,20 +1,26 @@
 """
-Telegram Notifier Module.
+Telegram Notifier Module (v4).
 
-Delivers a two-part notification to the user's Telegram chat:
-1. A rich, HTML-formatted summary message (with inline keyboard buttons for registration links).
-2. The full Markdown analysis report attached as a document.
+Delivers psychologically optimized, high-signal alerts designed for mobile:
+- Urgency tiers (⚡ ≤7d, 🔥 ≤30d, 📌 >30d)
+- Direct value pitch & personalized relevance match explanation
+- Maximum 3 items per notification to eliminate fatigue
+- Clear search warnings if links are unavailable
+- Clean HTML formatting with inline application buttons
 """
 
 import json
 import logging
 import os
+import re
+from datetime import datetime, date, timezone
+from typing import Any
 import requests
 
 log = logging.getLogger(__name__)
 
 TELEGRAM_SEND_MESSAGE_URL = "https://api.telegram.org/bot{token}/sendMessage"
-TELEGRAM_SEND_DOCUMENT_URL = "https://api.telegram.org/bot{token}/sendDocument"
+MAX_ITEMS_PER_MESSAGE = 3
 
 
 def _get_credentials() -> tuple[str, str] | None:
@@ -23,81 +29,137 @@ def _get_credentials() -> tuple[str, str] | None:
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 
     if not token or not chat_id:
-        log.error(
-            "Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID environment variables. "
-            "Cannot send Telegram notifications."
-        )
+        log.warning("Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID — skipping Telegram delivery.")
         return None
 
     return token, chat_id
 
 
 def _escape_html(text: str) -> str:
-    """Escape special HTML characters for Telegram HTML parse mode."""
+    """Escape special characters for Telegram HTML parse mode."""
     if not text:
         return ""
-    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def _format_html_summary(scored_events: list[dict], is_digest_of_active: bool = False) -> tuple[str, dict]:
+def _parse_days_left(deadline_str: str | None) -> int | None:
+    """Extract remaining days from date string or text like '23 days left'."""
+    if not deadline_str:
+        return None
+
+    # Check for regex like 'X days left' or 'X day left'
+    match = re.search(r"(\d+)\s*days?\s*left", deadline_str, re.IGNORECASE)
+    if match:
+        return int(match.group(1))
+
+    # Try standard date parsing
+    clean_date = deadline_str.split("T")[0].split()[0]
+    for fmt in ("%Y-%m-%d", "%d/%m/%Y", "%m/%d/%Y", "%b %d, %Y"):
+        try:
+            target = datetime.strptime(clean_date, fmt).date()
+            today = date.today()
+            return (target - today).days
+        except Exception:
+            continue
+
+    return None
+
+
+def _get_urgency_tier(days_left: int | None) -> tuple[str, str]:
+    """Return urgency emoji and label based on deadline proximity."""
+    if days_left is None:
+        return "📌", "OPPORTUNITY"
+    if days_left <= 7:
+        return "⚡", f"{days_left}d left" if days_left > 0 else "Closing Today"
+    if days_left <= 30:
+        return "🔥", f"{days_left}d left"
+    return "📌", f"{days_left}d left"
+
+
+def format_notification(
+    events: list[dict[str, Any]],
+    is_digest: bool = False,
+    user_name: str = "Builder",
+) -> tuple[str, dict]:
     """
-    Format events into a rich HTML message.
-    Also returns inline keyboard buttons for event links.
+    Format top-ranked events into a concise, high-signal Telegram message.
+    Returns: (html_text, reply_markup_dict)
     """
-    if is_digest_of_active:
-        lines = [
-            "🤖 <b>Hackathon Monitor Update: No New Events</b>\n",
-            "No brand-new hackathons detected on this run. However, here are the <b>top active hackathons</b> you can currently participate in:\n"
-        ]
+    if not events:
+        return "", {}
+
+    events_to_show = events[:MAX_ITEMS_PER_MESSAGE]
+    lines = []
+
+    if is_digest:
+        lines.append(f"📬 <b>Opportunity Brief for {user_name}</b>\n")
     else:
-        lines = [
-            "🤖 <b>Hackathon Opportunity Intelligence Alert!</b>\n",
-            f"Found <b>{len(scored_events)}</b> opportunities passing our quality threshold:\n"
-        ]
-    
+        lines.append(f"🎯 <b>New Opportunities Matched for {user_name}</b>\n")
+
     inline_keyboard = []
 
-    for i, e in enumerate(scored_events, start=1):
+    for i, e in enumerate(events_to_show, start=1):
         title = _escape_html(e.get("title", "Unknown"))
-        fos = e.get("fos_score") or 0.0
-        easy_win = e.get("easy_winning_potential") or 0.0
-        verdict = e.get("fos_verdict", "⚠️")
-        mode = _escape_html(e.get("mode", "online"))
-        source = _escape_html(e.get("source", "unknown").upper())
-        why = _escape_html(e.get("why_relevant", ""))
-
-        lines.append(f"{i}️⃣ <b>{title}</b> ({source})")
-        lines.append(f"• FOS: <b>{fos:.1f}/10</b> | Win Prob: <b>{easy_win:.1f}/10</b> {verdict}")
-        lines.append(f"• Mode: {mode.title()} | Team: {e.get('team_size', 'N/A')}")
-        if why:
-            # Truncate why relevant pitch if too long
-            short_why = why[:150] + "..." if len(why) > 150 else why
-            lines.append(f"• <i>Pitch: {short_why}</i>")
-        lines.append("")
-
+        etype = _escape_html(e.get("event_type", "hackathon").replace("_", " ").upper())
+        source = _escape_html(e.get("source", "web").upper())
+        mode = _escape_html(e.get("mode", "Online").title())
+        team = _escape_html(e.get("team_size", "Solo / Team"))
         link = e.get("link")
+        prize = _escape_html(e.get("prize_pool", ""))
+        why_relevant = _escape_html(e.get("why_relevant", ""))
+        rel_explanation = _escape_html(e.get("relevance_explanation", ""))
+        rel_score = e.get("relevance_score", 7.0)
+
+        # Urgency
+        deadline = e.get("registration_deadline") or e.get("dates")
+        days_left = _parse_days_left(deadline)
+        emoji, urgency_label = _get_urgency_tier(days_left)
+
+        # Header line
+        lines.append(f"{emoji} <b>{title}</b> ({etype} · {source})")
+
+        # Key facts line
+        facts = [f"⏰ <b>{urgency_label}</b>", f"📍 {mode}"]
+        if team and team != "N/A":
+            facts.append(f"👥 {team}")
+        lines.append(" · ".join(facts))
+
+        # Prize line if notable
+        if prize and prize.lower() not in ("n/a", "none", ""):
+            lines.append(f"💰 <b>Prize:</b> {prize}")
+
+        # Relevance match line
+        match_pct = int(min(100, max(10, rel_score * 10)))
+        pitch = rel_explanation or why_relevant or "High-potential technical opportunity."
+        # Truncate pitch for mobile preview
+        if len(pitch) > 180:
+            pitch = pitch[:177] + "..."
+        lines.append(f"🎯 <b>{match_pct}% Match:</b> <i>{pitch}</i>")
+
+        # Link status
         if link:
-            # Add inline button for registration
-            inline_keyboard.append([{"text": f"🔗 Register: {title[:25]}", "url": link}])
+            inline_keyboard.append([{"text": f"🚀 Apply: {title[:28]}", "url": link}])
+        else:
+            lines.append(f"⚠️ <i>Direct URL unavailable — search '{title}' on {source}</i>")
+
+        lines.append("")
 
     reply_markup = {"inline_keyboard": inline_keyboard} if inline_keyboard else {}
     return "\n".join(lines).strip(), reply_markup
 
 
-def send_telegram(scored_events: list[dict], report_path: str = None, is_digest_of_active: bool = False) -> bool:
+def send_telegram(
+    scored_events: list[dict[str, Any]],
+    report_path: str = None,
+    is_digest_of_active: bool = False,
+    user_name: str = "Builder",
+) -> bool:
     """
-    Send HTML summary message with registration links, then send the full report file if available.
-
-    Args:
-        scored_events: Scored events to summarize.
-        report_path: Path to the generated Markdown report.
-        is_digest_of_active: Set to True if this is a digest of active events when no new events are found.
-
-    Returns:
-        True if successful, False otherwise.
+    Deliver high-signal Telegram alert.
+    Capped at top 3 items to avoid fatigue.
     """
     if not scored_events:
-        log.info("No events to send — staying silent")
+        log.info("No events to send — staying silent.")
         return True
 
     credentials = _get_credentials()
@@ -105,22 +167,23 @@ def send_telegram(scored_events: list[dict], report_path: str = None, is_digest_
         return False
 
     token, chat_id = credentials
-    
-    # 1. Format and send the summary message
-    summary_text, reply_markup = _format_html_summary(scored_events, is_digest_of_active=is_digest_of_active)
-    
-    # Check 4096 character limit
-    if len(summary_text) > 4000:
-        summary_text = summary_text[:3950] + "\n\n<i>[Truncated - see full report document]</i>"
+    text, reply_markup = format_notification(
+        scored_events,
+        is_digest=is_digest_of_active,
+        user_name=user_name,
+    )
 
-    log.info(f"Sending HTML summary to Telegram...")
+    if not text:
+        return True
+
+    log.info(f"Sending Telegram notification ({len(scored_events)} events evaluated)...")
     msg_url = TELEGRAM_SEND_MESSAGE_URL.format(token=token)
-    
+
     payload = {
         "chat_id": chat_id,
-        "text": summary_text,
+        "text": text,
         "parse_mode": "HTML",
-        "disable_web_page_preview": True
+        "disable_web_page_preview": True,
     }
     if reply_markup:
         payload["reply_markup"] = json.dumps(reply_markup)
@@ -128,38 +191,11 @@ def send_telegram(scored_events: list[dict], report_path: str = None, is_digest_
     try:
         resp = requests.post(msg_url, json=payload, timeout=20)
         if resp.ok:
-            log.info("Telegram summary message sent successfully")
+            log.info("✅ Telegram notification delivered successfully")
+            return True
         else:
-            log.error(f"Failed to send Telegram summary: {resp.status_code} {resp.text}")
+            log.error(f"Telegram send failed: {resp.status_code} {resp.text}")
+            return False
     except Exception as e:
-        log.error(f"Error sending Telegram summary: {e}")
-
-    # 2. Send the full Markdown report as a document
-    if not report_path or not os.path.exists(report_path):
-        log.warning(f"No report file found at {report_path} - skipping document attachment")
-        return True
-
-    log.info("Sending Markdown report document to Telegram...")
-    doc_url = TELEGRAM_SEND_DOCUMENT_URL.format(token=token)
-    
-    try:
-        filename = os.path.basename(report_path)
-        with open(report_path, "rb") as f:
-            files = {"document": (filename, f, "text/markdown")}
-            data = {
-                "chat_id": chat_id,
-                "caption": f"📊 Full Hackathon Opportunity Intelligence Report ({len(scored_events)} events)",
-                "parse_mode": "HTML"
-            }
-            resp = requests.post(doc_url, data=data, files=files, timeout=30)
-            
-            if resp.ok:
-                log.info("Telegram report document sent successfully")
-                return True
-            else:
-                log.error(f"Failed to send Telegram document: {resp.status_code} {resp.text}")
-                return False
-                
-    except Exception as e:
-        log.error(f"Error sending Telegram report document: {e}")
+        log.error(f"Telegram delivery exception: {e}")
         return False

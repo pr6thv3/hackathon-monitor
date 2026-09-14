@@ -1,9 +1,10 @@
 """
-HackerEarth Fetcher — API-first (Chrome extension endpoint) with Playwright fallback.
+HackerEarth Fetcher — API-first with Playwright structured DOM fallback.
 
-Primary: Hits HackerEarth's chrome-extension API for structured JSON.
-Fallback: Uses Playwright headless Chromium if the API is blocked or structure changes.
-Both approaches are 100% free forever.
+Primary: Queries HackerEarth's public upcoming events API (https://www.hackerearth.com/api/events/upcoming/)
+         for structured challenge objects with guaranteed URLs and deadlines.
+Secondary: HackerEarth chrome-extension events endpoint.
+Fallback: Playwright headless Chromium with card-level DOM extraction (never plain body inner_text).
 """
 
 import json
@@ -13,136 +14,176 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 
 log = logging.getLogger(__name__)
 
-HACKEREARTH_API_URL = "https://www.hackerearth.com/chrome-extension/events/"
+HACKEREARTH_UPCOMING_API = "https://www.hackerearth.com/api/events/upcoming/"
+HACKEREARTH_CHROME_API = "https://www.hackerearth.com/chrome-extension/events/"
 HACKEREARTH_PAGE_URL = "https://www.hackerearth.com/challenges/"
-TIMEOUT_MS = 60_000  # 60 seconds
+TIMEOUT_MS = 60_000
 
 
-def _fetch_via_api() -> str | None:
-    """
-    Try HackerEarth's chrome-extension API endpoint.
-    Returns a formatted text summary of hackathons, or None on failure.
-    """
-    log.info("Attempting HackerEarth API call...")
-
+def _fetch_upcoming_api() -> str | None:
+    """Try HackerEarth public upcoming events API."""
+    log.info(f"Attempting HackerEarth upcoming events API ({HACKEREARTH_UPCOMING_API})...")
     headers = {
-        "Accept": "application/json",
         "User-Agent": (
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
             "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
         ),
+        "Accept": "application/json",
     }
-
     try:
-        response = http_requests.get(
-            HACKEREARTH_API_URL,
-            headers=headers,
-            timeout=30,
-        )
-
-        if response.status_code != 200:
-            log.warning(f"HackerEarth API returned HTTP {response.status_code}")
+        resp = http_requests.get(HACKEREARTH_UPCOMING_API, headers=headers, timeout=20)
+        if resp.status_code != 200:
+            log.warning(f"HackerEarth upcoming API returned HTTP {resp.status_code}")
             return None
 
-        data = response.json()
-        
-        # HackerEarth chrome extension response typically has a structure with list of events
-        # Let's inspect data structures. It could be a list or a dict.
+        data = resp.json()
+        events = data.get("response", []) if isinstance(data, dict) else []
+        if not events:
+            return None
+
+        lines = ["--- SOURCE: HACKEREARTH ---"]
+        for e in events:
+            if isinstance(e, dict):
+                title = e.get("title", "Unknown")
+                url = e.get("url", "")
+                desc = e.get("description", "")
+                ctype = e.get("challenge_type", "")
+                start = e.get("date", "")
+                end = e.get("end_date", "")
+
+                if url and not url.startswith("http"):
+                    url = f"https://www.hackerearth.com{url}" if url.startswith("/") else f"https://{url}"
+
+                lines.append(f"\nTitle: {title}")
+                if url:
+                    lines.append(f"Link: {url}")
+                if ctype:
+                    lines.append(f"Type: {ctype}")
+                if start or end:
+                    lines.append(f"Dates: {start} to {end}".strip())
+                if desc:
+                    lines.append(f"Description: {str(desc)[:300]}")
+
+        result = "\n".join(lines)
+        log.info(f"HackerEarth upcoming API returned {len(events)} events ({len(result)} chars)")
+        return result
+    except Exception as e:
+        log.warning(f"HackerEarth upcoming API failed: {e}")
+        return None
+
+
+def _fetch_chrome_api() -> str | None:
+    """Secondary: HackerEarth chrome-extension events endpoint."""
+    log.info(f"Attempting HackerEarth chrome API ({HACKEREARTH_CHROME_API})...")
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/json",
+    }
+    try:
+        resp = http_requests.get(HACKEREARTH_CHROME_API, headers=headers, timeout=20)
+        if resp.status_code != 200:
+            return None
+
+        data = resp.json()
         events = []
         if isinstance(data, list):
             events = data
         elif isinstance(data, dict):
-            # Try some common keys
             events = data.get("response", data.get("events", data.get("challenges", [])))
-            if not events and "upcoming" in data or "ongoing" in data:
+            if not events:
                 events = data.get("ongoing", []) + data.get("upcoming", [])
 
         if not events:
-            log.warning("HackerEarth API returned empty or unexpected structure")
-            return f"--- SOURCE: HACKEREARTH (raw API response) ---\n{json.dumps(data, indent=2)[:5000]}"
+            return None
 
         lines = ["--- SOURCE: HACKEREARTH ---"]
         for e in events:
             if isinstance(e, dict):
                 title = e.get("title", e.get("name", "Unknown"))
-                # Sometimes starts and ends are formatted differently
+                url = e.get("url", e.get("link", ""))
                 start = e.get("start_datetime", e.get("start_time", ""))
                 end = e.get("end_datetime", e.get("end_time", ""))
-                link = e.get("url", e.get("link", ""))
-                challenge_type = e.get("challenge_type", e.get("type", ""))
-                description = e.get("description", e.get("tagline", ""))
-                
-                # Check for clean URL
-                if link and not link.startswith("http"):
-                    link = f"https://www.hackerearth.com{link}" if link.startswith("/") else f"https://{link}"
+                ctype = e.get("challenge_type", e.get("type", ""))
+                desc = e.get("description", e.get("tagline", ""))
+
+                if url and not url.startswith("http"):
+                    url = f"https://www.hackerearth.com{url}" if url.startswith("/") else f"https://{url}"
 
                 lines.append(f"\nTitle: {title}")
-                if challenge_type:
-                    lines.append(f"Type: {challenge_type}")
-                if start:
-                    lines.append(f"Start: {start}")
-                if end:
-                    lines.append(f"End: {end}")
-                if link:
-                    lines.append(f"Link: {link}")
-                if description:
-                    lines.append(f"Description: {str(description)[:300]}")
+                if url:
+                    lines.append(f"Link: {url}")
+                if ctype:
+                    lines.append(f"Type: {ctype}")
+                if start or end:
+                    lines.append(f"Dates: {start} to {end}".strip())
+                if desc:
+                    lines.append(f"Description: {str(desc)[:300]}")
 
         result = "\n".join(lines)
-        log.info(f"HackerEarth API returned {len(events)} hackathons ({len(result)} chars)")
+        log.info(f"HackerEarth chrome API returned {len(events)} events ({len(result)} chars)")
         return result
-
-    except http_requests.RequestException as e:
-        log.warning(f"HackerEarth API request failed: {e}")
-        return None
-    except (json.JSONDecodeError, KeyError, TypeError) as e:
-        log.warning(f"HackerEarth API response parsing error: {e}")
+    except Exception as e:
+        log.warning(f"HackerEarth chrome API failed: {e}")
         return None
 
 
 def _fetch_via_playwright() -> str | None:
-    """
-    Fallback: Use Playwright to render the HackerEarth challenges page and extract text.
-    """
+    """Fallback: Playwright structured card extraction from HackerEarth challenges page."""
     log.info(f"Falling back to Playwright for HackerEarth: {HACKEREARTH_PAGE_URL}")
-
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(
                 headless=True,
-                args=[
-                    "--no-sandbox",
-                    "--disable-dev-shm-usage",
-                    "--disable-gpu",
-                ],
+                args=["--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu"],
             )
-
             page = browser.new_page(
                 user_agent=(
                     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
                 )
             )
-
             page.goto(HACKEREARTH_PAGE_URL, wait_until="networkidle", timeout=TIMEOUT_MS)
-
-            # Wait for content to render
             page.wait_for_timeout(3000)
 
-            # Scroll to trigger lazy loading
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight / 2)")
-            page.wait_for_timeout(2000)
+            # Query challenge cards
+            cards = page.query_selector_all(".challenge-card, .challenge-card-modern, [class*='challenge-card']")
+            events = []
+            for c in cards:
+                title_el = c.query_selector(".challenge-name, .challenge-title, h3, h4")
+                link_el = c.query_selector("a[href*='/challenges/']")
+                date_el = c.query_selector(".date, .challenge-date, .time")
+                type_el = c.query_selector(".challenge-type, .badge")
 
-            content = page.inner_text("body")
+                title = title_el.inner_text().strip() if title_el else ""
+                link = link_el.get_attribute("href") if link_el else ""
+                if link and not link.startswith("http"):
+                    link = f"https://www.hackerearth.com{link}" if link.startswith("/") else f"https://{link}"
+                date = date_el.inner_text().strip() if date_el else ""
+                ctype = type_el.inner_text().strip() if type_el else ""
+
+                if title:
+                    events.append({"title": title, "link": link, "date": date, "type": ctype})
+
             browser.close()
-
-            if not content or len(content.strip()) < 100:
-                log.warning("HackerEarth Playwright returned very little content")
+            if not events:
                 return None
 
-            log.info(f"HackerEarth Playwright scraped {len(content)} chars")
-            return f"--- SOURCE: HACKEREARTH ---\n{content}"
+            lines = ["--- SOURCE: HACKEREARTH ---"]
+            for e in events:
+                lines.append(f"\nTitle: {e['title']}")
+                if e["link"]:
+                    lines.append(f"Link: {e['link']}")
+                if e["type"]:
+                    lines.append(f"Type: {e['type']}")
+                if e["date"]:
+                    lines.append(f"Dates: {e['date']}")
 
+            result = "\n".join(lines)
+            log.info(f"HackerEarth Playwright extracted {len(events)} cards ({len(result)} chars)")
+            return result
     except PlaywrightTimeout:
         log.error(f"HackerEarth Playwright timed out after {TIMEOUT_MS // 1000}s")
         return None
@@ -152,11 +193,16 @@ def _fetch_via_playwright() -> str | None:
 
 
 def fetch_hackerearth() -> str | None:
-    """
-    Fetch hackathon listings from HackerEarth.
-    Strategy: Try API first, fall back to Playwright.
-    """
-    result = _fetch_via_api()
-    if result:
-        return result
+    """Fetch HackerEarth listings with multi-tier resilience."""
+    # 1. Primary: upcoming events API
+    res = _fetch_upcoming_api()
+    if res:
+        return res
+
+    # 2. Secondary: chrome extension endpoint
+    res = _fetch_chrome_api()
+    if res:
+        return res
+
+    # 3. Fallback: structured Playwright
     return _fetch_via_playwright()

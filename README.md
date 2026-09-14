@@ -1,124 +1,187 @@
-# 🎯 Elite Hackathon Opportunity Intelligence Agent v3
+# 🎯 Hackathon & Opportunity Intelligence Agent (v4)
 
-Automated intelligence agent that monitors **7 major hackathon sources**, performs **GitHub ecosystem scans**, evaluates opportunities using **Founder Opportunity Scoring (FOS)** and **Easy-Win Potential**, and delivers rich digests and Markdown reports directly to your **Telegram** — all for **$0/month, forever**.
+A personalized, resilient opportunity scout that continuously discovers, evaluates, and delivers high-value hackathons, competitions, workshops, and student opportunities across **7+ major platforms and college portals**.
 
-## Architecture & Data Flow
+Built on a **5-stage AI pipeline** with dual evaluation frameworks (**Founder Opportunity Score [FOS]** for global platforms and **Student Opportunity Score [SOS]** for campus portals), natural language interest profiling, and mobile-optimized Telegram alerts — running 100% free forever ($0/month).
+
+---
+
+## What's New in v4
+
+- 🔗 **Guaranteed Real URLs**: Devpost API integration and structured DOM card parsing eradicate null hyperlinks (was 93% broken).
+- 🎓 **Student Opportunity Score (SOS)**: College-focused rubric (Learning Value, Skill Building, Network, Competition, Career) ensures campus events (e.g. CODELYMPICS, Make-A-Thon) aren't penalized for lacking VC judges or Fortune 500 sponsors.
+- 🏷️ **Expanded 11-Category Taxonomy**: Supports hackathons, competitions, workshops, bootcamps, conferences, seminars, hiring challenges, buildathons, internships, open source bounties, and pitch competitions.
+- 🎯 **Natural Language Personalization**: State your interests freely in `config.yaml` (e.g., *"I want AI hackathons and robotics contests, not generic seminars"*); the AI resolves a structured `PreferenceProfile` and generates a direct match explanation for every alert.
+- 🛡️ **Batch Scoring & Zero Poison**: Event scoring runs in chunks of ≤5 events. Any batch failure is skipped rather than poisoning memory with 5.0 flat fallbacks. Strict Pydantic `Literal` validation rejects malformed verdicts.
+- ⚡ **Mobile-Optimized Telegram Alerts**: High-impact alerts under 350 characters with urgency badges (⚡ ≤7d, 🔥 ≤30d, 📌 >30d), match percentages, and direct registration buttons. Capped at 3 items to eliminate notification fatigue.
+- 🏛️ **Pluggable College Adapters**: Modular `CollegePortalAdapter` architecture with session cookie caching (`auth_state_vit.json`) to prevent repeated logins and account lockout risks.
+- 🗄️ **Relational Database & 90-day TTL**: SQLite (`data/monitor.db`) tracks historical events, user feedback, and scores, while pruning stale records older than 90 days and auto-syncing active items to `seen_events.json` for CI/CD compatibility.
+- 🔒 **Prompt Injection Defense**: Sanitizes scraped web content, strips override tags, and encloses untrusted text in strict delimiters.
+
+---
+
+## 5-Stage AI Intelligence Pipeline
 
 ```
-⏰ GitHub Actions (9:00 AM + 6:00 PM IST)
-  ├── 🕷️ Devpost       → Playwright (headless Chromium)
-  ├── 🕷️ Devfolio      → Internal API + Playwright fallback
-  ├── 🕷️ Unstop        → Public API + Playwright fallback
-  ├── 🕷️ HackerEarth   → Chrome Extension API + Playwright fallback
-  ├── 🕷️ DoraHacks     → REST API + Playwright fallback
-  ├── 🕷️ MLH           → Requests + BeautifulSoup (Rails static HTML)
-  └── 🕷️ VIT EventHub  → Playwright + login automation (College Hackathons only)
-         ↓
-  🧠 Stage 1: Gemini 2.5 Flash  → Extract all tech-related hackathons/workshops
-         ↓
-  💾 Deduplication Check        → Skip already-seen event titles
-         ↓
-  🐙 GitHub Community Scan      → Query repo stars, good first issues, sponsor bounties
-         ↓
-  🧠 Stage 2: Gemini 2.5 Flash  → Calculate FOS score + Easy-Win Potential
-         ↓
-  ⚖️ Quality Gate Filter        → Keep if FOS >= 7.0 OR Easy-Win >= 7.0
-         ↓
-  📊 Report Generator           → Create a detailed, professional Markdown report file
-         ↓
-  📱 Telegram Bot Delivery      → Send HTML summary + attach the full Markdown report
+Ingestion Layer (Devpost, Devfolio, Unstop, HackerEarth, DoraHacks, MLH, College Adapters)
+  ↓
+Stage 1: Gemini Extraction (Sanitized content → 11-category taxonomy + guaranteed URLs)
+  ↓
+Deduplication & TTL Pruning (Check SQLite & seen_events.json; prune >90 days)
+  ↓
+Stage 2: Dual Scoring & GitHub Scan (FOS for global platforms, SOS for campus portals; batches ≤5)
+  ↓
+Stage 3: Relevance Scoring (Evaluate against user's natural language PreferenceProfile)
+  ↓
+Stage 4: Composite Ranking (relevance × urgency × link_penalty + adaptive quality gates)
+  ↓
+Stage 5: Notification Delivery (Max 3 concise Telegram alerts + Markdown digest report)
+  ↓
+Persistence: Record in SQLite & sync active subset to seen_events.json for Git auto-commit
 ```
 
-## Evaluated Metrics
+---
 
-For each newly discovered event, the AI agent performs two analyses:
-1. **Founder Opportunity Score (FOS) (Weighted 10-point scale)**:
-   - **Sponsor Quality (30%)**: Tier 1 tech firms (AWS, Google, Vercel, OpenAI) vs others.
-   - **Hiring Potential (25%)**: Sponsor fast-tracks, resume drops, active recruitment.
-   - **Startup Potential (20%)**: Accel passes, VCs, pilot grants, founder tracks.
-   - **Prize Pool (15%)**: Cash prizes and track bounties.
-   - **Networking (10%)**: Judges, mentors, and high-profile offline venues.
-2. **Easy-Win Potential (10-point scale)**:
-   - Evaluates win probability by examining target niche (e.g. college-only, local offline events), total track categories, and expected competition size.
+## Evaluated Frameworks
 
-## Setup
+### 1. Student Opportunity Score (SOS) — College Portals
+- **Learning Value (30%)**: Mentorship, curriculum depth, hands-on development.
+- **Skill Building (25%)**: Portfolio-grade project, demonstrable tech stack.
+- **Network Value (20%)**: Peer builders, club leads, alumni.
+- **Competitive Achievement (15%)**: Prizes, trophies, IEEE/ACM recognition.
+- **Career Relevance (10%)**: Placement advantage and resume impact.
+- *Quality Gate:* `SOS >= 3.0` and verdict != `❌`.
+
+### 2. Founder Opportunity Score (FOS) — Global Platforms
+- **Sponsor Quality (30%)**: Tier-1 tech firms (OpenAI, AWS, Google) vs others.
+- **Hiring Potential (25%)**: Sponsor fast-tracks, recruitment pipelines, bounties.
+- **Startup Potential (20%)**: VC judges, accelerator passes, equity-free grants.
+- **Prize Pool (15%)**: Cash prizes and cloud credits.
+- **Networking (10%)**: Global builder community, top mentors.
+- *Quality Gate:* `FOS >= 5.0` and verdict != `❌`.
+
+### 3. Easy-Win Potential (1.0 to 10.0)
+Evaluates friction funnels (selection rounds, mandatory demo videos, niche API tracks raise dedicated builders' win probabilities by eliminating low-effort entries).
+
+---
+
+## Configuration (`config.yaml`)
+
+Edit `config.yaml` to customize your profile, college portal, and notification rules:
+
+```yaml
+user:
+  name: Preethve
+
+portals:
+  - id: vit_eventhub
+    name: VIT Chennai EventHub
+    url: https://eventhubcc.vit.ac.in/EventHub/mainDashboard
+    adapter: vit_eventhub
+    auth:
+      type: form_login
+      username_env: VIT_USERNAME
+      password_env: VIT_PASSWORD
+
+preferences: |
+  I am an engineering student at VIT interested in AI/ML, autonomous agents,
+  robotics, systems programming, and competitive hackathons.
+  I prioritize hands-on building, practical coding competitions, and hackathons
+  offering prize pools, mentorship, or career upside.
+  Exclude purely non-technical seminars or passive lecture-only sessions.
+
+notifications:
+  channel: telegram
+  max_per_run: 3
+  digest_mode: true
+```
+
+---
+
+## Setup & Running
 
 ### 1. Prerequisites
-- A private GitHub repository.
-- Google AI Studio Gemini API Key.
-- Telegram Bot Token & Chat ID.
-- GitHub Personal Access Token (PAT) (Optional, highly recommended for rate limits).
-- VIT Student Portal credentials (for college hackathons).
+- Google AI Studio Gemini API Key (`GEMINI_API_KEY`)
+- Telegram Bot Token & Chat ID (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`)
+- GitHub Personal Access Token (`GH_PAT` / `GITHUB_TOKEN`, optional)
+- College portal credentials (optional, e.g. `VIT_USERNAME`, `VIT_PASSWORD`)
 
-### 2. GitHub Secrets
-Navigate to your repository → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**:
-
-| Secret Name | Value | Required | Purpose |
-|------------|-------|----------|---------|
-| `GEMINI_API_KEY` | Your Google AI Studio API key | Yes | Two-stage Gemini evaluation |
-| `TELEGRAM_BOT_TOKEN` | Your Telegram bot token | Yes | Notification delivery |
-| `TELEGRAM_CHAT_ID` | Your Telegram chat ID | Yes | Chat destination |
-| `VIT_USERNAME` | Your VIT registration number/email | Yes | College portal login |
-| `VIT_PASSWORD` | Your VIT password | Yes | College portal login |
-| `GH_PAT` | Your GitHub Personal Access Token | No | Higher GitHub API limits |
-
-### 3. Local Testing
+### 2. Local Installation & Testing
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/pr6thv3/hackathon-monitor.git
 cd hackathon-monitor
 
-# Create .env from the template
+# Create virtual environment & install dependencies
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/playwright install chromium --with-deps
+
+# Configure environment variables
 cp .env.example .env
-# Edit .env and fill in your actual credentials
+# Edit .env with your keys
 
-# Install dependencies
-pip install -r requirements.txt
-playwright install chromium --with-deps
+# Run automated tests
+.venv/bin/pytest tests/ -v
 
-# Run the pipeline locally
-python main.py
+# Run the pipeline locally (use --dry-run to test without sending alerts)
+.venv/bin/python main.py --dry-run
 ```
 
-### 4. Deployment
-Push the code to your private GitHub repository. The Actions workflow runs automatically at **9:00 AM and 6:00 PM IST** daily.
+### 3. Command Line Flags
 
-To run it manually: Go to the **Actions** tab → **Hackathon & Workshop Monitor** → **Run workflow**.
+- `--force`: Bypass memory deduplication and force re-evaluation of all scraped opportunities.
+- `--dry-run`: Run complete extraction, scoring, and ranking without dispatching Telegram alerts.
+- `--config <path>`: Specify an alternate configuration YAML file (default: `config.yaml`).
+
+---
 
 ## Project Structure
 
 ```
-├── .github/workflows/schedule.yml   # Twice-daily cron workflow
+├── config.yaml                      # User profile & portal preferences
+├── data/
+│   └── monitor.db                   # Relational SQLite database
 ├── src/
-│   ├── fetcher_devpost.py           # Devpost Playwright scraper
+│   ├── adapters/
+│   │   ├── base.py                  # CollegePortalAdapter abstract base class
+│   │   ├── vit.py                   # VIT EventHub adapter with session caching
+│   │   └── generic.py               # Generic Playwright card adapter
+│   ├── brain.py                     # Multi-stage AI pipeline (SOS/FOS/Relevance)
+│   ├── config.py                    # YAML config loader & preference resolver
+│   ├── db.py                        # SQLite engine & JSON sync
+│   ├── feedback.py                  # User feedback & weight modulation
+│   ├── fetcher_college.py           # College adapter gateway
 │   ├── fetcher_devfolio.py          # Devfolio API + Playwright
-│   ├── fetcher_unstop.py            # Unstop API + Playwright
-│   ├── fetcher_hackerearth.py       # HackerEarth API + Playwright
+│   ├── fetcher_devpost.py           # Devpost API + DOM card extraction
 │   ├── fetcher_dorahacks.py         # DoraHacks API + Playwright
+│   ├── fetcher_hackerearth.py       # HackerEarth upcoming API + Playwright
 │   ├── fetcher_mlh.py               # MLH static HTML scraper
-│   ├── fetcher_college.py           # VIT EventHub login scraper
-│   ├── github_intel.py              # GitHub API community details
-│   ├── brain.py                     # Two-stage Gemini scoring
-│   ├── report.py                    # Markdown report formatting
-│   ├── memory.py                    # SHA-256 JSON memory deduplication
-│   └── notifier.py                  # Telegram HTML & Document notifier
-├── reports/                         # Locally stored reports (Git-ignored)
-├── main.py                          # Main orchestrator pipeline
-├── seen_events.json                 # Deduplication memory (auto-committed)
-├── requirements.txt                 # Pinned dependencies
-└── .env.example                     # Local development template
+│   ├── fetcher_unstop.py            # Unstop API + Playwright
+│   ├── github_intel.py              # GitHub ecosystem scanner
+│   ├── health.py                    # Source health tracker & metrics
+│   ├── memory.py                    # Deduplication & 90-day TTL expiry
+│   ├── notifier.py                  # Mobile-optimized Telegram delivery
+│   └── report.py                    # Markdown digest report generator
+├── tests/                           # Pytest unit & integration test suite
+├── reports/                         # Locally generated Markdown digest reports
+├── main.py                          # Main pipeline orchestrator
+├── seen_events.json                 # Auto-committed deduplication memory
+└── requirements.txt                 # Dependencies
 ```
 
-## Running Costs ($0/month)
+---
+
+## Running Costs
 
 | Component | Cost | Notes |
-|-----------|------|-------|
-| Playwright Scrapers | Free | Local rendering inside runner |
-| API integrations | Free | No credit walls (MLH, Devfolio, DoraHacks, HackerEarth) |
-| Gemini 2.5 Flash | Free | Free tier API key (2 calls per pipeline run) |
-| GitHub Search API | Free | Free API queries (30 reqs/min with PAT) |
-| Telegram Bot API | Free | Unlimited message & document delivery |
-| GitHub Actions | Free | Under 150 minutes/month of the 2,000 free minutes |
+|---|---|---|
+| Playwright Scrapers | Free | Headless Chromium in local/GitHub runner |
+| API Integrations | Free | Public/open endpoints (Devpost, Devfolio, Unstop, DoraHacks, HackerEarth, MLH) |
+| Gemini 2.5 Flash | Free | Free tier API key |
+| GitHub REST API | Free | 60 req/hr unauthenticated; 5,000 req/hr with PAT |
+| Telegram Bot API | Free | Unlimited alerts |
+| GitHub Actions | Free | Under 200 min/month of 2,000 free runner minutes |
 
 **Total: $0/month, forever.**
