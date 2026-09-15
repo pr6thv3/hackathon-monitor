@@ -1,395 +1,185 @@
 {
-  "a164fccb0b14e20253b041940f53829a3a95c8fa18ee75ce6883134eb51d3ce2": {
-    "title": "The Rice University Urban Sustainability Hackathon",
-    "source": "devpost",
+  "52a8f4fa7959b390c1159b6c367fdeed7039b09af60813736cc1679738d11b53": {
+    "title": "Lines Of Code 3.0",
+    "source": "devfolio",
     "source_type": "global_platform",
-    "link": "https://rice-urban-sustainability.devpost.com/",
-    "mode": "Online",
+    "link": "https://lines-of-code-1.devfolio.co",
+    "mode": null,
     "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 5.8,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.1,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Low overall opportunity across all dimensions",
+    "relevance_score": 5.5
+  },
+  "0c3420905f95280c2f0ca4577c4113800e6cd5c7e836085d8d0f73bf4097f74b": {
+    "title": "Crescendo Hackathon 2k22",
+    "source": "devfolio",
+    "source_type": "global_platform",
+    "link": "https://crescendo-hackathon-2k22.devfolio.co",
+    "mode": null,
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.0,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Provides minimal benefit relative to effort",
+    "relevance_score": 5.0
+  },
+  "ae5167b8f08a1b3e3dad0c970043bff4c2a0f8cf004f584c5edf2d246b237d21": {
+    "title": "Developer-2-Developer",
+    "source": "devfolio",
+    "source_type": "global_platform",
+    "link": "https://developerdeveloper.devfolio.co",
+    "mode": null,
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.1,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Score remains low despite easier win potential",
+    "relevance_score": 5.0
+  },
+  "7e8ac0d49ae28c184ee175e98fffa32991eef6003745e0f29a882b4e14254022": {
+    "title": "H2HACK.COMS 2026",
+    "source": "mlh",
+    "source_type": "community",
+    "link": null,
+    "mode": "offline",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.3,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Overall opportunity remains low",
+    "relevance_score": 5.0
+  },
+  "147065875ed2f8bd16da3d03b4739016bdac0b95532b66fce5e4c373f46d12ef": {
+    "title": "Epoch 1.0",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "offline",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.6,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Scores indicate limited broader impact",
+    "relevance_score": 5.0
+  },
+  "937cc7e2113756e0cf534322017df2bb42ad96232d49265eaa46fdf134fec482": {
+    "title": "Next Gen Hackathon 1.0",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "offline",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.4,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "",
+    "relevance_score": 5.0
+  },
+  "4b9261093c6eb4754a55a91c7f54179fcb85a3692e0b1db354080b5b7df41400": {
+    "title": "Build For Bharat 2.0",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "offline",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.4,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "",
+    "relevance_score": 5.0
+  },
+  "35136e5b8fe13cd9bcbf647d73c8df58f470f8083b27e82e898e506a78f196d4": {
+    "title": "Setu - Bridge the Gap. Build the Fix",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.4,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "",
+    "relevance_score": 5.5
+  },
+  "918da272805f7ad9fc444791298ae19b2f85177f74c1f99dd6e6857f4cc64a49": {
+    "title": "Build Battle",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.4,
     "easy_winning_potential": 7.0,
-    "fos_verdict": "⚠️",
-    "why_relevant": "Offers a significant prize pool and a focused theme in urban sustainability, backed by a reputable university, providing a platform for deep project development and valuable portfolio addition.",
+    "fos_verdict": "❌",
+    "why_relevant": "Strong alignment with frontend skill development and portfolio building.",
+    "relevance_score": 5.0
+  },
+  "9b2ed0b0b302015e79c1e0f827da50586e4a44d6f0610613066d3dc80037d385": {
+    "title": "WCC Forge 48",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.4,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "",
+    "relevance_score": 5.0
+  },
+  "83a129454c41fdddb37ae74a47afb1415ae596002cabfbcb487791a4213188fd": {
+    "title": "Win, If You Can: Code The Solution X MaVionix India Pvt Ltd",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 3.35,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "",
     "relevance_score": 6.5
   },
-  "4bc635243a76bda9282e099309877b1cd61f0e186d0fdcbe2321f858dbdcbe2a": {
-    "title": "Hack2Heal 2.0 - Global Healthcare Innovation Hackathon",
-    "source": "devpost",
+  "905591d781ff2c996b8721e4be5cd6cea241ea90e9ee0f5f0c7645ccdd972828": {
+    "title": "BioBridge – Bio Innovation Hackathon 2026",
+    "source": "unstop",
     "source_type": "global_platform",
-    "link": "https://hack2heal.devpost.com/",
-    "mode": "Online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 2.6,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Offers a platform to build a healthcare-related project, potentially good for beginners in ML/AI, but lacks significant external incentives or high-tier sponsorship.",
-    "relevance_score": 5.5
-  },
-  "a95bcc3cb4e5e7c6d64b863dcaaf3ae981729c25b97fa52027f72ccca457cf72": {
-    "title": "Code for Humanity",
-    "source": "devpost",
-    "source_type": "global_platform",
-    "link": "https://code-for-humanity.devpost.com/",
-    "mode": "Online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.1,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "An opportunity to build a project for social good, potentially using ML/AI or web technologies, but completely lacks any external incentives, structured support, or competitive validation.",
-    "relevance_score": 4.0
-  },
-  "02342394f5ffd39a2fec3a76b2ecbef6ed41b693ce28ee9deed0985d833e44d5": {
-    "title": "COMPSPHERE 12",
-    "source": "devpost",
-    "source_type": "global_platform",
-    "link": "https://compsphere12.devpost.com/",
-    "mode": "Online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 3.4,
-    "easy_winning_potential": 6.5,
-    "fos_verdict": "❌",
-    "why_relevant": "Offers a platform to build projects in trending tech areas like Blockchain, ML/AI, and Cybersecurity, with a small prize pool, but lacks significant external incentives.",
-    "relevance_score": 5.5
-  },
-  "8fb600a0f0501fd7db0b6ce74f5a2a97934bf795ad46e3eb26b01004de448907": {
-    "title": "Zero Origin",
-    "source": "devpost",
-    "source_type": "global_platform",
-    "link": "https://zero-origin.devpost.com/",
-    "mode": "Online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.5,
-    "easy_winning_potential": 7.5,
-    "fos_verdict": "❌",
-    "why_relevant": "A beginner-friendly hackathon focused on Fintech and ML/AI, offering a low-pressure environment to build a project, but with minimal external incentives or high-tier backing.",
-    "relevance_score": 5.5
-  },
-  "313fd6a244ba4fe2f8cb5465828d2267db33a0b9feca50b2033c8da28f248837": {
-    "title": "HackPrix Season 3",
-    "source": "mlh",
-    "source_type": "community",
     "link": null,
-    "mode": "In-Person",
+    "mode": "offline",
     "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 2.55,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "An MLH-organized hackathon provides a platform for skill development and peer networking, but specific high-value opportunities are not detailed.",
-    "relevance_score": 4.0
-  },
-  "b7208a961fcbbb5a59db987f2e2c08ab62fbc6e5e7be7a46de291acc7c0e69a1": {
-    "title": "JAMHacks 10",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 2.55,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "An MLH-organized hackathon provides a platform for skill development and peer networking, but specific high-value opportunities are not detailed.",
-    "relevance_score": 4.0
-  },
-  "54c41bdde7639eae205dfb3e67e6562f219e0b82e07acd9c3c4df242e398503a": {
-    "title": "Global Hack Week: Hacking for Good",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "Digital",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 2.6,
-    "easy_winning_potential": 6.5,
-    "fos_verdict": "❌",
-    "why_relevant": "An MLH-organized hackathon with a 'Hacking for Good' theme provides a platform for skill development and peer networking, especially for those interested in social impact, but specific high-value opportunities are not detailed.",
-    "relevance_score": 4.0
-  },
-  "1e2e5e63b18e8ee1a850414858f995ab71ce46c22fb30ee592764fb4a54c96a2": {
-    "title": "Hack4Her",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 2.55,
-    "easy_winning_potential": 7.0,
-    "fos_verdict": "❌",
-    "why_relevant": "An MLH-organized hackathon with a diversity focus provides a platform for skill development and peer networking within a supportive community, but specific high-value opportunities are not detailed.",
-    "relevance_score": 4.0
-  },
-  "055617a907470dc2d4e3d23100bc6093527b81cd180e0f32aa1980272113f021": {
-    "title": "MPC Hacks",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 2.55,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "An MLH-organized hackathon provides a platform for skill development and peer networking, but specific high-value opportunities are not detailed.",
-    "relevance_score": 4.0
-  },
-  "4779a28aa27dc80b8ddf942b93e27f9a37fae66ebfd0aa19b195f5ae93dd29c0": {
-    "title": "Quackhacks 3",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.2,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This is a general MLH hackathon. Without specific details on sponsors, prizes, or unique tracks, its relevance for high-impact opportunities is low.",
-    "relevance_score": 4.0
-  },
-  "dc5df06031ad5083dc7571a14bb96c66324c70e1ab40132b3e58aadc6a7a4e93": {
-    "title": "HackHCC",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.2,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This is a general MLH hackathon. Without specific details on sponsors, prizes, or unique tracks, its relevance for high-impact opportunities is low.",
-    "relevance_score": 4.0
-  },
-  "5640c0a79a16c3c831368e877da178ba41c12827b4618142e17bbbfbd985b48b": {
-    "title": "DesignVerse",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.25,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This MLH hackathon has a specific focus on design and diversity. While it lacks details on sponsors and prizes, it could be relevant for builders interested in these specific areas.",
-    "relevance_score": 4.0
-  },
-  "4b9c9302f723c2ea6ba067871e504f1d5a9f432abf2a1e71da8402650c32c72d": {
-    "title": "Midnight Hackathon",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "Digital",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.15,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This is a general MLH hackathon. Without specific details on sponsors, prizes, or unique tracks, its relevance for high-impact opportunities is low.",
-    "relevance_score": 4.0
-  },
-  "4c9d75ee1714de035b1fadf4fdd378351951483fe39ec2a9579b143b1b8bffe4": {
-    "title": "KentHackIt",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.2,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This is a general MLH hackathon. Without specific details on sponsors, prizes, or unique tracks, its relevance for high-impact opportunities is low.",
-    "relevance_score": 4.0
-  },
-  "cff28935ec93772713cb3ada4a3276276778530d927dadf934ef3f2713fa6204": {
-    "title": "MasseyHacks",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.1,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "A high school focused hackathon, potentially good for beginners but lacks significant external backing or advanced opportunities for a general builder.",
-    "relevance_score": 4.0
-  },
-  "ee5d59af6d9b118a387cb351638a2a720df38962af55ecc222f614e7f7725cc2": {
-    "title": "INTERHACK BCN",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.1,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "A generic MLH hackathon with no specific details on sponsors, prizes, or unique opportunities.",
-    "relevance_score": 4.0
-  },
-  "323cf61810971b19749764b66662f0a93b7470b70ded58d73f18a173a410ccf2": {
-    "title": "HackDavis 2026 Hackathon",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.1,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "A generic MLH hackathon with no specific details on sponsors, prizes, or unique opportunities.",
-    "relevance_score": 4.0
-  },
-  "85c56234069392b3c30dbff7db5e4734ac9f6256a4935e03c2231a86c465cda7": {
-    "title": "NMIT Hacks",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.1,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "A generic MLH hackathon with a diversity focus, but lacks specific details on sponsors, prizes, or unique opportunities.",
-    "relevance_score": 4.0
-  },
-  "b1a29c2af74aae4cb39e29e7478b8ae126e103d7d7cb3b278a0c605e606b2355": {
-    "title": "Global Hack Week: GenAI",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "Digital",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.2,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.675,
     "easy_winning_potential": 5.5,
     "fos_verdict": "❌",
-    "why_relevant": "A global hack week focused on Generative AI, offering a chance to build projects in a highly relevant and in-demand tech area, despite lacking explicit sponsor or prize details.",
-    "relevance_score": 8.5
-  },
-  "b8263a3767a02ff70791cf7f78af2b7640e62a20b35fa0c018e5f2b78f8d5d4b": {
-    "title": "ConHacks 2026",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.3,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "null",
+    "why_relevant": "",
     "relevance_score": 4.0
   },
-  "b30438d5bb1a935929bca5382f2a859611d9b0b669a693ae48e91ce02f71e116": {
-    "title": "KeanUHackThis",
-    "source": "mlh",
-    "source_type": "community",
+  "63628e1b29b4ca3a066fe9fc0ac29886ccfebe0cac77dc492b7535806be87488": {
+    "title": "Ride Hack-26",
+    "source": "unstop",
+    "source_type": "global_platform",
     "link": null,
-    "mode": "In-Person",
+    "mode": "offline",
     "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.3,
-    "easy_winning_potential": 4.0,
+    "date_first_seen": "2026-09-15 15:59:05",
+    "fos_score": 2.675,
+    "easy_winning_potential": 5.5,
     "fos_verdict": "❌",
-    "why_relevant": "null",
-    "relevance_score": 4.0
-  },
-  "a6e3413d0246949050b9e00fb8753d90723bede92bae813648f58e899794e7cc": {
-    "title": "Hackabull VII",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.3,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "null",
-    "relevance_score": 4.0
-  },
-  "baedd3831df639fadd00a97d05a1a7ed4a405b6066f9ce1472342086096b379f": {
-    "title": "Hack Arizona",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.3,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "null",
-    "relevance_score": 4.0
-  },
-  "458dd4bbc878e48adf151e0e7da9d90fa9118f6b41a02894df08af441cb23c22": {
-    "title": "BroncoHacks 2026",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.3,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "null",
-    "relevance_score": 4.0
-  },
-  "24f50fc33e58f77c40404e56478802478aad84ee9f4ac64359727b724cb0450a": {
-    "title": "BearHacks 2026",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.5,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Limited information available, making it difficult to assess specific relevance or high-value opportunities.",
-    "relevance_score": 4.0
-  },
-  "dc4bdb5c8495caaa70a4253d6553accd8c1c228e85d53197f57da290bc4ca400": {
-    "title": "Hacktech",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.5,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Limited information available, making it difficult to assess specific relevance or high-value opportunities.",
-    "relevance_score": 4.0
-  },
-  "0a289602004bd8a4559c3862962820e423d6f3a4a698a24592644afea9d3d58a": {
-    "title": "LA Hacks",
-    "source": "mlh",
-    "source_type": "community",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 14:56:34",
-    "fos_score": 1.5,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Limited information available, making it difficult to assess specific relevance or high-value opportunities.",
-    "relevance_score": 4.0
+    "why_relevant": "",
+    "relevance_score": 7.0
   },
   "b7bd7cee628fe6d21f5fc32dac5e3504bda32071d636c742e00170752a215fd9": {
     "title": "Hack N Build",
@@ -403,7 +193,413 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 5.8
+    "relevance_score": null
+  },
+  "36999606f50c79b6b0f244429dbeceb32b2fbaf2026c8dee4121dc907d9860c5": {
+    "title": "WebRush — 6-Hour Frontend Hackathon",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 19:52:46",
+    "fos_score": 2.4,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "",
+    "relevance_score": null
+  },
+  "a164fccb0b14e20253b041940f53829a3a95c8fa18ee75ce6883134eb51d3ce2": {
+    "title": "The Rice University Urban Sustainability Hackathon",
+    "source": "devpost",
+    "source_type": "global_platform",
+    "link": "https://rice-urban-sustainability.devpost.com/",
+    "mode": "Online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 5.8,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "⚠️",
+    "why_relevant": "Offers a significant prize pool and a focused theme in urban sustainability, backed by a reputable university, providing a platform for deep project development and valuable portfolio addition.",
+    "relevance_score": null
+  },
+  "4bc635243a76bda9282e099309877b1cd61f0e186d0fdcbe2321f858dbdcbe2a": {
+    "title": "Hack2Heal 2.0 - Global Healthcare Innovation Hackathon",
+    "source": "devpost",
+    "source_type": "global_platform",
+    "link": "https://hack2heal.devpost.com/",
+    "mode": "Online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 2.6,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Offers a platform to build a healthcare-related project, potentially good for beginners in ML/AI, but lacks significant external incentives or high-tier sponsorship.",
+    "relevance_score": null
+  },
+  "a95bcc3cb4e5e7c6d64b863dcaaf3ae981729c25b97fa52027f72ccca457cf72": {
+    "title": "Code for Humanity",
+    "source": "devpost",
+    "source_type": "global_platform",
+    "link": "https://code-for-humanity.devpost.com/",
+    "mode": "Online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.1,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "An opportunity to build a project for social good, potentially using ML/AI or web technologies, but completely lacks any external incentives, structured support, or competitive validation.",
+    "relevance_score": null
+  },
+  "02342394f5ffd39a2fec3a76b2ecbef6ed41b693ce28ee9deed0985d833e44d5": {
+    "title": "COMPSPHERE 12",
+    "source": "devpost",
+    "source_type": "global_platform",
+    "link": "https://compsphere12.devpost.com/",
+    "mode": "Online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 3.4,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "❌",
+    "why_relevant": "Offers a platform to build projects in trending tech areas like Blockchain, ML/AI, and Cybersecurity, with a small prize pool, but lacks significant external incentives.",
+    "relevance_score": null
+  },
+  "8fb600a0f0501fd7db0b6ce74f5a2a97934bf795ad46e3eb26b01004de448907": {
+    "title": "Zero Origin",
+    "source": "devpost",
+    "source_type": "global_platform",
+    "link": "https://zero-origin.devpost.com/",
+    "mode": "Online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.5,
+    "easy_winning_potential": 7.5,
+    "fos_verdict": "❌",
+    "why_relevant": "A beginner-friendly hackathon focused on Fintech and ML/AI, offering a low-pressure environment to build a project, but with minimal external incentives or high-tier backing.",
+    "relevance_score": null
+  },
+  "313fd6a244ba4fe2f8cb5465828d2267db33a0b9feca50b2033c8da28f248837": {
+    "title": "HackPrix Season 3",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 2.55,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "An MLH-organized hackathon provides a platform for skill development and peer networking, but specific high-value opportunities are not detailed.",
+    "relevance_score": null
+  },
+  "b7208a961fcbbb5a59db987f2e2c08ab62fbc6e5e7be7a46de291acc7c0e69a1": {
+    "title": "JAMHacks 10",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 2.55,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "An MLH-organized hackathon provides a platform for skill development and peer networking, but specific high-value opportunities are not detailed.",
+    "relevance_score": null
+  },
+  "54c41bdde7639eae205dfb3e67e6562f219e0b82e07acd9c3c4df242e398503a": {
+    "title": "Global Hack Week: Hacking for Good",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "Digital",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 2.6,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "❌",
+    "why_relevant": "An MLH-organized hackathon with a 'Hacking for Good' theme provides a platform for skill development and peer networking, especially for those interested in social impact, but specific high-value opportunities are not detailed.",
+    "relevance_score": null
+  },
+  "1e2e5e63b18e8ee1a850414858f995ab71ce46c22fb30ee592764fb4a54c96a2": {
+    "title": "Hack4Her",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 2.55,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "why_relevant": "An MLH-organized hackathon with a diversity focus provides a platform for skill development and peer networking within a supportive community, but specific high-value opportunities are not detailed.",
+    "relevance_score": null
+  },
+  "055617a907470dc2d4e3d23100bc6093527b81cd180e0f32aa1980272113f021": {
+    "title": "MPC Hacks",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 2.55,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "An MLH-organized hackathon provides a platform for skill development and peer networking, but specific high-value opportunities are not detailed.",
+    "relevance_score": null
+  },
+  "4779a28aa27dc80b8ddf942b93e27f9a37fae66ebfd0aa19b195f5ae93dd29c0": {
+    "title": "Quackhacks 3",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.2,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "This is a general MLH hackathon. Without specific details on sponsors, prizes, or unique tracks, its relevance for high-impact opportunities is low.",
+    "relevance_score": null
+  },
+  "dc5df06031ad5083dc7571a14bb96c66324c70e1ab40132b3e58aadc6a7a4e93": {
+    "title": "HackHCC",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.2,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "This is a general MLH hackathon. Without specific details on sponsors, prizes, or unique tracks, its relevance for high-impact opportunities is low.",
+    "relevance_score": null
+  },
+  "5640c0a79a16c3c831368e877da178ba41c12827b4618142e17bbbfbd985b48b": {
+    "title": "DesignVerse",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.25,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "This MLH hackathon has a specific focus on design and diversity. While it lacks details on sponsors and prizes, it could be relevant for builders interested in these specific areas.",
+    "relevance_score": null
+  },
+  "4b9c9302f723c2ea6ba067871e504f1d5a9f432abf2a1e71da8402650c32c72d": {
+    "title": "Midnight Hackathon",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "Digital",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.15,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "This is a general MLH hackathon. Without specific details on sponsors, prizes, or unique tracks, its relevance for high-impact opportunities is low.",
+    "relevance_score": null
+  },
+  "4c9d75ee1714de035b1fadf4fdd378351951483fe39ec2a9579b143b1b8bffe4": {
+    "title": "KentHackIt",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.2,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "This is a general MLH hackathon. Without specific details on sponsors, prizes, or unique tracks, its relevance for high-impact opportunities is low.",
+    "relevance_score": null
+  },
+  "cff28935ec93772713cb3ada4a3276276778530d927dadf934ef3f2713fa6204": {
+    "title": "MasseyHacks",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.1,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "A high school focused hackathon, potentially good for beginners but lacks significant external backing or advanced opportunities for a general builder.",
+    "relevance_score": null
+  },
+  "ee5d59af6d9b118a387cb351638a2a720df38962af55ecc222f614e7f7725cc2": {
+    "title": "INTERHACK BCN",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.1,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "A generic MLH hackathon with no specific details on sponsors, prizes, or unique opportunities.",
+    "relevance_score": null
+  },
+  "323cf61810971b19749764b66662f0a93b7470b70ded58d73f18a173a410ccf2": {
+    "title": "HackDavis 2026 Hackathon",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.1,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "A generic MLH hackathon with no specific details on sponsors, prizes, or unique opportunities.",
+    "relevance_score": null
+  },
+  "85c56234069392b3c30dbff7db5e4734ac9f6256a4935e03c2231a86c465cda7": {
+    "title": "NMIT Hacks",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.1,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "A generic MLH hackathon with a diversity focus, but lacks specific details on sponsors, prizes, or unique opportunities.",
+    "relevance_score": null
+  },
+  "b1a29c2af74aae4cb39e29e7478b8ae126e103d7d7cb3b278a0c605e606b2355": {
+    "title": "Global Hack Week: GenAI",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "Digital",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.2,
+    "easy_winning_potential": 5.5,
+    "fos_verdict": "❌",
+    "why_relevant": "A global hack week focused on Generative AI, offering a chance to build projects in a highly relevant and in-demand tech area, despite lacking explicit sponsor or prize details.",
+    "relevance_score": null
+  },
+  "b8263a3767a02ff70791cf7f78af2b7640e62a20b35fa0c018e5f2b78f8d5d4b": {
+    "title": "ConHacks 2026",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.3,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "null",
+    "relevance_score": null
+  },
+  "b30438d5bb1a935929bca5382f2a859611d9b0b669a693ae48e91ce02f71e116": {
+    "title": "KeanUHackThis",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.3,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "null",
+    "relevance_score": null
+  },
+  "a6e3413d0246949050b9e00fb8753d90723bede92bae813648f58e899794e7cc": {
+    "title": "Hackabull VII",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.3,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "null",
+    "relevance_score": null
+  },
+  "baedd3831df639fadd00a97d05a1a7ed4a405b6066f9ce1472342086096b379f": {
+    "title": "Hack Arizona",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.3,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "null",
+    "relevance_score": null
+  },
+  "458dd4bbc878e48adf151e0e7da9d90fa9118f6b41a02894df08af441cb23c22": {
+    "title": "BroncoHacks 2026",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.3,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "null",
+    "relevance_score": null
+  },
+  "24f50fc33e58f77c40404e56478802478aad84ee9f4ac64359727b724cb0450a": {
+    "title": "BearHacks 2026",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.5,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Limited information available, making it difficult to assess specific relevance or high-value opportunities.",
+    "relevance_score": null
+  },
+  "dc4bdb5c8495caaa70a4253d6553accd8c1c228e85d53197f57da290bc4ca400": {
+    "title": "Hacktech",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.5,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Limited information available, making it difficult to assess specific relevance or high-value opportunities.",
+    "relevance_score": null
+  },
+  "0a289602004bd8a4559c3862962820e423d6f3a4a698a24592644afea9d3d58a": {
+    "title": "LA Hacks",
+    "source": "mlh",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "In-Person",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-14 14:56:34",
+    "fos_score": 1.5,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Limited information available, making it difficult to assess specific relevance or high-value opportunities.",
+    "relevance_score": null
   },
   "00afd587e38fa1468d9e08c7edce933b0f91219d03d09ad01bb39b684ef8ba28": {
     "title": "Bug Bounty",
@@ -417,7 +613,7 @@
     "easy_winning_potential": 6.5,
     "fos_verdict": "❌",
     "why_relevant": "A competition focused on Cyber Security and Ethical Hacking, providing practical experience in identifying vulnerabilities.",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "d6130f0a3fb1ac1277fe4e8381b31e99e2da6659be378d4cc4a5752b99ebc8da": {
     "title": "Red Team vs Blue Team",
@@ -431,7 +627,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "This is a university-sponsored cybersecurity competition with no stated prize pool or clear industry connections, offering minimal FOS benefits for a global builder.",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "35847f8e8b31da03b7e0b1cdc7bcf02782a18abf9e22faf35f612cc793904f01": {
     "title": "Capture The Flag (CTF)",
@@ -445,7 +641,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "This is a university-sponsored CTF competition with no stated prize pool or clear industry connections, offering minimal FOS benefits for a global builder.",
-    "relevance_score": 5.5
+    "relevance_score": null
   },
   "c9b834bf8b2cc7484b6453d47d8e31520c3f0f8d9af9c86610dd5c8a982f4ffd": {
     "title": "Hacktopia 2026",
@@ -459,7 +655,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "This is a college-sponsored hackathon with no stated prize pool or clear industry connections, offering minimal FOS benefits for a global builder.",
-    "relevance_score": 4.0
+    "relevance_score": null
   },
   "9d606de6d624a223b98367f46000d9e1ad7ebb317beda2e44265298bdf62ee91": {
     "title": "SecLeaf Q4 CTF 2026",
@@ -473,7 +669,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "This is a CTF competition sponsored by an unknown entity with no stated prize pool or clear industry connections, offering minimal FOS benefits for a global builder.",
-    "relevance_score": 5.5
+    "relevance_score": null
   },
   "89062ef95d3c2b7f3ce1828bdaaf9f9ef7cbe4bb8e726384fb1c53caa7cfc0a1": {
     "title": "DataHeist",
@@ -487,7 +683,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "This is a university-sponsored data science competition with no stated prize pool or clear industry connections, offering minimal FOS benefits for a global builder.",
-    "relevance_score": 4.5
+    "relevance_score": null
   },
   "d9c9cfb2f8ebffd135c7c251ddfdbe3bd970f3961a617b20db268e180cdc5ebe": {
     "title": "Tata Imagination Challenge 2026",
@@ -501,7 +697,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "Develops problem-solving and innovation skills within a large corporate context, which can be valuable for a well-rounded profile.",
-    "relevance_score": 3.0
+    "relevance_score": null
   },
   "15215b01d188838b6b03f1bdabbccaeb1b876b3f2ac7f49ef38118bab9043ee8": {
     "title": "The Next Gen Leader Challenge 2026",
@@ -515,7 +711,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "Offers an opportunity to develop leadership and strategic thinking skills, which are valuable in any professional context.",
-    "relevance_score": 2.0
+    "relevance_score": null
   },
   "27054338fa8330e64e2f31b939bedfe6604021fc1b15a3d233bf2e2bb5976c71": {
     "title": "Signalpost: Build An Agent That Finds Company Information",
@@ -529,7 +725,7 @@
     "easy_winning_potential": 6.5,
     "fos_verdict": "⚠️",
     "why_relevant": "Direct hands-on experience building an AI agent, highly relevant for AI/Data Engineering portfolios and skill development in a rapidly growing field.",
-    "relevance_score": 9.0
+    "relevance_score": null
   },
   "30bad95b0def26b19a5dc99942b7a4cdbd13931814074deef544234f9228f6d3": {
     "title": "Jugaad",
@@ -543,12 +739,12 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "Offers an opportunity to apply design thinking and sustainability principles to real-world problems, which can be a valuable interdisciplinary skill.",
-    "relevance_score": 4.0
+    "relevance_score": null
   },
   "90638c5c29f1084995ac36f4c74f77b6cf2533f6a069bf25edb28f5ef764d42b": {
     "title": "Hackathon 2026 Challenge",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "online",
     "registration_deadline": "95 days left",
@@ -557,12 +753,12 @@
     "easy_winning_potential": 7.0,
     "fos_verdict": "✅",
     "why_relevant": "Top-tier sponsors, a significant prize pool, and a focus on cutting-edge tech (IoT, AI, Smart City) make this a prime opportunity for skill development, career advancement, and networking with industry leaders.",
-    "relevance_score": 5.5
+    "relevance_score": null
   },
   "be3bdd7c0e1f5bf2c465deb4295592190cdc524613f28fe476d22746515f6649": {
     "title": "BLI Legal Tech Hackathon 2",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "online",
     "registration_deadline": "47 days left",
@@ -571,12 +767,12 @@
     "easy_winning_potential": 6.5,
     "fos_verdict": "⚠️",
     "why_relevant": "Opportunity to build in a niche legal tech space with a decent prize pool and exposure to established blockchain technologies.",
-    "relevance_score": 6.0
+    "relevance_score": null
   },
   "0b12053150437a9a6c42fd80874d27788fa875e43fc477ab108f722c47840e7d": {
     "title": "MunichTech Innovation Hackathon 2026 – Build Applied solutions for Industry",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "online",
     "registration_deadline": "5 days left",
@@ -585,12 +781,12 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "🔥",
     "why_relevant": "Exceptional opportunity to build with cutting-edge AI technologies, backed by industry giants, offering significant career and startup upside.",
-    "relevance_score": 6.0
+    "relevance_score": null
   },
   "e2e25ca9f96db02dae973257d0656c220473b86ec975bb65fdda03ab55425ba6": {
     "title": "MDBA Youth Blockchain Hackathon",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "online",
     "registration_deadline": "47 days left",
@@ -599,12 +795,12 @@
     "easy_winning_potential": 7.0,
     "fos_verdict": "❌",
     "why_relevant": "A substantial prize pool for a youth-focused blockchain hackathon, potentially offering a higher chance to win for a skilled student.",
-    "relevance_score": 7.0
+    "relevance_score": null
   },
   "bd871e6a2cde5ee4f86a7a50367feb82f70b089efa9ffa8b9a50f9d666cd5618": {
     "title": "AlgoBharat Regional Hackathons",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "online",
     "registration_deadline": "99+ days left",
@@ -613,7 +809,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "Limited relevance due to lack of prize pool and lower-tier sponsors, unless specifically interested in building on Algorand.",
-    "relevance_score": 4.0
+    "relevance_score": null
   },
   "6de370efc6d1b0a152e7c45edc838ca1bdc8dc66652e4f475435c79030ee76a1": {
     "title": "Juspay Hiring Challenge 2026",
@@ -627,7 +823,7 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "⚠️",
     "why_relevant": "Direct pipeline to a full‑time role at Juspay, high hiring potential.",
-    "relevance_score": 1.0
+    "relevance_score": null
   },
   "4e37899e8568011932c37885235cd4ac0520ade9b2a8a9b72329c59e898c319e": {
     "title": "G2 AI Engineering Hackathon",
@@ -641,12 +837,12 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "Provides AI engineering practice but limited hiring upside.",
-    "relevance_score": 9.8
+    "relevance_score": null
   },
   "122ee3a7aa67fadb5b77c673dd38d420c1b1062e113b9b80acab1eeeb4b21832": {
     "title": "UHackThis",
     "source": "mlh",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "offline",
     "registration_deadline": null,
@@ -702,7 +898,7 @@
   "0c87ea6dca9a9f33e5b8b6a9e4aa461666f6973b0c2730d0e4ae275410f31624": {
     "title": "From Vision to Impact: Building Web3 for Social Good — Collaborate. Innovate. Build for Good 2026",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "Virtual",
     "registration_deadline": null,
@@ -716,7 +912,7 @@
   "ffeb88ff22ab2aa9347f00dee46a9dbc754bf5a8719782235e787c7e835dff1e": {
     "title": "SATNAV AFRICA JPO (GNSS 4 for Space Applications in Africa)",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "Virtual",
     "registration_deadline": null,
@@ -758,7 +954,7 @@
   "b6a437f10a2cc76ec6934b66f3962ae5d722ce564976539e52e4f1e784175eed": {
     "title": "HackIt",
     "source": "mlh",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "In-Person",
     "registration_deadline": null,
@@ -767,12 +963,12 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 4.6
+    "relevance_score": null
   },
   "9fe42a0789ad1ebd0e7ae0c9ca42de8c51187b51580e3602b552a8103d6f5b12": {
     "title": "INTERHACK BC",
     "source": "mlh",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "In-Person",
     "registration_deadline": null,
@@ -786,7 +982,7 @@
   "71725dc98b0c711e2aa8d3bfe30e4f9cb2f267c9fc45cf234eab8d84bb29572e": {
     "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "Virtual",
     "registration_deadline": null,
@@ -795,7 +991,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "Relevant to AI trading interests but low overall benefit.",
-    "relevance_score": 9.0
+    "relevance_score": null
   },
   "8f2a7270e85712d8b7160b1b04017752195331ad5771fa3be3e96186e70a0d30": {
     "title": "Digital Shram Sankalp - Reimagining India's Labour Ecosystem with AI",
@@ -1439,7 +1635,7 @@
     "easy_winning_potential": 3.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 4.6
+    "relevance_score": null
   },
   "08d1774d7d2fd67d777b407dc561718f24a76963e71b1a7b266469b269429b5a": {
     "title": "Syntax Error",
@@ -1453,7 +1649,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 4.6
+    "relevance_score": null
   },
   "00eb2dad455adc83961652431ade8801fb7e85b56e11a124bd9c26923ef2afa8": {
     "title": "Hacklipse 2.0",
@@ -1481,7 +1677,7 @@
     "easy_winning_potential": 6.5,
     "fos_verdict": "❌",
     "why_relevant": "Low overall opportunity despite easy win potential.",
-    "relevance_score": 4.6
+    "relevance_score": null
   },
   "477d8423b86d0a7f03906b0bdb2fc76052f1c8ad6888869a93c305068a1f3be7": {
     "title": "HackData",
@@ -1495,7 +1691,7 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "⚠️",
     "why_relevant": "Good for building a portfolio project with academic credibility.",
-    "relevance_score": 6.9
+    "relevance_score": null
   },
   "a3eacf47821485e82a86946aae94b456234702930d6981f703bd3fa536e00bb7": {
     "title": "Renu Innovation Hackathon 2026",
@@ -1663,7 +1859,7 @@
     "easy_winning_potential": 8.0,
     "fos_verdict": "🔥",
     "why_relevant": "Top AI hackathon.",
-    "relevance_score": 9.2
+    "relevance_score": null
   },
   "05c4b6f899e2b4b148726556bf9960f7d25857182a92f2712d565ddc791304bc": {
     "title": "Snapdragon® AI Lab Build & Present Challenge",
@@ -1761,7 +1957,7 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "❌",
     "why_relevant": "Event offers little learning, networking, or career benefit.",
-    "relevance_score": 1.1
+    "relevance_score": null
   },
   "bc6f412afb141999fca063f50c18b1fc45ac1bf748986f388a983cc64cd35248": {
     "title": "AVISHKAAR Season 4 Hackathon: A National-Level Innovation Challenge",
@@ -2405,7 +2601,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "✅",
     "why_relevant": "Amazon sponsorship, sizable prize, and direct hiring pathways make this a top opportunity.",
-    "relevance_score": 8.0
+    "relevance_score": null
   },
   "66a83fbfc3de4b0bd7d2a1d21d119fac44d5998a39a71168bfae5c8a66bc5563": {
     "title": "Build with CMC: API Hackathon",
@@ -2419,7 +2615,7 @@
     "easy_winning_potential": 6.5,
     "fos_verdict": "❌",
     "why_relevant": "Good for learning API consumption but limited career impact.",
-    "relevance_score": 5.8
+    "relevance_score": null
   },
   "d9e47accf3613bb2f801b4e5de463d3e98ae9a441726d497669bfa56b9d5d87e": {
     "title": "Prysm'26",
@@ -2853,7 +3049,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "⚠️",
     "why_relevant": "Leverages NVIDIA resources and AI focus, aligning with AI/ML skill growth.",
-    "relevance_score": 10.0
+    "relevance_score": null
   },
   "59656330903f6e93edfa383f810e808552c1eced7f3b7f03f10146c4245bab15": {
     "title": "SU HACKS 2026",
@@ -2993,7 +3189,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "General software development opportunity, suitable for building a standard portfolio project.",
-    "relevance_score": 5.8
+    "relevance_score": null
   },
   "b51e8dc4dbce3eb3994ab48aaad41c3d5f3ca64b82775ce5ec10983f31f21a11": {
     "title": "ET AI Hackathon: Agentic Edition | Presented by Accenture",
@@ -3273,7 +3469,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 9.8
+    "relevance_score": null
   },
   "3bdbf1b66205265b441fa29c5f468cbb6c44facd62a0802c61cf21434b69f1ac": {
     "title": "Chain Jam Vol. 1",
@@ -3287,7 +3483,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "Low sponsor presence and modest prize reduce overall value",
-    "relevance_score": 8.0
+    "relevance_score": null
   },
   "66b0effc1f0d320b50f35530eee41024240da65609889ec2ac29b0553c72bf71": {
     "title": "Hack The Horizon 2.0 – 24-Hour Hackathon",
@@ -3777,7 +3973,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "Opportunity to contribute to open-source projects and enhance GitHub profile with devtools-focused contributions.",
-    "relevance_score": 3.4
+    "relevance_score": null
   },
   "a4ea07c1feae23b87e363707aca09cb66bc8b5bef3b9ca1d922f979f5d57a7c3": {
     "title": "ABB Accelerator 2026",
@@ -3847,7 +4043,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "Builds a demonstrable project in the high-growth energy tech sector, suitable for portfolio enhancement.",
-    "relevance_score": 5.2
+    "relevance_score": null
   },
   "f988d564425e361185b3ffcf765b73dfeea651ad86ac4e4009c0265590d3f58c": {
     "title": "Innovators Guild Hackathon",
@@ -4085,7 +4281,7 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "⚠️",
     "why_relevant": "Strong AI focus aligns with market demand and skill growth",
-    "relevance_score": 2.0
+    "relevance_score": null
   },
   "ca2b025404ec7d6ee7221d4fbfbce49a0aec10a8cb0bd1767fc8404fb2439a90": {
     "title": "Event Contracts Hackathon",
@@ -4253,7 +4449,7 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 5.8
+    "relevance_score": null
   },
   "5123e7f884a8d230e53ecd35177ca5e2b258f225f31e66d740fa756e952f191e": {
     "title": "Reverie Hacks 2026",
@@ -4701,7 +4897,7 @@
     "easy_winning_potential": 7.0,
     "fos_verdict": "✅",
     "why_relevant": "Strong Amazon backing and beginner focus give high learning and hiring upside.",
-    "relevance_score": 10.0
+    "relevance_score": null
   },
   "d4b2fccaf06981d59daa05abbf93fc128f402b28761c54a0ee0f123d930ed075": {
     "title": "HackOnVibe — August 2026",
@@ -4715,7 +4911,7 @@
     "easy_winning_potential": 7.0,
     "fos_verdict": "❌",
     "why_relevant": "Provides quick win potential but minimal impact on career trajectory.",
-    "relevance_score": 4.6
+    "relevance_score": null
   },
   "d77697619234b0e1c128765d708e6ebe417d3f64ac7e6c0e1afd8a2aa8c4f96e": {
     "title": "Washing App Debug Challenge",
@@ -5107,7 +5303,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "Provides hands‑on experience with blockchain tech, but limited impact on broader career goals.",
-    "relevance_score": 7.5
+    "relevance_score": null
   },
   "5146176de11be20392a9afc41cd3a04e273e508a7dee71ba061e1d65a02f0daa": {
     "title": "Hack Fusion 2026",
@@ -5513,7 +5709,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "Shows research capability useful for graduate studies or R&D roles.",
-    "relevance_score": 3.5
+    "relevance_score": null
   },
   "d4473a3dc20e11ebc5ad5ef585f15650d8734d78b4880a86015c274d6fd4cfcd": {
     "title": "Research Agents Hack: Build Multi-Agent AI Systems (IIT Madras)",
@@ -5597,7 +5793,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "⚠️",
     "why_relevant": "Big prize and reputable sponsor make it a valuable showcase for mobile developers.",
-    "relevance_score": 6.3
+    "relevance_score": null
   },
   "d7532a19444a270adcd7b4f4cf69f645e11021a13f410f4c4f1b8b1650da0df8": {
     "title": "HashKey Chain Horizon Hackathon \n Japan",
@@ -6003,7 +6199,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "Good for showcasing Web3/AI integration but low career impact.",
-    "relevance_score": 7.5
+    "relevance_score": null
   },
   "32f8203b45bed9ff45e32687fbc39dceb29ab1569cb0dbbdddb02931a7db4aad": {
     "title": "STAMPERS National Hackathon 2026",
@@ -6605,7 +6801,7 @@
     "easy_winning_potential": 6.5,
     "fos_verdict": "❌",
     "why_relevant": "Good for building AI‑driven SaaS prototypes with API access.",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "12708c45a93e4d6e11ad468168fd0469d1208152fed4563e7ace8857fba11ff4": {
     "title": "BLACKBOX",
@@ -8117,7 +8313,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 9.8
+    "relevance_score": null
   },
   "38830c3972f9a87483cf2ecf96090ea3ebf95b136a09762059eb06e3033309a0": {
     "title": "COSC Hackweek",
@@ -8145,7 +8341,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "Strong alignment with AI and web skills, yet limited hiring pathways.",
-    "relevance_score": 4.6
+    "relevance_score": null
   },
   "6b1b74a3929911352c447254b78cc65a84c0e2b34ca3e7a99a9775c96f1a03d0": {
     "title": "WEEX AI Wars II: Human vs AI",
@@ -9420,19 +9616,5 @@
     "fos_verdict": "❌",
     "why_relevant": "This event is a past, institution-specific design challenge with limited scope and no external industry relevance. It is not suitable for a general builder seeking high-impact opportunities.",
     "relevance_score": null
-  },
-  "36999606f50c79b6b0f244429dbeceb32b2fbaf2026c8dee4121dc907d9860c5": {
-    "title": "WebRush — 6-Hour Frontend Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-09-14 19:52:46",
-    "fos_score": 2.4,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "",
-    "relevance_score": 5.8
   }
 }
