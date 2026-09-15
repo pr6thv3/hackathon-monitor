@@ -117,15 +117,27 @@ def format_notification(
     inline_keyboard = []
 
     for i, e in enumerate(events_to_show, start=1):
-        title = _escape_html(e.get("title", "Unknown"))
-        etype = _escape_html(e.get("event_type", "hackathon").replace("_", " ").title())
-        source = _escape_html(e.get("source", "web").title())
-        mode = _escape_html(e.get("mode", "Online").title())
-        team = _escape_html(e.get("team_size", "Solo / Team"))
+        raw_title = e.get("title") or "Unknown"
+        title = _escape_html(str(raw_title))
+
+        raw_type = e.get("event_type") or "hackathon"
+        etype = _escape_html(str(raw_type).replace("_", " ").title())
+
+        raw_source = e.get("source") or "web"
+        source = _escape_html(str(raw_source).title())
+
+        raw_mode = e.get("mode") or "Online"
+        mode = _escape_html(str(raw_mode).title())
+
+        raw_team = e.get("team_size") or "Solo / Team"
+        team = _escape_html(str(raw_team))
+
         link = e.get("link")
-        prize = _escape_html(e.get("prize_pool", ""))
-        why_relevant = _escape_html(e.get("why_relevant", ""))
-        rel_explanation = _escape_html(e.get("relevance_explanation", ""))
+        raw_prize = e.get("prize_pool") or ""
+        prize = _escape_html(str(raw_prize))
+
+        why_relevant = _escape_html(str(e.get("why_relevant") or ""))
+        rel_explanation = _escape_html(str(e.get("relevance_explanation") or ""))
 
         # Urgency
         deadline = e.get("registration_deadline") or e.get("dates")

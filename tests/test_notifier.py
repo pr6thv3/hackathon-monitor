@@ -58,3 +58,24 @@ def test_null_link_warning_present():
     text, markup = format_notification(event_no_link, user_name="TestUser")
     assert "⚠️ <i>Direct URL unavailable — search" in text
     assert len(markup.get("inline_keyboard", [])) == 0
+
+
+def test_format_notification_with_none_fields():
+    """Verify format_notification handles None values across all fields without crashing."""
+    event_with_nones = [{
+        "title": "Edge Case Event",
+        "event_type": None,
+        "source": None,
+        "mode": None,
+        "team_size": None,
+        "link": None,
+        "prize_pool": None,
+        "registration_deadline": None,
+        "why_relevant": None,
+        "relevance_explanation": None,
+    }]
+
+    text, markup = format_notification(event_with_nones, user_name="Builder")
+    assert "Edge Case Event" in text
+    assert "Online" in text
+    assert "Web" in text
