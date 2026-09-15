@@ -260,7 +260,7 @@ def main() -> int:
                         active_candidates.append(rec)
 
         if active_candidates:
-            active_candidates.sort(key=lambda x: (x.get("days_left", 999), -x.get("relevance_score", 0)))
+            active_candidates.sort(key=lambda x: (x.get("days_left", 999), -float(x.get("relevance_score") or 0.0)))
             top_active = active_candidates[:app_config.notifications.max_per_run]
             log.info(f"⏰ Found {len(top_active)} urgent opportunity deadline(s) closing within 7 days.")
 
@@ -369,7 +369,7 @@ def main() -> int:
                         rec["days_left"] = d_left
                         urgent_tracked.append(rec)
         if urgent_tracked:
-            urgent_tracked.sort(key=lambda x: (x.get("days_left", 999), -x.get("relevance_score", 0)))
+            urgent_tracked.sort(key=lambda x: (x.get("days_left", 999), -float(x.get("relevance_score") or 0.0)))
             top_urgent = urgent_tracked[:app_config.notifications.max_per_run]
             if not args.dry_run:
                 send_telegram(top_urgent, is_digest_of_active=True, user_name=app_config.user_name)
