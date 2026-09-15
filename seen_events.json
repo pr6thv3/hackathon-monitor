@@ -1,4 +1,46 @@
 {
+  "92f8c240e9d670f1e2831d4f944daf24f7e5d06c68d4fe4cc0e5304a3bef108d": {
+    "title": "Prometeo'23 Blockchain Hackathon",
+    "source": "devfolio",
+    "source_type": "global_platform",
+    "link": "https://prometeo23-blockchain-hackathon.devfolio.co",
+    "mode": null,
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 18:09:10",
+    "fos_score": 3.6,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "",
+    "relevance_score": 4.5
+  },
+  "ba6b05b4678a493de017b8f2f6a3eff74ca04d75ce861f6ac5ab616f3b9818fe": {
+    "title": "KILN '26 — The Hybrid National Build Gauntlet",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 18:09:10",
+    "fos_score": 5.25,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "⚠️",
+    "why_relevant": "Aligns with AI/ML interests and offers mentorship from a reputable AI company.",
+    "relevance_score": 2.0
+  },
+  "a2116a3150b96d0eeeefa388f34828b1b81f2830004405cb734f9a34a701b754": {
+    "title": "Win $500: Get an Agent Passport?",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-15 18:09:10",
+    "fos_score": 3.1,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Offers a quick cash prize with minimal effort; suitable for a low‑commitment side win.",
+    "relevance_score": 7.5
+  },
   "52a8f4fa7959b390c1159b6c367fdeed7039b09af60813736cc1679738d11b53": {
     "title": "Lines Of Code 3.0",
     "source": "devfolio",
@@ -11,7 +53,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "Low overall opportunity across all dimensions",
-    "relevance_score": 5.5
+    "relevance_score": null
   },
   "0c3420905f95280c2f0ca4577c4113800e6cd5c7e836085d8d0f73bf4097f74b": {
     "title": "Crescendo Hackathon 2k22",
@@ -25,7 +67,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "Provides minimal benefit relative to effort",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "ae5167b8f08a1b3e3dad0c970043bff4c2a0f8cf004f584c5edf2d246b237d21": {
     "title": "Developer-2-Developer",
@@ -39,12 +81,12 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "Score remains low despite easier win potential",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "7e8ac0d49ae28c184ee175e98fffa32991eef6003745e0f29a882b4e14254022": {
     "title": "H2HACK.COMS 2026",
     "source": "mlh",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "offline",
     "registration_deadline": null,
@@ -53,7 +95,7 @@
     "easy_winning_potential": 3.0,
     "fos_verdict": "❌",
     "why_relevant": "Overall opportunity remains low",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "147065875ed2f8bd16da3d03b4739016bdac0b95532b66fce5e4c373f46d12ef": {
     "title": "Epoch 1.0",
@@ -67,7 +109,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "Scores indicate limited broader impact",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "937cc7e2113756e0cf534322017df2bb42ad96232d49265eaa46fdf134fec482": {
     "title": "Next Gen Hackathon 1.0",
@@ -81,7 +123,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "4b9261093c6eb4754a55a91c7f54179fcb85a3692e0b1db354080b5b7df41400": {
     "title": "Build For Bharat 2.0",
@@ -95,7 +137,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "35136e5b8fe13cd9bcbf647d73c8df58f470f8083b27e82e898e506a78f196d4": {
     "title": "Setu - Bridge the Gap. Build the Fix",
@@ -109,7 +151,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 5.5
+    "relevance_score": null
   },
   "918da272805f7ad9fc444791298ae19b2f85177f74c1f99dd6e6857f4cc64a49": {
     "title": "Build Battle",
@@ -123,7 +165,7 @@
     "easy_winning_potential": 7.0,
     "fos_verdict": "❌",
     "why_relevant": "Strong alignment with frontend skill development and portfolio building.",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "9b2ed0b0b302015e79c1e0f827da50586e4a44d6f0610613066d3dc80037d385": {
     "title": "WCC Forge 48",
@@ -137,7 +179,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "83a129454c41fdddb37ae74a47afb1415ae596002cabfbcb487791a4213188fd": {
     "title": "Win, If You Can: Code The Solution X MaVionix India Pvt Ltd",
@@ -151,7 +193,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 6.5
+    "relevance_score": null
   },
   "905591d781ff2c996b8721e4be5cd6cea241ea90e9ee0f5f0c7645ccdd972828": {
     "title": "BioBridge – Bio Innovation Hackathon 2026",
@@ -165,7 +207,7 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 4.0
+    "relevance_score": null
   },
   "63628e1b29b4ca3a066fe9fc0ac29886ccfebe0cac77dc492b7535806be87488": {
     "title": "Ride Hack-26",
@@ -179,7 +221,7 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 7.0
+    "relevance_score": null
   },
   "b7bd7cee628fe6d21f5fc32dac5e3504bda32071d636c742e00170752a215fd9": {
     "title": "Hack N Build",
