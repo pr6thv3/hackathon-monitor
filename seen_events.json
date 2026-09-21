@@ -1,4 +1,172 @@
 {
+  "f8f798aadf71145796cf099aee2a31baede1d1857b5f66f13cc9f3e4b66c0c4c": {
+    "title": "Build Week",
+    "source": "devfolio",
+    "source_type": "global_platform",
+    "link": "https://buildweek.devfolio.co",
+    "mode": null,
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 3.95,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "A web3/blockchain focused hackathon by BITS Blockchain Club, offering peer networking in the web3 space.",
+    "relevance_score": 5.0
+  },
+  "24bde2a9d60fd6557179ecc88efbcfe2e5c963f733d356e7e301658174802beb": {
+    "title": "HackUnicorn",
+    "source": "devfolio",
+    "source_type": "global_platform",
+    "link": "https://hackunicorn-1.devfolio.co",
+    "mode": "hybrid",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 1.3,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "A general innovation hackathon, but lacks specific details or sponsors.",
+    "relevance_score": 5.5
+  },
+  "47055d07bd396ba150de6c8ffb29cfea872b4fa0c3c832b43da9cef10337ce47": {
+    "title": "Hack For Inclusion'21",
+    "source": "devfolio",
+    "source_type": "global_platform",
+    "link": "https://h4i.devfolio.co",
+    "mode": null,
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 1.4,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "An inclusive hackathon for women and non-binary individuals, promoting diversity in tech.",
+    "relevance_score": 5.0
+  },
+  "dcfb769de75b1716c9a993613757d605c8134378523164cc971ececb9f9f84e5": {
+    "title": "HackOwasp 3.0",
+    "source": "devfolio",
+    "source_type": "global_platform",
+    "link": "https://hackowasp-3.devfolio.co",
+    "mode": null,
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 3.9,
+    "easy_winning_potential": 7.0,
+    "fos_verdict": "❌",
+    "why_relevant": "A cybersecurity hackathon by an OWASP student chapter, good for niche skill development and community.",
+    "relevance_score": 4.5
+  },
+  "60268b01295c87ea2aa2e918912be57db9a356fe700c667061ede6a803d88edb": {
+    "title": "RRR-A Game Jam",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "offline",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 2.4,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Academic game jam with limited founder upside",
+    "relevance_score": 5.0
+  },
+  "7fa63db54cc4135cedc673dac2363056225f3af9a287c0718ee225b38a939271": {
+    "title": "Amazon Selling Partner API Integration Challenge",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 2.4,
+    "easy_winning_potential": 5.5,
+    "fos_verdict": "❌",
+    "why_relevant": "API integration focus but low sponsor prestige",
+    "relevance_score": 7.0
+  },
+  "c1a590ce3f19cc40783858518becec82bfac177baa540851cd52f4b539a36b81": {
+    "title": "Hackyard Build 2026",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": null,
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 4.9,
+    "easy_winning_potential": 6.5,
+    "fos_verdict": "❌",
+    "why_relevant": "Good for software practice but low prize and hiring signals",
+    "relevance_score": 2.0
+  },
+  "a21bdb2bf2652771c1bf204f1f75ca800b152acb928c16738127daa16ac9955d": {
+    "title": "Spectrona Hackathon 2026",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "offline",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 2.4,
+    "easy_winning_potential": 5.5,
+    "fos_verdict": "❌",
+    "why_relevant": "Forensic science focus, low founder relevance",
+    "relevance_score": 5.0
+  },
+  "cb18ad83821c6cfce60d9dfa8a31fa9948ade1bbac051e13b0e0a1be57f96a74": {
+    "title": "Technorazz 2026",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "offline",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 2.4,
+    "easy_winning_potential": 5.5,
+    "fos_verdict": "❌",
+    "why_relevant": "Regional university event with limited external impact",
+    "relevance_score": 5.0
+  },
+  "38f809d690fe04e973ea6b3e10dd56d6ad63758e69552336bf56eeed5ecd3d51": {
+    "title": "Junior Drone Race",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "offline",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 2.15,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "",
+    "relevance_score": 8.0
+  },
+  "7fc10345a765cd37dd08fb35bfd9d280c49af10d4dd0f0f27a01aa3f88f2d858": {
+    "title": "Junior Robo Sumo",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "offline",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 2.15,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "",
+    "relevance_score": 8.0
+  },
+  "a92335c35fd6b831839641e19e6d7d43abe46d7230d74c9ac829a1e288aa4a1d": {
+    "title": "Junior Ideathon",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "offline",
+    "registration_deadline": null,
+    "date_first_seen": "2026-09-21 14:43:27",
+    "fos_score": 2.15,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "❌",
+    "why_relevant": "",
+    "relevance_score": 2.0
+  },
   "9b9546d4d4a4864d36bd327d64d54182f8a3d282a09606e2c8d643749e43af09": {
     "title": "NextStep Hacks 2026",
     "source": "devpost",
@@ -11,7 +179,7 @@
     "easy_winning_potential": 8.5,
     "fos_verdict": "❌",
     "why_relevant": "Beginner-friendly ML hackathon with high win probability, but low sponsor prestige and prize value.",
-    "relevance_score": 5.5
+    "relevance_score": null
   },
   "1b8b0482d5d5b04b3b409693096ac63efd826f543d12093614c40142c0e7216a": {
     "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
@@ -25,7 +193,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "🔥",
     "why_relevant": "Top-tier AWS-sponsored hackathon with high prize pool and strong career relevance for AI/Cloud roles.",
-    "relevance_score": 8.5
+    "relevance_score": null
   },
   "998e6291cf2e7a5acb02bb41c5d7387326dd7f424cb9819675c69b550a97d7ef": {
     "title": "Beginner's Paradise - FirstCommit",
@@ -39,7 +207,7 @@
     "easy_winning_potential": 9.0,
     "fos_verdict": "❌",
     "why_relevant": "Low-stakes beginner hackathon with high win probability, but minimal career or financial upside.",
-    "relevance_score": 4.5
+    "relevance_score": null
   },
   "bacbffbf518d20692f79726f1f72793b71bdeb35d3251d00ee6d23a07b05304a": {
     "title": "UnivaBio ($40,000 in prizes)",
@@ -53,7 +221,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 3.0
+    "relevance_score": null
   },
   "9c6e8c9142280dd630f748a8d6f3183728a8f71ef65117d3a30feaaae7f1cb11": {
     "title": "The Ultimate Solution Challenge 2023",
@@ -67,12 +235,12 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 4.0
+    "relevance_score": null
   },
   "8458af6453eb8a26a1adef4f207d2753e1b9546cb8c986789907710cc7db8c20": {
     "title": "Arc Microgrants | Circle",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "Virtual",
     "registration_deadline": null,
@@ -81,7 +249,7 @@
     "easy_winning_potential": 7.0,
     "fos_verdict": "⚠️",
     "why_relevant": "Provides funding for blockchain projects with reputable sponsor.",
-    "relevance_score": 4.0
+    "relevance_score": null
   },
   "298354661c85863b7f263941d619a63d08b15138359a49ad81e7861f544aec9f": {
     "title": "Cerebro Hackathon",
@@ -95,7 +263,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "3c33d2b793dc18d194f8e7f29caf1a3e0858c69f1e01b5f4b322cecabde22b9f": {
     "title": "ELUCode-4",
@@ -109,7 +277,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 4.0
+    "relevance_score": null
   },
   "438af35050622c4446ccc1fed3124f88adae9642c0f33eee666c355427d680c4": {
     "title": "YUVA Megathon 2026",
@@ -123,7 +291,7 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "⚠️",
     "why_relevant": "Strong focus on AI Engineering and Pre-Placement Interviews makes this highly relevant for students aiming for tech placements.",
-    "relevance_score": 4.5
+    "relevance_score": null
   },
   "de676bb16bd94ca3d0c3918b105cbb975c5268382ee6492d0a13e5cedafd527e": {
     "title": "Students of Global Impact",
@@ -137,7 +305,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "Lacks technical depth and corporate sponsorship, making it less relevant for a technical career path.",
-    "relevance_score": 4.0
+    "relevance_score": null
   },
   "8f3a96a98c6e2f3792ddfb5be53f1ed7109548d8bb3a3ce4f867d5c2df00d4f9": {
     "title": "HAQATHON 2.0 – Hack the Next Quantum Decade",
@@ -151,7 +319,7 @@
     "easy_winning_potential": 6.5,
     "fos_verdict": "⚠️",
     "why_relevant": "Niche quantum theme offers a unique opportunity to stand out in a crowded field, but requires specific expertise.",
-    "relevance_score": 3.5
+    "relevance_score": null
   },
   "6d9a9231fe6b8178adefcecf2b8a3d589b6461a39eb7b963fcbfd37bf06e3f0c": {
     "title": "YODHA 2.0 – Warriors of AI | National-Level 48-Hour Hackathon",
@@ -165,7 +333,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "Limited sponsor and hiring benefits.",
-    "relevance_score": 8.0
+    "relevance_score": null
   },
   "95201602e13bd8498b6ba2ba6b1918940f3cfce9088398a95bd2264910e346c1": {
     "title": "Startup Ideathon 3.O",
@@ -179,7 +347,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "Startup focus aligns with interests but low tangible benefits.",
-    "relevance_score": 2.0
+    "relevance_score": null
   },
   "92f8c240e9d670f1e2831d4f944daf24f7e5d06c68d4fe4cc0e5304a3bef108d": {
     "title": "Prometeo'23 Blockchain Hackathon",
@@ -9307,412 +9475,6 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "This event is not relevant for current builders as it is a past event with limited scope and opportunities.",
-    "relevance_score": null
-  },
-  "0d0fdb9916940afa4d1af068fa79f7384b2da786e0fa61a0aa0c1ee4e61a89d0": {
-    "title": "Hack Better Than Me (HBTM)",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "18 days left",
-    "date_first_seen": "2026-06-22T17:18:58.417193+00:00",
-    "fos_score": 4.4,
-    "easy_winning_potential": 5.5,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is relevant for builders, particularly students (undergraduate/postgraduate), interested in Machine Learning Engineering and Applied AI, who wish to gain experience, network within a reputable academic institution like IIIT Pune, and potentially explore academic or local industry career paths, even without a direct prize incentive.",
-    "relevance_score": null
-  },
-  "9a690e27efa993c040c71aee11883469bfe6b22e1f120e23d55bba41c87448bc": {
-    "title": "U-19 AI Olympics",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "1 month left",
-    "date_first_seen": "2026-06-22T17:18:58.417174+00:00",
-    "fos_score": 1.3,
-    "easy_winning_potential": 7.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Not relevant for professional builders. This event is exclusively for school students (U-19) to gain introductory experience in AI and software development.",
-    "relevance_score": null
-  },
-  "83974c4c2bfc66ed4debc7a51474204b7528246697ae61916ea9fb608fcb6914": {
-    "title": "Forge 3",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "17 days left",
-    "date_first_seen": "2026-06-22T17:18:58.417157+00:00",
-    "fos_score": 1.95,
-    "easy_winning_potential": 3.5,
-    "fos_verdict": "❌",
-    "why_relevant": "Only for individuals seeking basic online hackathon experience in Data Science or Creative Direction, with no expectation of prizes or significant career benefits.",
-    "relevance_score": null
-  },
-  "72b404d50a9715ceec3ad40b7b033d5eb4da1d4dfeea5fde8390f435c9d57662": {
-    "title": "Forge 6",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "1 month left",
-    "date_first_seen": "2026-06-22T17:18:58.417118+00:00",
-    "fos_score": 2.05,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is likely only relevant for local students looking for basic hackathon experience in Data Science, without significant career or prize aspirations.",
-    "relevance_score": null
-  },
-  "02878b7cff48a43fa12207b81580149de7a8b7f0efedb4b7b27930f333de0242": {
-    "title": "Unlock'D",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "10 days left",
-    "date_first_seen": "2026-06-22T09:30:48.973792+00:00",
-    "fos_score": 2.8,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Similar to X-Play Aaruush '26, this is a university-sponsored online hackathon with no specified prize pool. The 'Software Development, Full Stack Development' theme is generic, and the GitHub intelligence shows no relevant projects, indicating a lack of specific technical focus or industry engagement. Low upside for career or startup potential.",
-    "relevance_score": null
-  },
-  "9aeba7c463cd9d393d6a914d9ef4d2bbd11e1bce3b595c80e91716a370df5bef": {
-    "title": "X-Play Aaruush '26",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "8 days left",
-    "date_first_seen": "2026-06-22T09:30:48.973779+00:00",
-    "fos_score": 2.8,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This is a university-level hackathon with no specified prize pool and limited external industry involvement. The focus is broad ('Software Development, Games & Sports'), and the online mode with a university sponsor suggests low networking and career upside. Not a high-value opportunity for serious builders.",
-    "relevance_score": null
-  },
-  "96ba8ae7ac0354e926f938c840ae10ad30a54df52b662adbbdb9f0829a1bd5c0": {
-    "title": "Agentic AI Build Week 2026",
-    "source": "devpost",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "20 days left",
-    "date_first_seen": "2026-06-22T09:30:48.973738+00:00",
-    "fos_score": 9.15,
-    "easy_winning_potential": 8.5,
-    "fos_verdict": "🔥",
-    "why_relevant": "This is a premier event for builders focused on cutting-edge Agentic AI. With a $1M prize pool and direct involvement from GenAI Fund, it offers unparalleled opportunities for funding, career advancement, and networking with top-tier VCs and AI experts. The 'Retail track' identified in GitHub intelligence suggests specific, high-impact problem areas for focused development.",
-    "relevance_score": null
-  },
-  "c51dbb9bbe89b4ce8baa712057d5ce830022ec8dadeefb0415c334405ff32cc0": {
-    "title": "Build The Next Big UI",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "13 days left from Jun 21, 2026",
-    "date_first_seen": "2026-06-21T14:42:31.619073+00:00",
-    "fos_score": 1.0,
-    "easy_winning_potential": 7.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is only relevant if you are passionate about prompt engineering and want to showcase your skills in a niche area. It could be a good opportunity to build a unique portfolio project with potentially less competition, but the overall upside is minimal.",
-    "relevance_score": null
-  },
-  "85ddcee063795d464515df09e059364b6962508c3d35e5d31cb39d7992879d3c": {
-    "title": "AI Product Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "20 days left from Jun 21, 2026",
-    "date_first_seen": "2026-06-21T14:42:31.619056+00:00",
-    "fos_score": 1.25,
-    "easy_winning_potential": 6.5,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is only relevant if you are specifically looking to build an AI product for your portfolio and want a low-stakes environment to practice. The lack of significant upside in terms of prizes, networking, or career opportunities makes it a low-priority event.",
-    "relevance_score": null
-  },
-  "10dbb97dc3769207b536b11fefa934f25475752dd4ef8962743748a5a1e0b143": {
-    "title": "Hacknite: 12 Hour Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "1 month left from Jun 21, 2026",
-    "date_first_seen": "2026-06-21T14:42:31.619032+00:00",
-    "fos_score": 1.5,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is only relevant if you are a beginner looking for a very low-stakes, local event to practice rapid prototyping with a team. For any significant career or startup upside, it is not recommended.",
-    "relevance_score": null
-  },
-  "ca6f435d18931a2a5a91a3f709490d0e300e63f5a5e67094a7455b3fac0f263d": {
-    "title": "Open Source Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "13 days left from Jun 21, 2026",
-    "date_first_seen": "2026-06-21T14:42:31.618988+00:00",
-    "fos_score": 4.9,
-    "easy_winning_potential": 5.5,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is relevant if you are looking to build a strong open-source project for your portfolio under the reputable banner of IIT Bombay. It offers a good opportunity for skill development and academic networking, especially if direct monetary prizes are not your primary motivation.",
-    "relevance_score": null
-  },
-  "c280d4dcc487f9a5e57f127206540855ac323d9eb9f9aca52346b24502781390": {
-    "title": "DropHack",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "1 month left from Jun 21, 2026",
-    "date_first_seen": "2026-06-21T08:17:45.539031+00:00",
-    "fos_score": 2.05,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is primarily for local students seeking a basic introduction to hackathons or a low-stakes environment to practice coding. It offers minimal external career or startup opportunities and lacks the prestige or resources to be a high-impact event for serious builders.",
-    "relevance_score": null
-  },
-  "903366f901ea2159140a8d41adae9913fc27ffff0fac1447a04b068c2c161052": {
-    "title": "Arm Create: AI Optimization Challenge",
-    "source": "devpost",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-06-21T08:17:45.538986+00:00",
-    "fos_score": 8.5,
-    "easy_winning_potential": 8.5,
-    "fos_verdict": "🔥",
-    "why_relevant": "This challenge offers a unique opportunity to showcase deep technical skills in AI optimization on Arm platforms, a critical and growing area for future computing. It provides direct exposure to a leading tech company, potential hiring opportunities, and valuable networking within a highly specialized and impactful field.",
-    "relevance_score": null
-  },
-  "18657f04774621d48544c2190d560a43dbb31c4960b9f82748896c681bb45a78": {
-    "title": "HackUPC",
-    "source": "mlh",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": null,
-    "date_first_seen": "2026-06-20T14:43:42.749446+00:00",
-    "fos_score": 2.6,
-    "easy_winning_potential": 6.5,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is primarily relevant for local students or individuals looking to build their portfolio and network within the regional tech community. The specific challenges (e.g., Mecalux, Skyscanner) could offer a focused problem to solve, but the overall lack of explicit prizes, high-tier sponsors, or direct career/startup opportunities makes it a low-priority event for broader career or founder goals.",
-    "relevance_score": null
-  },
-  "5058ce6212cd5db33d53f9f0c975a42e6beb84a2d4c1a031e04fd01a2709be73": {
-    "title": "Mathematics In Multimedia",
-    "source": "vit_eventhub",
-    "source_type": "college_portal",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-06-20T07:14:59.423558+00:00",
-    "fos_score": 1.0,
-    "easy_winning_potential": 1.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is a workshop focused on 'Mathematics In Multimedia' and is not a hackathon or a competitive building event. It offers no prizes, no sponsor engagement, no hiring potential, and no startup opportunities. For a builder looking for hackathon opportunities, career advancement, or funding, this event is entirely irrelevant and should be skipped.",
-    "relevance_score": null
-  },
-  "08e347e502b931740bb47aee03bccf1e73cbbad6cd2c46ea0b82813e46bba6ae": {
-    "title": "AI in semiconductor chip design and manufacturing",
-    "source": "vit_eventhub",
-    "source_type": "college_portal",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-06-19T15:50:51.714932+00:00",
-    "fos_score": 1.0,
-    "easy_winning_potential": 1.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This workshop is relevant for professionals or students interested in the intersection of AI and semiconductor design/manufacturing, seeking to deepen their knowledge. It is not a hackathon or a competitive event for builders.",
-    "relevance_score": null
-  },
-  "355de1941cea905cf9df6a9fb46eff9a12b23124bcebf8835ec7d542c305e8e1": {
-    "title": "AI for Educators",
-    "source": "vit_eventhub",
-    "source_type": "college_portal",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-06-19T15:50:51.714917+00:00",
-    "fos_score": 1.0,
-    "easy_winning_potential": 1.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This workshop is relevant for educators seeking to understand and integrate AI into their teaching practices. It is not a hackathon or a competitive event for builders.",
-    "relevance_score": null
-  },
-  "cc6e59f901dc6aa6493c11486984a006e526993cf62d533266fb1a48716e8afb": {
-    "title": "ROBOVANTA '26 Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "5 days left",
-    "date_first_seen": "2026-06-19T15:50:51.714902+00:00",
-    "fos_score": 2.2,
-    "easy_winning_potential": 8.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is highly relevant for builders with strong robotics and software development skills looking to apply their expertise in a competitive, hands-on environment. The decent prize pool and niche focus make it a good opportunity to showcase specialized talent and build a portfolio, especially if local.",
-    "relevance_score": null
-  },
-  "0a4fa3297e12593a625f13df431e482e8c9228f2bdfd163f45cc35fb7fed8ade": {
-    "title": "StoxraHack 2026 — India's Student FinTech & AI Trading Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": "12 days left",
-    "date_first_seen": "2026-06-19T15:50:51.714883+00:00",
-    "fos_score": 1.4,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is suitable for students with a strong interest and existing skills in FinTech, AI, and data analysis, looking for practice in a niche domain. It offers limited external career or startup benefits.",
-    "relevance_score": null
-  },
-  "d0d6bc9ac81ff450317c0ca23bdbcaa9cdc95d2087349d80f23f77ac91cd32cd": {
-    "title": "ThreadCounty Web Development Hackathon 2026",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": "6 days left",
-    "date_first_seen": "2026-06-19T15:50:51.714834+00:00",
-    "fos_score": 1.4,
-    "easy_winning_potential": 3.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is primarily for local students interested in basic web development practice. It offers minimal external career or startup opportunities.",
-    "relevance_score": null
-  },
-  "6dc09705b5479e590eba8ebf285fe46e9b9fbdd5cd05362d7b713bbfa3c04c6e": {
-    "title": "From Zero to Neural Python to Deep Learning",
-    "source": "vit_eventhub",
-    "source_type": "college_portal",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": "2026-06-24",
-    "date_first_seen": "2026-06-19T08:52:55.037727+00:00",
-    "fos_score": 5.0,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "⚠️",
-    "why_relevant": "Fallback scored event.",
-    "relevance_score": null
-  },
-  "e7a84c980c8b93120e4cb4fac2bb466dac50d8e223cb4b6152d2eaa8698e5385": {
-    "title": "Hack the 6ix",
-    "source": "mlh",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "In-Person",
-    "registration_deadline": "JUL 19",
-    "date_first_seen": "2026-06-19T08:52:55.037718+00:00",
-    "fos_score": 5.0,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "⚠️",
-    "why_relevant": "Fallback scored event.",
-    "relevance_score": null
-  },
-  "e170b344dd5e62ae7cff13c605b6ecb35b16c3251aed086423eb45cc27758f9d": {
-    "title": "Stellar PULSO Hackathon",
-    "source": "dorahacks",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Virtual",
-    "registration_deadline": "1 day left",
-    "date_first_seen": "2026-06-19T08:52:55.037711+00:00",
-    "fos_score": 5.0,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "⚠️",
-    "why_relevant": "Fallback scored event.",
-    "relevance_score": null
-  },
-  "01d679f215b25483419c98f50cd1ed4927614f201b8cd313ff19d36a965e805a": {
-    "title": "HSK Chain Horizon Hackathon · Japan",
-    "source": "dorahacks",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "22 days left",
-    "date_first_seen": "2026-06-19T08:52:55.037702+00:00",
-    "fos_score": 5.0,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "⚠️",
-    "why_relevant": "Fallback scored event.",
-    "relevance_score": null
-  },
-  "52ac9d9fff99aba6fd19e7c07a42cddbf0471c934841e1cfb7dbdf69c5d291c5": {
-    "title": "Anakin Blitz",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": "2 days left",
-    "date_first_seen": "2026-06-19T08:52:55.037691+00:00",
-    "fos_score": 5.0,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "⚠️",
-    "why_relevant": "Fallback scored event.",
-    "relevance_score": null
-  },
-  "c378d1ebfda45efd6d3494acb67ce4526c6d18af18eadc55ea95c8a30a50e547": {
-    "title": "Google Gemini Music Night: Live AI Band Face-off",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": "1 day left",
-    "date_first_seen": "2026-06-19T08:52:55.037683+00:00",
-    "fos_score": 5.0,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "⚠️",
-    "why_relevant": "Fallback scored event.",
-    "relevance_score": null
-  },
-  "69803af4bb209c62496846dc488752eef31583c614d38b37fa9f223facb97edc": {
-    "title": "Infinity Hack 1.0",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "2 days left",
-    "date_first_seen": "2026-06-19T08:52:55.037673+00:00",
-    "fos_score": 5.0,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "⚠️",
-    "why_relevant": "Fallback scored event.",
-    "relevance_score": null
-  },
-  "b73151182dd9473d8d7c31581f8c7d9d960653a991ca89c740be0ce84a760dd4": {
-    "title": "CodeFusion",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": "4 days left",
-    "date_first_seen": "2026-06-19T08:52:55.037660+00:00",
-    "fos_score": 5.0,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "⚠️",
-    "why_relevant": "Fallback scored event.",
-    "relevance_score": null
-  },
-  "70bc3ce3ee1ac90b039903b47a8e86d0bb0c7677bab4a66756a4c72c983de4f1": {
-    "title": "Reddit’s Games with a Hook Hackathon",
-    "source": "devpost",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": "Jul 15, 2026",
-    "date_first_seen": "2026-06-19T08:52:55.037617+00:00",
-    "fos_score": 5.0,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "⚠️",
-    "why_relevant": "Fallback scored event.",
     "relevance_score": null
   }
 }
