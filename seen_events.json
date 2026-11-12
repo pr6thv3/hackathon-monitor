@@ -1,4 +1,60 @@
 {
+  "c3da77a5091a455de12d62dd73981f6e5d4af8c5205b66b817b4f1cf0ad0497c": {
+    "title": "DSH Hacks V2 ($100k+ in prizes!)",
+    "source": "devpost",
+    "source_type": "global_platform",
+    "link": "https://dsh-hacks-v2.devpost.com/",
+    "mode": "Online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-11-12 16:28:14",
+    "fos_score": 2.4,
+    "easy_winning_potential": 6.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Good for absolute beginners seeking a low‑effort hackathon, but offers little career impact.",
+    "relevance_score": 6.5
+  },
+  "b0d192cbcb033b391f9a6c9953a40452d4603e7e618ebbe0e816a1c8c2f2b836": {
+    "title": "Reddit’s Game of the Day Hackathon",
+    "source": "devpost",
+    "source_type": "global_platform",
+    "link": "https://redditgameofday2026.devpost.com/",
+    "mode": "Online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-11-12 16:28:14",
+    "fos_score": 6.2,
+    "easy_winning_potential": 5.0,
+    "fos_verdict": "⚠️",
+    "why_relevant": "Strong brand sponsor and decent prize pool make it worthwhile for builders seeking exposure.",
+    "relevance_score": 5.5
+  },
+  "2c81aeea36caa01e8d6d7311790b0ace1f33f61176ee614ee575122c344f7765": {
+    "title": "ContextCon: Remember Everything",
+    "source": "hackerearth",
+    "source_type": "global_platform",
+    "link": "https://www.hackerearth.com/challenges/hackathon/contextcon-remember-everything/",
+    "mode": null,
+    "registration_deadline": null,
+    "date_first_seen": "2026-11-12 16:28:14",
+    "fos_score": 1.0,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Only relevant for very niche interest in memory‑related tools; otherwise low value.",
+    "relevance_score": 7.0
+  },
+  "aa6cf35db519b2420be2365ca6d48b8b8aa323a75dde12e7f523de886ab935d7": {
+    "title": "Aevum Builder Challenge #1",
+    "source": "dorahacks",
+    "source_type": "community",
+    "link": null,
+    "mode": "Virtual",
+    "registration_deadline": null,
+    "date_first_seen": "2026-11-12 16:28:14",
+    "fos_score": 3.0,
+    "easy_winning_potential": 4.5,
+    "fos_verdict": "❌",
+    "why_relevant": "Valuable for specialized blockchain builders, but overall low score limits broader appeal.",
+    "relevance_score": 5.0
+  },
   "e1a84fa47223f014ee2708ef7cba0c340d38b9ef79e219a76487a1b06fa21add": {
     "title": "Codegeist 2026: Build with context. Ship with confidence.",
     "source": "devpost",
@@ -11,7 +67,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "✅",
     "why_relevant": "Top-tier sponsor (Atlassian) with a substantial prize pool. Ideal for developers looking to showcase enterprise AI capabilities.",
-    "relevance_score": 5.5
+    "relevance_score": null
   },
   "6faca63cb6d132d5c97649acdcd10b5c8b23519df5cc4e1f48f5739165e2b6ed": {
     "title": "#BuildHybridAI 2026",
@@ -25,7 +81,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "🔥",
     "why_relevant": "Google-sponsored event with high technical relevance. Building a hybrid AI app on Firebase is a strong portfolio differentiator.",
-    "relevance_score": 8.5
+    "relevance_score": null
   },
   "a90cec8f08316f18846d4a3597923a2a5ec77ba794e40f9652b6c36d2d2ca9c6": {
     "title": "QNX Global Hackathon",
@@ -39,7 +95,7 @@
     "easy_winning_potential": 7.5,
     "fos_verdict": "✅",
     "why_relevant": "Niche IoT/Embedded focus with a solid prize pool. Great for developers specializing in hardware-adjacent software.",
-    "relevance_score": 7.5
+    "relevance_score": null
   },
   "53a15f2166c39a17a8b041747373a47186e5ac9b20d6ee51be500a97dd29e18b": {
     "title": "AWS MSP AI Hackathon",
@@ -53,7 +109,7 @@
     "easy_winning_potential": 4.5,
     "fos_verdict": "⚠️",
     "why_relevant": "Leverages AWS services and AI, aligning with cloud‑focused career goals.",
-    "relevance_score": 9.0
+    "relevance_score": null
   },
   "df821a5db0ee7d802b92c83c4452dfb03c668ef21e6f344847130285b118a478": {
     "title": "LaunchPad Hacks",
@@ -67,7 +123,7 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "Provides a low‑stakes environment to build a complete product quickly.",
-    "relevance_score": 4.0
+    "relevance_score": null
   },
   "d614598e4e6c25484d3e7ce2bf1dc35bafe6ed0635edf2aacd2e33f297b34ecb": {
     "title": "Build Your First AI App",
@@ -81,12 +137,12 @@
     "easy_winning_potential": 7.0,
     "fos_verdict": "❌",
     "why_relevant": "Ideal for gaining hands‑on AI app experience and a showcase project.",
-    "relevance_score": 7.0
+    "relevance_score": null
   },
   "a4ed7a3fb7474d8dfef731900b429aa22e9582aa5e26f76503715088883ee202": {
     "title": "Reactive Omni Buildathon",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "Virtual",
     "registration_deadline": null,
@@ -95,7 +151,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "Provides hands‑on experience with Solidity and cross‑chain tools, but low sponsor prestige and hiring upside.",
-    "relevance_score": 2.0
+    "relevance_score": null
   },
   "36d1260b603e92cb385217fa6f5fafaa2965b4b822570180695568f2ddbd8d87": {
     "title": "Housing Fintech Challenge",
@@ -109,7 +165,7 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "⚠️",
     "why_relevant": "Aligns with fintech and AI interests and offers exposure to elite academic network.",
-    "relevance_score": 2.5
+    "relevance_score": null
   },
   "b95aa920f2c0fc5d5690fd3f22c8644c81658e17254e2a9b1b7db39691b3d045": {
     "title": "Zenith'26",
@@ -123,7 +179,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "Provides basic hackathon experience but low sponsor prestige and career impact.",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "e0f078b00f787f2d0c706dd9fe3d796a8e39057fff83e1792707b615aed166e1": {
     "title": "Rewired (Tech Hackathon)",
@@ -137,7 +193,7 @@
     "easy_winning_potential": 4.5,
     "fos_verdict": "❌",
     "why_relevant": "Offers cross‑disciplinary exposure but low technical sponsor weight.",
-    "relevance_score": 5.5
+    "relevance_score": null
   },
   "d287bb0cdbd5169ff9abf3e7e1014358508269162a29674e51ee070c8f95dd46": {
     "title": "Inter-College Coding Competition 2026",
@@ -151,7 +207,7 @@
     "easy_winning_potential": 4.5,
     "fos_verdict": "❌",
     "why_relevant": "Good for algorithm practice but low impact on career or networking.",
-    "relevance_score": 6.0
+    "relevance_score": null
   },
   "168af9a649b09785b76c847d0b175ff5a928c931ee4e1f90e7dfccf7c62ce952": {
     "title": "Abhigya",
@@ -6969,188 +7025,6 @@
     "easy_winning_potential": null,
     "fos_verdict": null,
     "why_relevant": null,
-    "relevance_score": null
-  },
-  "9376836b3789a754cdc9d537b516af16850ac0d109a5b47743e5887ee5d724ae": {
-    "title": "Idea Competition 2026",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "17 days left",
-    "date_first_seen": "2026-08-13T13:58:01.718390+00:00",
-    "fos_score": 1.7,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Only relevant for students at FRCRCE or those specifically looking to practice product management and ideation skills in a low-stakes environment, without expecting significant external rewards or career opportunities.",
-    "relevance_score": null
-  },
-  "25995abe30f767d64c1fd164007975c7096b159e14d581d18ed18c92ae3a238c": {
-    "title": "CodeWars",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "7 days left",
-    "date_first_seen": "2026-08-13T13:58:01.718383+00:00",
-    "fos_score": 1.5,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Only relevant for local students seeking basic hackathon experience and peer interaction. There are no significant external benefits in terms of prizes, career opportunities, or high-level networking.",
-    "relevance_score": null
-  },
-  "84c42401d3a5793975e6be31b64e9776afd55c18bb0bfb85177503b3d1b5951f": {
-    "title": "Breakpoint Hackathon 2026",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "10 days left",
-    "date_first_seen": "2026-08-13T13:58:01.718373+00:00",
-    "fos_score": 1.0,
-    "easy_winning_potential": 3.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event offers virtually no tangible benefits for a builder. The lack of reputable sponsors, prizes, and clear objectives makes it a poor use of time for anyone seeking career advancement, startup opportunities, or significant recognition.",
-    "relevance_score": null
-  },
-  "7d29cbf6be3d2a2a769de7afa501bcc5d762d6dbfd67d2e4ed9f5b7d28daa6e5": {
-    "title": "DevJams'26",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "14 days left",
-    "date_first_seen": "2026-08-13T13:58:01.718345+00:00",
-    "fos_score": 2.9,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is primarily relevant for students at VIT Vellore or in the local region looking for an introductory hackathon experience, peer networking, and resume building. The lack of prizes and high-tier sponsors limits its broader appeal for experienced builders seeking significant opportunities.",
-    "relevance_score": null
-  },
-  "b5e23455f39d123b55efd42b94402ef96b7828abf7c9b663886dc36827541087": {
-    "title": "InfiniX'26 – National Level 32-Hour Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "Sep 03, 2026",
-    "date_first_seen": "2026-08-13T05:20:51.167383+00:00",
-    "fos_score": 1.5,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This 'National Level' online hackathon, while offering a broad 'Software Development' theme, lacks significant prizes, direct career opportunities, or high-profile networking. The competition is likely to be high due to its national and online nature, making it a low ROI event unless you are specifically looking for a general coding challenge.",
-    "relevance_score": null
-  },
-  "a3030543e73b380ed5851cb179763983b88c970e3edd15a44d665eea948ca32d": {
-    "title": "Internal Smart India Hackathon 2026",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "Aug 16, 2026",
-    "date_first_seen": "2026-08-13T05:20:51.167359+00:00",
-    "fos_score": 1.15,
-    "easy_winning_potential": 7.0,
-    "fos_verdict": "❌",
-    "why_relevant": "If you are a student at Bharat Ratna baba saheb bhim rao ambedkar rajkiya engineering college pratapgarh and have skills in Business Intelligence, this 'Internal' hackathon offers a very high chance of winning due to limited competition. It's an excellent opportunity for internal recognition and skill application.",
-    "relevance_score": null
-  },
-  "9dbcc2bcb73f99fd5bdfecc4b781013027d8ce01abb959e5a5dd38ba473612a3": {
-    "title": "Hackers Unity",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "Aug 20, 2026",
-    "date_first_seen": "2026-08-13T05:20:51.167317+00:00",
-    "fos_score": 3.15,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "If you are a student at or near Arya College of Engineering & IT, this event offers a direct path to pre-placement interviews, which can be valuable for securing local job opportunities. The competition level is likely manageable, allowing a well-built project to shine and potentially lead to a job.",
-    "relevance_score": null
-  },
-  "a79180d31e47a5c5771eecc7e3dfbf7b25995555c61a5f007e9b6833c1db1ab6": {
-    "title": "QuantStorm",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": "4 days left",
-    "date_first_seen": "2026-08-12T13:57:40.575501+00:00",
-    "fos_score": 3.9,
-    "easy_winning_potential": 8.0,
-    "fos_verdict": "❌",
-    "why_relevant": "For builders with a strong background in quantitative finance, algorithmic trading, or high-performance computing, QuantStorm offers a unique opportunity to showcase individual expertise at a prestigious institution like IIT Guwahati. The niche technical domain and individual participation format mean that a well-executed project can significantly stand out, providing valuable networking with peers and faculty in a specialized field, and enhancing your profile for fintech or quant roles.",
-    "relevance_score": null
-  },
-  "e2240d1afe1c0fe47c565c3990242887673f3b0b35c0e05384e3976af3f923b2": {
-    "title": "Hack Forge-Ai Powered Vibe Coding Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "8 days left",
-    "date_first_seen": "2026-08-12T13:57:40.575461+00:00",
-    "fos_score": 1.1,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is primarily relevant for students of C. Abdul Hakeem College of Engineering and Technology looking for a local, low-stakes opportunity to practice AI and coding skills. For builders seeking significant career, startup, or prize opportunities, it offers very little.",
-    "relevance_score": null
-  },
-  "fb786aff99faaf3e0fe9abf67a652ed307170a2d0097ed50bd9ba4855eb549c4": {
-    "title": "DevCrest Buildathon '26",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "2026-08-20",
-    "date_first_seen": "2026-08-12T05:15:51.005138+00:00",
-    "fos_score": 1.0,
-    "easy_winning_potential": 2.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event lacks any significant incentives, reputable sponsors, or clear career/startup upside. The absence of a prize pool and the unknown nature of the organizer make it a low-value opportunity. It's best to skip and focus on opportunities with higher potential.",
-    "relevance_score": null
-  },
-  "4a2544845062ecba0d07e35b53017ba5268152a38982350bd51388bbcb46e52f": {
-    "title": "Agents for Humans Hackathon",
-    "source": "devpost",
-    "source_type": "global_platform",
-    "link": "https://agentsforhumans.devpost.com/",
-    "mode": "online",
-    "registration_deadline": "2026-09-11",
-    "date_first_seen": "2026-08-12T05:15:51.005094+00:00",
-    "fos_score": 7.55,
-    "easy_winning_potential": 7.0,
-    "fos_verdict": "✅",
-    "why_relevant": "Strong Amazon backing and beginner focus give high learning and hiring upside.",
-    "relevance_score": null
-  },
-  "d4b2fccaf06981d59daa05abbf93fc128f402b28761c54a0ee0f123d930ed075": {
-    "title": "HackOnVibe — August 2026",
-    "source": "dorahacks",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": null,
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-11T04:50:44.383173+00:00",
-    "fos_score": 1.8,
-    "easy_winning_potential": 7.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Provides quick win potential but minimal impact on career trajectory.",
-    "relevance_score": null
-  },
-  "d77697619234b0e1c128765d708e6ebe417d3f64ac7e6c0e1afd8a2aa8c4f96e": {
-    "title": "Washing App Debug Challenge",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "2026-08-22",
-    "date_first_seen": "2026-08-11T04:50:44.383129+00:00",
-    "fos_score": 1.95,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is only relevant for students of NIT Delhi or those seeking a low-stakes academic challenge to practice debugging skills, rather than for founders or builders seeking significant career, startup, or prize opportunities.",
     "relevance_score": null
   }
 }
