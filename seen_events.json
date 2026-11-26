@@ -1,4 +1,60 @@
 {
+  "0b105a857fbe076630c3b50af84471119195d4448eda8ac2a9a01729d425ee8c": {
+    "title": "Mozilla Otari Hackathon - Developers Wilding Jam Sesh #1!",
+    "source": "dorahacks",
+    "source_type": "community",
+    "link": null,
+    "mode": "Virtual",
+    "registration_deadline": null,
+    "date_first_seen": "2026-11-26 18:00:03",
+    "fos_score": 5.6,
+    "easy_winning_potential": 5.5,
+    "fos_verdict": "⚠️",
+    "why_relevant": "Good for building open‑source AI tools and gaining mentorship from Mozilla community.",
+    "relevance_score": 5.0
+  },
+  "c95c98db817304116891f94faff5c7457c77d9938d444d760dab52a24d9eaf05": {
+    "title": "Gnome Tavern Hackathon | Gno.land",
+    "source": "dorahacks",
+    "source_type": "community",
+    "link": null,
+    "mode": "Virtual",
+    "registration_deadline": null,
+    "date_first_seen": "2026-11-26 18:00:03",
+    "fos_score": 3.85,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Offers experience in blockchain and AI integration, but limited career upside and low sponsor prestige.",
+    "relevance_score": 5.5
+  },
+  "a6e5d3218bacaaf5a1e9a9e821bbf131af1fe9092dcdd92b0f5d06aadec99a56": {
+    "title": "HackxCraft – A 6 hour coding challenge",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": null,
+    "registration_deadline": null,
+    "date_first_seen": "2026-11-26 18:00:03",
+    "fos_score": 3.3,
+    "easy_winning_potential": 4.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Provides a quick coding sprint but limited networking or career benefits.",
+    "relevance_score": 5.0
+  },
+  "e4fce0ca749c28411b9d876dc85c8ad866c9e3542586a40e4729ac373d8e9ec9": {
+    "title": "Imagine the Impossible: The Game Design Challenge",
+    "source": "unstop",
+    "source_type": "global_platform",
+    "link": null,
+    "mode": "Online",
+    "registration_deadline": null,
+    "date_first_seen": "2026-11-26 18:00:03",
+    "fos_score": 2.85,
+    "easy_winning_potential": 3.0,
+    "fos_verdict": "❌",
+    "why_relevant": "Good for game‑design practice but offers little external recognition.",
+    "relevance_score": 3.0
+  },
   "a5573ee71098def4f8a1e1000cf359223cbb368b7c0220d58261d4717ca0c522": {
     "title": "Adaptics - Open Innovation Hackathon",
     "source": "unstop",
@@ -11,7 +67,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "Generic hackathon with no clear incentives or industry backing.",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "169767473ecfd5a88dbcaec3eacc125482cf234d07a0c9e77d822a231ca04e86": {
     "title": "India AI Open 2026: Free AI Talent Contest for Students and Engineers",
@@ -25,7 +81,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "AI focus aligns with interests but lacks tangible rewards or networking.",
-    "relevance_score": 9.0
+    "relevance_score": null
   },
   "aad21ee00259455651b1faba75fdb72b543286aa8202ccd7674abca2af054ceb": {
     "title": "Codathon",
@@ -39,7 +95,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "Active GitHub community provides learning material and modest networking.",
-    "relevance_score": 5.5
+    "relevance_score": null
   },
   "5a8ae82946907324e6122477b556332a4eb754722e30f94a208dead44a08d18d": {
     "title": "Hack The Hardware",
@@ -53,7 +109,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "Hands‑on hardware challenges can boost practical skills.",
-    "relevance_score": 7.0
+    "relevance_score": null
   },
   "e5d480a3fd5b85ae288465b58658848e61516daf82f26af9fe1ded3b62b8d8b8": {
     "title": "Starlight Arena - AI Red Teaming Competition",
@@ -67,7 +123,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "❌",
     "why_relevant": "AI security niche aligns with interests but offers little external reward.",
-    "relevance_score": 8.5
+    "relevance_score": null
   },
   "7a5c84f436e3137413f569ccf5eb5068dbf70a25f8b16ba046ecab670eedc1e7": {
     "title": "Mondeléz Maestros 2026 - Commercial Track",
@@ -81,7 +137,7 @@
     "easy_winning_potential": 4.0,
     "fos_verdict": "⚠️",
     "why_relevant": "Large FMCG competition offering real-world commercial problem solving and networking with industry professionals.",
-    "relevance_score": 2.0
+    "relevance_score": null
   },
   "941182db2f077d066a18394d4ae2e1ec5f8cd3ce90294c885bc87e9cd3e12b51": {
     "title": "AgentX",
@@ -95,7 +151,7 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "AI agent competition with modest exposure; limited prizes and sponsorship.",
-    "relevance_score": 7.5
+    "relevance_score": null
   },
   "a75cea1ecf4f0db74f6607c14e344075a55e03851be2fab0829d7aed624510a5": {
     "title": "KITE Winter Innovation Expedition – National-Level Innovation Challenge",
@@ -109,12 +165,12 @@
     "easy_winning_potential": 4.5,
     "fos_verdict": "⚠️",
     "why_relevant": "National innovation challenge encouraging creative solutions; decent networking but unclear rewards.",
-    "relevance_score": 5.0
+    "relevance_score": null
   },
   "7f09abac722b3f44ad03588fb53356599edfa1b60d74b442d2e9453b5620e375": {
     "title": "Heads Up: Even Realities Hackathon by TVM Ventures & Daos Hub",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "Virtual",
     "registration_deadline": null,
@@ -123,12 +179,12 @@
     "easy_winning_potential": 5.0,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 6.0
+    "relevance_score": null
   },
   "e044ce9ef8142d164b8e08e663a8ff7402af669359a46abd8448b540ef62b585": {
     "title": "HSK Chain Horizon Hackathon · Seoul",
     "source": "dorahacks",
-    "source_type": "community",
+    "source_type": "global_platform",
     "link": null,
     "mode": "Seoul, South Korea",
     "registration_deadline": null,
@@ -137,7 +193,7 @@
     "easy_winning_potential": 5.5,
     "fos_verdict": "❌",
     "why_relevant": "",
-    "relevance_score": 5.5
+    "relevance_score": null
   },
   "c0c70f4bc457e7214afb86aa6d86a37d9fe2fea699bd77d10eeb085d9583d42b": {
     "title": "Cloud9 x JetBrains: Sky's The Limit Hackathon 2026",
@@ -5905,356 +5961,6 @@
     "easy_winning_potential": 6.0,
     "fos_verdict": "❌",
     "why_relevant": "This event is not relevant for builders seeking high-impact opportunities, significant prizes, career advancement, or exposure to top-tier industry professionals. It is a local academic event with minimal external value.",
-    "relevance_score": null
-  },
-  "1a5435a81c749bc8e2112d047389aed72c22e6f625de1aadf202bbd94f579842": {
-    "title": "Void Hacks() 8.0",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "Sep 13, 2026",
-    "date_first_seen": "2026-08-27T22:30:41.078750+00:00",
-    "fos_score": 1.4,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Only relevant for students of Shri Vaishnav Vidyapeeth Vishwavidyalaya or local participants specifically interested in cybersecurity challenges and gaining experience in a team setting. Not suitable for founders or experienced builders seeking significant opportunities.",
-    "relevance_score": null
-  },
-  "00ebe857bd368de73782ef9ff551dc5a2ca3fc73c7c9116b00a76409f3720f67": {
-    "title": "Hack 2 Ignite",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "Sep 13, 2026",
-    "date_first_seen": "2026-08-27T22:30:41.078738+00:00",
-    "fos_score": 1.3,
-    "easy_winning_potential": 1.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Not relevant for software developers or founders. This is a recreational event for students interested in quizzes and treasure hunts, offering no technical or career growth opportunities for builders.",
-    "relevance_score": null
-  },
-  "5e9be528509655594d70fdc2f9ffff616304f54d415d8ac4079963dfbbdd7029": {
-    "title": "GAME-ATHON",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "Sep 08, 2026",
-    "date_first_seen": "2026-08-27T22:30:41.078724+00:00",
-    "fos_score": 1.55,
-    "easy_winning_potential": 4.5,
-    "fos_verdict": "❌",
-    "why_relevant": "Only relevant for students of NMIMS or local participants interested in a casual game development event with some fun side activities. Not suitable for founders or experienced builders seeking significant opportunities.",
-    "relevance_score": null
-  },
-  "4758c29710f4ca291a5be385ccb48f32010afaaf222615591798c695e8cbf153": {
-    "title": "GopwnIt CTF",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "Sep 27, 2026",
-    "date_first_seen": "2026-08-27T22:30:41.078707+00:00",
-    "fos_score": 1.15,
-    "easy_winning_potential": 8.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Excellent for cybersecurity enthusiasts looking to hone their skills in a competitive, technically challenging environment. The individual format allows for focused learning and self-assessment, but offers minimal external career or founder opportunities.",
-    "relevance_score": null
-  },
-  "a50c5b5162e9692c3627c21dfac7fadcbb3ee1c68f7684599f445732094a89e0": {
-    "title": "PromptCraft 1.0 – 24-Hour National-Level Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": null,
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-27T22:30:41.078668+00:00",
-    "fos_score": null,
-    "easy_winning_potential": null,
-    "fos_verdict": null,
-    "why_relevant": null,
-    "relevance_score": null
-  },
-  "f7b697ff1cfe84e8706080f4473a0590bccbeab489cf01c3fb6437091c297558": {
-    "title": "Agentic AI Hackathon | IIT Bombay",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "approx Aug 31, 2026",
-    "date_first_seen": "2026-08-27T14:30:39.576667+00:00",
-    "fos_score": 7.425,
-    "easy_winning_potential": 8.0,
-    "fos_verdict": "✅",
-    "why_relevant": "For a founder or engineer deeply interested in the forefront of AI, this hackathon offers a prestigious platform (IIT Bombay) to build and showcase advanced Agentic AI solutions. The high technical barrier ensures a focused competition, and the networking potential within a top institution is invaluable for career and startup growth.",
-    "relevance_score": null
-  },
-  "9aaebcfbc938f6ca5e31d043342a225036018d987351022e6673297ee25dba83": {
-    "title": "VJ Hackathon 2026",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": "approx Sep 7, 2026",
-    "date_first_seen": "2026-08-27T14:30:39.576656+00:00",
-    "fos_score": 1.775,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is not relevant for a founder seeking significant opportunities, industry exposure, or high-impact networking. It appears to be a local academic design hackathon with limited scope and rewards.",
-    "relevance_score": null
-  },
-  "3127d18ce262c2022291c7f0620f93798fa64345d705d7bca406d2342f1a6912": {
-    "title": "Caspian AI Agent",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "approx Sep 12, 2026",
-    "date_first_seen": "2026-08-27T14:30:39.576646+00:00",
-    "fos_score": 7.6,
-    "easy_winning_potential": 8.5,
-    "fos_verdict": "✅",
-    "why_relevant": "For an AI founder or engineer, this is a prime opportunity to build a cutting-edge AI agent using a specific SDK, gain direct exposure to a relevant company (Caspian), and potentially secure a job or partnership. The niche focus and technical barrier mean serious builders have a strong chance to shine and make valuable connections.",
-    "relevance_score": null
-  },
-  "d7c79d9667748e49953f17c56e8549a27a5f044aac5f62bad9b749ee5b892ce5": {
-    "title": "2nd Washington Hackathon 2026",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "approx Sep 11, 2026",
-    "date_first_seen": "2026-08-27T14:30:39.576635+00:00",
-    "fos_score": 1.95,
-    "easy_winning_potential": 3.5,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is not relevant for a founder seeking significant opportunities, industry exposure, or high-impact networking. It appears to be a generic university hackathon with limited scope and rewards.",
-    "relevance_score": null
-  },
-  "547d3a60530f974cf84d960f190c1ffeeeb253e89dcf900c582e1b8f3bfad552": {
-    "title": "SemiCon Hackathon - Explore, Innovate & Build with Semiconductors | IIT Bombay",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "approx Sep 2, 2026",
-    "date_first_seen": "2026-08-27T14:30:39.576621+00:00",
-    "fos_score": 7.25,
-    "easy_winning_potential": 7.5,
-    "fos_verdict": "✅",
-    "why_relevant": "For a builder interested in deep tech, especially at the intersection of AI and hardware, this offers a unique opportunity to build a portfolio project with the backing of a prestigious institution like IIT Bombay. The niche focus means less general competition and more focused learning and networking with high-caliber individuals.",
-    "relevance_score": null
-  },
-  "1854709c4370ee5898a966465052ca99559f7098f7a2a252e3d4e3a9a17db959": {
-    "title": "Navachar - Code Fest 2026",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": "approx Sep 14, 2026",
-    "date_first_seen": "2026-08-27T14:30:39.576573+00:00",
-    "fos_score": 1.6,
-    "easy_winning_potential": 3.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is not relevant for a founder seeking significant opportunities, industry exposure, or high-impact networking. It appears to be a local academic event with limited scope and rewards.",
-    "relevance_score": null
-  },
-  "61f7034109f2d06da94d4b82b613d59ab12c41a44d91b6be2bbe8f9a9a68909c": {
-    "title": "Hack the Hardware India 2.0 (HTH India 2.0) — Build. Innovate. Win.",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-26T13:35:15.930885+00:00",
-    "fos_score": 1.4,
-    "easy_winning_potential": 7.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is for local college students with a specific interest in hardware, robotics, and embedded systems, seeking hands-on experience. For experienced builders looking for significant career opportunities, funding, or prizes, this event is not recommended.",
-    "relevance_score": null
-  },
-  "bbffd5e245e6b448909a07b6977836747ec1e42b737b0b9b7376f70f2bdff0fe": {
-    "title": "Bit N Build - Around the World 2026",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-26T13:35:15.930865+00:00",
-    "fos_score": 1.4,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is suitable for local college students seeking an introductory hackathon experience. For experienced builders focused on career growth, funding, or significant prizes, this event offers negligible value.",
-    "relevance_score": null
-  },
-  "11e2f2e549a8942b4a2cce0bfaa565a950efa4cae89d7468708a19f79bd85c6d": {
-    "title": "PROMPTOTHON 2026: AI Edition | 24-Hour Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-26T13:35:15.930850+00:00",
-    "fos_score": 1.4,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is primarily for local students of AVN IET looking for an introductory hackathon experience. For experienced builders seeking career advancement, funding, or significant prizes, this event offers very little value.",
-    "relevance_score": null
-  },
-  "072babc2cc4a708e73123594e35d085afe80daedd83cf2ded4423c7b22b63631": {
-    "title": "The WebMCP Challenge",
-    "source": "devpost",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-26T13:35:15.930803+00:00",
-    "fos_score": 9.35,
-    "easy_winning_potential": 8.5,
-    "fos_verdict": "🔥",
-    "why_relevant": "This is a premier AI hackathon sponsored by OpenAI, offering a substantial prize pool and direct exposure to cutting-edge agentic AI development. The 'WebMCP Challenge' theme is highly relevant for builders interested in the future of web interaction and AI agents. Winning or even building a strong project here would be a significant career booster, offering unparalleled networking, hiring, and startup opportunities with one of the world's leading AI companies. The technical challenge, while high, also means less 'spam' competition, increasing your chances of standing out.",
-    "relevance_score": null
-  },
-  "11853ee50f4bffc2d35ef298cc06e3018a9d41d99b9b53dbe9cafc6caa890e6b": {
-    "title": "KeeperHub - The Agent Economy Hackathon",
-    "source": "dorahacks",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Virtual",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-25T13:30:23.322808+00:00",
-    "fos_score": 2.7,
-    "easy_winning_potential": 4.0,
-    "fos_verdict": "❌",
-    "why_relevant": "",
-    "relevance_score": null
-  },
-  "3bdbf1b66205265b441fa29c5f468cbb6c44facd62a0802c61cf21434b69f1ac": {
-    "title": "Chain Jam Vol. 1",
-    "source": "dorahacks",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Virtual",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-25T13:30:23.322799+00:00",
-    "fos_score": 3.3,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Low sponsor presence and modest prize reduce overall value",
-    "relevance_score": null
-  },
-  "66b0effc1f0d320b50f35530eee41024240da65609889ec2ac29b0553c72bf71": {
-    "title": "Hack The Horizon 2.0 – 24-Hour Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-25T13:30:23.322790+00:00",
-    "fos_score": 2.05,
-    "easy_winning_potential": 6.5,
-    "fos_verdict": "❌",
-    "why_relevant": "Only relevant for students of KPR Institute or local colleges looking for a basic hackathon experience in ML/AI and local networking.",
-    "relevance_score": null
-  },
-  "64417a6260260a7461967f6beb4e3128270a542c3dd1e9c5b481279e67ce5c10": {
-    "title": "BuildSprint",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-25T13:30:23.322776+00:00",
-    "fos_score": 4.6,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Relevant for builders interested in AI engineering and gaining experience with a startup's ecosystem, but without high expectations for prizes or significant career acceleration.",
-    "relevance_score": null
-  },
-  "31b6a5d28760e99674fec4b74a28af1d0b7e1d5a2767f7dd7f12ac2c4e64dbc9": {
-    "title": "YC Fall 2026 x Moss: The Zero Latency Builder Sprint",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-25T13:30:23.322769+00:00",
-    "fos_score": 9.0,
-    "easy_winning_potential": 7.0,
-    "fos_verdict": "🔥",
-    "why_relevant": "This is an elite, must-apply event for any founder or top-tier engineer. The YC affiliation provides unparalleled opportunities for funding, mentorship, networking, and career acceleration in the AI space.",
-    "relevance_score": null
-  },
-  "56eb8c38cbf2265936d66a64e0e168530bea748fd4bbd412a6d87c6ad556ee57": {
-    "title": "Geeks2Code",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-25T13:30:23.322759+00:00",
-    "fos_score": 4.45,
-    "easy_winning_potential": 6.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Highly relevant for students seeking pre-placement interviews and practical software development experience. Less relevant for experienced builders or those focused on startup opportunities.",
-    "relevance_score": null
-  },
-  "828400ab69ec68baa3f1a3b9ff8abc31572b5991baa54753ed50ace3d0faca54": {
-    "title": "Anakin Forge Hackathon",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-25T13:30:23.322751+00:00",
-    "fos_score": 1.3,
-    "easy_winning_potential": 7.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Only relevant for highly specialized AI engineers looking to build a complex agentic AI project for their portfolio, with no expectation of prizes or external opportunities.",
-    "relevance_score": null
-  },
-  "e9f2bfa3a87295645c852d6304688a7187cb6c0a28344a07ba544c71ea5a743c": {
-    "title": "CodeSlayer 2.0 2k26",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-25T13:30:23.322741+00:00",
-    "fos_score": 2.7,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Only relevant for students of NIT Delhi or local colleges looking for a basic hackathon experience and local networking. Not for founders or experienced builders.",
-    "relevance_score": null
-  },
-  "d8936a6a5a14b4edb84a702a0d6c51f23df44c4f669e29d96e9ab6eb84d64ff1": {
-    "title": "Hackbattle",
-    "source": "unstop",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "offline",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-25T13:30:23.322728+00:00",
-    "fos_score": 2.7,
-    "easy_winning_potential": 5.0,
-    "fos_verdict": "❌",
-    "why_relevant": "Only relevant for students of VIT or local colleges looking for a basic hackathon experience and local networking. Not for founders or experienced builders.",
-    "relevance_score": null
-  },
-  "8fe68caad49c76da99201fed0b86f451894cf66a69ca4adc0c0482f5802bab41": {
-    "title": "Hack for Humanity | Summer 2026",
-    "source": "devpost",
-    "source_type": "global_platform",
-    "link": null,
-    "mode": "Online",
-    "registration_deadline": null,
-    "date_first_seen": "2026-08-25T13:30:23.322683+00:00",
-    "fos_score": 1.0,
-    "easy_winning_potential": 3.0,
-    "fos_verdict": "❌",
-    "why_relevant": "This event is not relevant for builders seeking significant career, startup, or prize opportunities. It's suitable only for absolute beginners looking for a first hackathon experience with no pressure.",
     "relevance_score": null
   }
 }
